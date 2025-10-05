@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Arturo Negrette"
 theme = "hugo-theme-stack"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 
 [Params]
   description = "My Corner of the Internet"
