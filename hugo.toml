@@ -1,0 +1,17 @@
+baseURL = "https://hybridrecirc.github.io/"
+languageCode = "en-us"
+title = "Arturo Negrette"
+theme = "hugo-theme-stack"
+
+
+[Params]
+  description = "My Corner of the Internet"
+
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
