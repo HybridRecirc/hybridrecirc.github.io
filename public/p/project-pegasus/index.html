@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="N-Class Hybrid - IREC 2023">
+<title>Project Pegasus</title>
+
+<link rel='canonical' href='http://localhost:1313/p/project-pegasus/'>
+
+<link rel="stylesheet" href="/scss/style.min.6a692fd055deae459f2a9767f57f3855ba80cafd5041317f24f7360f6ca47cdf.css"><meta property='og:title' content="Project Pegasus">
+<meta property='og:description' content="N-Class Hybrid - IREC 2023">
+<meta property='og:url' content='http://localhost:1313/p/project-pegasus/'>
+<meta property='og:site_name' content='Arturo Negrette'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Propulsion' /><meta property='article:tag' content='R&amp;D' /><meta property='article:tag' content='Data Acquisition' /><meta property='article:tag' content='Test Engineering' /><meta property='article:published_time' content='2025-10-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-05T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/pegasuscover.jpg' />
+<meta name="twitter:title" content="Project Pegasus">
+<meta name="twitter:description" content="N-Class Hybrid - IREC 2023"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/pegasuscover.jpg' />
+    <link rel="shortcut icon" href="/favicon.png" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_41deab3eb174d633.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🛰️</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Arturo Negrette</a></h1>
+            <h2 class="site-description">Aerospace Engineer experienced in propulsion design. Background ranges across disciplines including electromechanical integration, data acquistion, and RF telemetry. FCC Amateur Radio Licensee</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/HybridRecirc'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/arturoenegrette'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 11v5" /><path d="M8 8v.01" /><path d="M12 16v-5" /><path d="M16 16v-3a2 2 0 1 0 -4 0" /><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/docs/latest-resume.pdf'
+                        target="_blank"
+                        title="Resume"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-file-cv"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm-2.5 8a2.5 2.5 0 0 0 -2.5 2.5v3a2.5 2.5 0 1 0 5 0a1 1 0 0 0 -2 0a.5 .5 0 1 1 -1 0v-3a.5 .5 0 1 1 1 0a1 1 0 0 0 2 0a2.5 2.5 0 0 0 -2.5 -2.5m6.743 .03a1 1 0 0 0 -1.213 .727l-.53 2.119l-.53 -2.119a1 1 0 1 0 -1.94 .486l1.5 6c.252 1.01 1.688 1.01 1.94 0l1.5 -6a1 1 0 0 0 -.727 -1.213m-1.244 -7.031l4.001 4.001h-4z" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about-me/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About Me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#major-achievements">Major Achievements:</a></li>
+    <li><a href="#background">Background</a></li>
+    <li><a href="#the-paraffin-problem">The Paraffin Problem</a></li>
+    <li><a href="#combustion-chamber">Combustion Chamber</a></li>
+    <li><a href="#valve-control">Valve Control</a></li>
+    <li><a href="#testing-campaign">Testing Campaign</a></li>
+    <li><a href="#irec-2023">IREC 2023</a></li>
+    <li><a href="#acknowledgements-and-final-thoughts">Acknowledgements and Final Thoughts</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/project-pegasus/">
+                
+                    <img src="/pegasuscover.jpg" loading="lazy" alt="Featured image of post Project Pegasus" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/spotlight/" >
+                Spotlight
+            </a>
+        
+            <a href="/categories/major-project/" >
+                Major Project
+            </a>
+        
+            <a href="/categories/undergrad/" >
+                Undergrad
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/project-pegasus/">Project Pegasus</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            N-Class Hybrid - IREC 2023
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 05, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    9 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="major-achievements">Major Achievements:
+</h2><ul>
+    <li>Pioneered a novel fuel grain composition.</li>
+    <li>Solved emulsification problems between fuel grain ingredients.</li>
+    <li>Developed an modular injector plate, allowing for quick refurbishment in case of damage.</li>
+    <li>Generated manufacturing procedures to guarantee repeatability and uniformity between fuel grain batches.</li>
+    <li>Successfully static fired twice, both times gaining N-class impulse classification, outperforming previous generations by 60% in peak thrust.</li>
+</ul>
+<h2 id="background">Background
+</h2><p>This was my first major project in college, and I was in the position to spearhead an approach to hybrids that hadn&rsquo;t been tried before at UCF. At this point, I had messed around with Paraffin-based fuels on my own small backyard hybrid, but I encountered the typical issues with density, structural stability, and burn stability as every other amateur. I came into this project with the goal of finding a solution to these issues by dedicating a major part of the year to R&amp;D and testing every single approach we could come up with, the Skunkworks Way.</p>
+<p>Additionally, the previous hybrid projects at UCF all incorporated pyrotechnic valves, with zero control of oxidizer flow after ignition starts. I took it as a challenge to incorporate basic valve control to allow for finetuning of the burn, and most importantly, lay out the framework for in-flight burn control. The importance of being able to control how the motor performs during the flight comes from the ability to pinpoint the target apogee and maximize the points scored within the competition.</p>
+<h2 id="the-paraffin-problem">The Paraffin Problem
+</h2><p>As mentioned before, paraffin has its issues, but what are its upsides?</p>
+<p>In order for a fuel to burn, it needs to first become a gas in order to react with the oxidizer, much like gasoline vapors are the part that actually burns. In hybrids, depending on the fuel, this mechanism can occur in two different ways, which allows us to separate fuels into two major categories:</p>
+<ul>
+<li><b>Plastic/Rubber (HTPB, ABS, any kind of epoxy, resins, etc.)</b></li>
+For these, there's no intermediate phase.  Solid immediately turns into gas for combustion. These tend to be more energy dense, stable, and easier to handle. Downside comes down to mixing efficiency.
+<li><b>Paraffins</b></li>
+Paraffin has the unique trait of having an intermediate phase, where it turns into liquid before gasifying when burning. This allows it to develop an unstable liquid layer that flings droplets into the oxidizer stream, giving it an advantage when it comes to energy release and burn efficiency. However, it tends to be softer, prone to cracking, and carries a much lower energy density compared to the others. <b>Also, it won't withstand much time in the New Mexico Desert during the summer.</b>
+</ul>
+<p>If we could solve paraffin&rsquo;s issues, we&rsquo;d have a great middle ground with room for growth in future projects. My first instinct was to research candlemaking forums, books and every other piece of media I could get my hands on. As a society, we&rsquo;ve been making candles for centuries and have grown pretty good at it. As it turns out, different waxes can increase paraffin&rsquo;s structural stability, melting point, hardness, and alleviate shrinkage/cracking issues. All this research led me towards adding Microcrystalline Wax and Stearic Acid to provide these benefits.</p>
+<p>Our final problem comes down to energy density, and this is where Sorbitol comes in. It&rsquo;s a cheap, plentiful diet sugar replacement that&rsquo;s extensively used in amateur solid rocket motors, as well as some hybrids. It&rsquo;s easy to melt and very resilient towards caramelization, which reduces sugar fuels&rsquo; performance. At this point, we came across the age old problem of trying to mix oil with water. See, paraffin is polar and sorbitol is non-polar, meaning we&rsquo;re ending up with a block split into two layers when everything cools down. <b>Suboptimal.</b></p>
+<p>This is where emulsifiers come in. Mayo, for example, is oil and water mixed together, but no one thinks of two layers when thinking of mayo. See, in order for something like that to remain homogeneous, you need a third ingredient in order to &ldquo;interface&rdquo; between the two substances and keep them happy next to each other. In the case of mayonnaise, it&rsquo;s egg. In the case of our fuel mixture? We tried commercial grade emulsifiers and surfactants, Sodium Laureth Sulfate, namely. Pretty similar stuff to shampoo components. Ultimately we arrived at a super high-tech solution: <b>Dawn Dish Soap with Papaya Scent.</b> Remember, if it&rsquo;s stupid and it works then it&rsquo;s not stupid. It&rsquo;s incredible how effective a tiny bit of Dawn was at homogeinizing the ingredients and keeping them together when everything cooled back down.</p>
+<p>One more issue I wanted to solve wasn&rsquo;t really critical but instead a way to appease my lizard brain desire to push past 100%. In order to extract more performance out of this fuel, we need to make the best use out of the energy released by the chemical reaction. This fuel mix ended up being very white and semi-transluscent, traits which aren&rsquo;t ideal for two reasons: white things reflect instead of absorbing, and non-opaque things tend to let light thru them. We need the grain to absorb as much heat from the combusting gases as possible, and we need that heat to remain at the outermost layer of the fuel. In order to achieve this, we want to make the grain opaque somehow, and we want the reacting gases to radiate as much heat as possible. Carbon Black, Lampblack, or Soot was what we chose. Adding just 1-5%wt of Carbon Black to the mix made the fuel completely opaque and it created a very incandescent exhaust as expected, but the kicker was that we got about 10% more thrust out of this simple change. Free performance glitch.</p>
+<h2 id="combustion-chamber">Combustion Chamber
+</h2><p>Going from forward to aft, the major components of a typical hybrid combustion chamber are: Injector Carrier/Forward Closure, Casing, Thermal Liner, Nozzle, Nozzle Retainer. Designs may vary going from system to system but the basic components generally remain the same. While the concept of rocket propulsion remains relatively standard between solids, liquids, and hybrids, hybrids have a few particular quirks that drive the design of the combustion chamber in order to maximize performance.</p>
+<p>Take a liquid engine, for example. Two propellants are injected into the chamber, mixed together and ignited. Straight forward enough. This involves careful timing and geometric design in order to guarantee that your propellants get to know each other as well as possible before they get the chance to burn. Inefficient mixing leads to loss of performance, so the art comes down to the injector design and chamber geometry (as well as other tricks involving preheating or preburning one or both of the propellants, not the focus of this discussion). On the other hand, you&rsquo;ve got solids. Your propellants are mixed together homogeneously during manufacturing, meaning you have a mixture ratio and properties that are essentially set in stone. Major drawback is that potent fuels and oxidizers in close proximity to each other are a recipe for disaster. This is where hybrids come in and attempt to reach a goldilocks spot between these two. Conventionally, you&rsquo;ve got a solid fuel and a liquid or gaseous oxidizer being injected. You still have the simplicity of solids and most of their form factor, but since your propellants are still separate from one another, you have the inherent safety of a liquid platform. The benefits truly end here, as they tend to inherit some of the worst performance issues of either counterpart. They&rsquo;re hard to ignite, since as mentioned above you need to vaporize that fuel in order for it to ignite, which is rendered borderline impossible when your oxidizer is undergoing a phase transition right upstream wicking a lot of your igniter&rsquo;s energy (we&rsquo;ll get into this soon, I promise). It&rsquo;s hard to ignite the whole grain face at once, mixing is a problem because fuel vapors are produced at the inner face of the grain white the oxidizer is injected flowing longitudinally,meaning a boundary layer forms where the two are supposed to be getting to know each other well. Diffusion is the primary mechanism driving mixing, and unfortunately without clever engineering it leads to horrible combustion performance and a ton of unburnt propellants being expelled without reacting. But this is where engineers thrive, with careful consideration, a lot of these issues can be mitigated to turn this into a somewhat tolerable platform for something like a sounding rocket.</p>
+<p>Getting started at the forward end with the oxidizer. In Pegasus, the oxidizer of choice is Nitrous Oxide. You might know this as laughing gas, or whippets. It&rsquo;s cheap, plentiful, and most importantly, it&rsquo;s part of the family of refrigerant gases. This last feature is a double edged sword, where it can be stored at a relatively low pressure as a liquid, it&rsquo;s self-pressurizing and it&rsquo;s got an awesome density at its ideal storage temperature, also it flashes into a gas the second that pressure drops below a threshold, which serves very well when you&rsquo;re trying to get it to atomize and mix with the fuel in the chamber. However, the refrigerant side of things comes in and it will devour all the heat around it in order to support the phase transition, think turning a can of keyboard duster upside down. Additionally, when the fluid speeds up, pressure drops, which leads to two phase flow and cavitation, both of which are headahces in trying to design something to run at steady state.</p>
+<p>In order to take care of these issues, in</p>
+<p>(Note: This did not happen in this narrative order in real life. Truth is, you need the rest of the system to be able to iterate on fuels and hone everything the way portrayed above)</p>
+<h2 id="valve-control">Valve Control
+</h2><p>Oxidizer flow was controlled by a servo strapped to a ball valve. Simple enough for a team getting into valve control, robust enough not to introduce too much uncertainty into our design. Although we found out real quick what happens when you keep sending position information to an uncooled servo</p>
+<p>Printed cage around valve</p>
+<h2 id="testing-campaign">Testing Campaign
+</h2><p>Burn ban</p>
+<p>Ground Support Issues</p>
+<p>First Test
+Second Test</p>
+<h2 id="irec-2023">IREC 2023
+</h2><p>Integration Nightmare</p>
+<p>No Nitrous</p>
+<h2 id="acknowledgements-and-final-thoughts">Acknowledgements and Final Thoughts
+</h2><p>This article highlights primarily the work I was directly spearheading, but ultimately this is all the culmination of a team of equally talented people working towards a common goal. I&rsquo;d like to thank my peers in the propulsion team for their help getting this from whiteboard drawings up into the air, as well as the people involved in every other supporting subsystem ranging from avionics to aerostuctures.</p>
+<p>Enjoy some pictures from IREC 2023 and the later launch in Florida!</p>
+<p>Peggy pics</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/propulsion/">Propulsion</a>
+        
+            <a href="/tags/rd/">R&amp;D</a>
+        
+            <a href="/tags/data-acquisition/">Data Acquisition</a>
+        
+            <a href="/tags/test-engineering/">Test Engineering</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on Oct 05, 2025 00:00 UTC
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Arturo Negrette
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.31.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.0f34c514fccccf058ed60ed2682a29e8c9b4f417590d547adf421bc4fde2a9b5.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

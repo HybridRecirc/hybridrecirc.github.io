@@ -6,13 +6,36 @@
         <description>Recent content in Pages on Arturo Negrette</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>About Me</title>
-        <link>http://localhost:1313/archives/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        <link>http://localhost:1313/about-me/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
-        <description></description>
+        <guid>http://localhost:1313/about-me/</guid>
+        <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword
+&lt;/h2&gt;&lt;p&gt;This website is meant to be a living document, with the intention of acting as a personal wiki for my previous, ongoing, and future projects. A digital garden of sorts. One of my 2025 New Year&amp;rsquo;s resolutions was to put together an updated portfolio showcasing my background for new acquaintances, as well as potential employers. Documentation is a skill every engineer should have, and I deeply believe in the open source mission, so I will be doing my best to explain what&amp;rsquo;s going on inside my head. &lt;b&gt;Beware: thoughts and ideas may be half finished. &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;I love to talk about the stuff I&amp;rsquo;ve worked on, so feel free to reach out! I&amp;rsquo;m more than willing to expand upon anything on this site, particulaly my work with IREC hybrids. My socials are on that sidebar on the left, pick your poison.&lt;/p&gt;
+&lt;p&gt;Now, if you&amp;rsquo;re looking for a potential employee, please reach out via e-mail at &lt;a class=&#34;link&#34; href=&#34;mailto:anegrette@protonmail.com&#34; &gt;anegrette@protonmail.com&lt;/a&gt; or on LinkedIn.&lt;/p&gt;
+&lt;h2 id=&#34;my-background&#34;&gt;My Background
+&lt;/h2&gt;&lt;p&gt;I am an Aerospace Engineer &lt;strong&gt;(I graduated!)&lt;/strong&gt; with a background in gas dynamics and propulsion, primarily through collegiate sounding rocketry. I&amp;rsquo;ve explored much of everything that bringing an idea from a napkin drawing to a polished design, including short-run production. I have participated in the &lt;strong&gt;International Rocket Engineering Competition&lt;/strong&gt; for a couple of years, primarily overseeing the development of the hybrid rocket motor for each participating rocket. Pictured is my favorite project, Pegasus. &lt;img src=&#34;http://localhost:1313/pegasuslaunch.png#floatright&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pegasus Launch!&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;My senior design project involved a &lt;strong&gt;Rotating Detonation Engine&lt;/strong&gt;, designed with the intention of contributing to the global understanding of RDEs, as well as creating an air breathing small-scale platform ready to be integrated with a flight vehicle.&lt;/p&gt;
+&lt;p&gt;My machining work experience encompasses 2, 3, and 4 axis CNC machining, as well as resin (DLP) additive manufacturing. Due to my time as a machinist I have developed an intuition for competent design with manufacturing and production in mind. In terms of Additive Manufacturing, I spearheaded the implementation of a Stratasys Origin One Photopolymerization Machine, including the creation of brand new procedures to maximize part repeatability, a critical part of the prototyping work I did for the UCF Machine Shop. I received training directly from Stratasys to maintain and repair the machine and its local print server.&lt;/p&gt;
+&lt;p&gt;Beyond the academic and professional lens, I like to spend my free time browsing for obsolete tech on eBay, playing guitar and reading. I&amp;rsquo;ve been teaching myself computer and electrical engineering, in part because I feel a Mech/Aero Engineer in the 21st century should be somewhat competent in the computers that support everything we build, and in part because I&amp;rsquo;d like to know how to repair the stuff I buy on eBay. One of my ongoing projects involves a Tang Nano 9k FPGA dev board as a platform for learning digital logic design and Verilog HDL.&lt;/p&gt;
+&lt;h2 id=&#34;the-site&#34;&gt;The Site
+&lt;/h2&gt;&lt;p&gt;I do NOT have a web dev background, but I had enough brain to cobble together enough readme&amp;rsquo;s and stack overflow google searches to put this together. Built on &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt;, using the &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Stack Theme&lt;/a&gt;. Immense thanks to people who put their code on the internet for our combined benefit. FOSS rocks.&lt;/p&gt;
+&lt;p&gt;All in all, whether this attracts employers or not, I just wanted to compile all the work I&amp;rsquo;ve done into one cohesive document. I love this field, and much like a conventional garden is a product of love and care, this is my love note to engineering. Thank you for the visit.&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Archives</title>
