@@ -8,6 +8,14 @@
 #newtab = true
 
 [[social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/arturoenegrette"
+
+[social.params]
+icon = "brand-linkedin"
+
+[[social]]
 identifier = "github"
 name = "GitHub"
 url = "https://github.com/CaiJimmy/hugo-theme-stack"
@@ -16,9 +24,11 @@ url = "https://github.com/CaiJimmy/hugo-theme-stack"
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "resume"
+name = "Resume"
+url = "/docs/latest-resume.pdf"
 
 [social.params]
-icon = "brand-twitter"
+icon = "file-cv"
+
+
