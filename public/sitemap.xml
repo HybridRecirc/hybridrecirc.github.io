@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/p/project-pegasus/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/p/project-sabr/</loc>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/hello-world/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/p/project-pegasus/</loc>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about-me/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about-me/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/data-acquisition/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/example-category/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
@@ -26,32 +26,44 @@
     <loc>http://localhost:1313/tags/example-tag/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/major-project/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/page/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/propulsion/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rd/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/spotlight/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/hello-world/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-acquisition/</loc>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/electronics/</loc>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/propulsion/</loc>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rd/</loc>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/senior-design/</loc>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/spotlight/</loc>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/test-engineering/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/undergrad/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/major-project/</loc>
+    <lastmod>2025-10-13T14:50:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>

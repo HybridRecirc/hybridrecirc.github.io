@@ -2,7 +2,8 @@
 title: Project Pegasus
 description: N-Class Hybrid - IREC 2023
 slug: project-pegasus
-date: 2025-10-05 00:00:00+0000
+date: 2023-11-22 14:50:00+0000
+lastmod: 2025-10-13 14:50:00+0000
 image: pegasuscover.jpg
 categories:
     - Spotlight
