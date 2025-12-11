@@ -20,8 +20,10 @@ Now, if you're looking for a potential employee, please reach out via e-mail at 
 
 ## My Background
 
-I am an Aerospace Engineer <strong>(I graduated!)</strong> with a background in gas dynamics and propulsion, primarily through collegiate sounding rocketry. I've explored much of everything that bringing an idea from a napkin drawing to a polished design, including short-run production. I have participated in the <strong>International Rocket Engineering Competition</strong> for a couple of years, primarily overseeing the development of the hybrid rocket motor for each participating rocket. Pictured is my favorite project, Pegasus. ![Pegasus Launch!](/pegasuslaunch.png#floatright)
-        
+I am an Aerospace Engineer with a background in gas dynamics and propulsion, primarily through collegiate sounding rocketry. I've explored much of everything that bringing an idea from a napkin drawing to a polished design, including short-run production. I participated in the <strong>International Rocket Engineering Competition</strong> for a couple of years, primarily overseeing the development of the hybrid rocket motor for each participating rocket. Pictured is my favorite project, Pegasus. 
+
+![Pegasus during Flight](pegasuslaunch.png) 
+
 My senior design project involved a <strong>Rotating Detonation Engine</strong>, designed with the intention of contributing to the global understanding of RDEs, as well as creating an air breathing small-scale platform ready to be integrated with a flight vehicle. 
 
 My machining work experience encompasses 2, 3, and 4 axis CNC machining, as well as resin (DLP) additive manufacturing. Due to my time as a machinist I have developed an intuition for competent design with manufacturing and production in mind. In terms of Additive Manufacturing, I spearheaded the implementation of a Stratasys Origin One Photopolymerization Machine, including the creation of brand new procedures to maximize part repeatability, a critical part of the prototyping work I did for the UCF Machine Shop. I received training directly from Stratasys to maintain and repair the machine and its local print server.

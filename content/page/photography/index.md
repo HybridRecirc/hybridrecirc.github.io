@@ -1,13 +1,13 @@
 ---
-title: "About Me"
+title: "Photography"
 date: 2025-10-05
-layout: "about me"
-slug: "about me"
+layout: "photography"
+slug: "photography"
 menu:
     main:
         weight: 2
         params: 
-            icon: user
+            icon: movie
 ---
 
 ## Foreword

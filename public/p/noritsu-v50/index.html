@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Helping a Noritsu QSF-V50 MiniLab Stay Alive on Borrowed Time">
+<title>How to Cope with Being a Film Lab Tech</title>
+
+<link rel='canonical' href='http://localhost:1313/p/noritsu-v50/'>
+
+<link rel="stylesheet" href="/scss/style.min.6a692fd055deae459f2a9767f57f3855ba80cafd5041317f24f7360f6ca47cdf.css"><meta property='og:title' content="How to Cope with Being a Film Lab Tech">
+<meta property='og:description' content="Helping a Noritsu QSF-V50 MiniLab Stay Alive on Borrowed Time">
+<meta property='og:url' content='http://localhost:1313/p/noritsu-v50/'>
+<meta property='og:site_name' content='Arturo Negrette'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Electronics' /><meta property='article:tag' content='Repair' /><meta property='article:tag' content='Maintenance' /><meta property='article:tag' content='Troubleshooting' /><meta property='article:published_time' content='2025-05-03T14:50:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-13T14:50:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/rde.png' />
+<meta name="twitter:title" content="How to Cope with Being a Film Lab Tech">
+<meta name="twitter:description" content="Helping a Noritsu QSF-V50 MiniLab Stay Alive on Borrowed Time"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/rde.png' />
+    <link rel="shortcut icon" href="/favicon.png" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_41deab3eb174d633.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🛰️</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Arturo Negrette</a></h1>
+            <h2 class="site-description">Aerospace Engineer. Serial Tinkerer. Photographer FCC Amateur Radio License Holder</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/HybridRecirc'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/arturoenegrette'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 11v5" /><path d="M8 8v.01" /><path d="M12 16v-5" /><path d="M16 16v-3a2 2 0 1 0 -4 0" /><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/docs/latest-resume.pdf'
+                        target="_blank"
+                        title="Resume"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-file-cv"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm-2.5 8a2.5 2.5 0 0 0 -2.5 2.5v3a2.5 2.5 0 1 0 5 0a1 1 0 0 0 -2 0a.5 .5 0 1 1 -1 0v-3a.5 .5 0 1 1 1 0a1 1 0 0 0 2 0a2.5 2.5 0 0 0 -2.5 -2.5m6.743 .03a1 1 0 0 0 -1.213 .727l-.53 2.119l-.53 -2.119a1 1 0 1 0 -1.94 .486l1.5 6c.252 1.01 1.688 1.01 1.94 0l1.5 -6a1 1 0 0 0 -.727 -1.213m-1.244 -7.031l4.001 4.001h-4z" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about-me/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About Me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/photography/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-movie"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 4l0 16" /><path d="M16 4l0 16" /><path d="M4 8l4 0" /><path d="M4 16l4 0" /><path d="M4 12l16 0" /><path d="M16 8l4 0" /><path d="M16 16l4 0" /></svg>
+                
+                <span>Photography</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#background">Background</a></li>
+    <li><a href="#most-recent-color-developer-working-tank-overheating">Most Recent: Color Developer Working Tank Overheating</a>
+      <ol>
+        <li><a href="#symptoms">Symptoms:</a></li>
+        <li><a href="#initial-troubleshooting">Initial Troubleshooting:</a></li>
+      </ol>
+    </li>
+    <li><a href="#cutter-jams">Cutter Jams</a>
+      <ol>
+        <li><a href="#symptoms-1">Symptoms:</a></li>
+        <li><a href="#initial-troubleshooting-1">Initial Troubleshooting</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/noritsu-v50/">
+                
+                    <img src="/rde.png" loading="lazy" alt="Featured image of post How to Cope with Being a Film Lab Tech" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/miscellaneous/" >
+                Miscellaneous
+            </a>
+        
+            <a href="/categories/vintage-equipment/" >
+                Vintage Equipment
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/noritsu-v50/">How to Cope with Being a Film Lab Tech</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Helping a Noritsu QSF-V50 MiniLab Stay Alive on Borrowed Time
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">May 03, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    7 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="background">Background
+</h2><p>I&rsquo;ve been working at a film lab for the last couple of months, and the engineering degree immediately made itself useful by giving me the tools to keep some of these machines alive. Problems ranging from just corrosion within a sensor&rsquo;s connector to open heart surgery on a board no longer made. For a glorified sous-vide tank, the Noritsu engineers put a lot of safeguards and smart engineering in place to keep these working as well as they have for as long as they have. I&rsquo;m writing this article with the intention of logging whatever I find for whoever takes over for me, or whoever finds this website in similar despair as I have googled whenever something broke. There&rsquo;s also the nice side effect of showing off the stuff between my ears to employers. Anyway.</p>
+<p><img src="/p/noritsu-v50/Machines.jpeg"
+	width="1581"
+	height="1655"
+	srcset="/p/noritsu-v50/Machines_hu_40e4bf388d6e5b95.jpeg 480w, /p/noritsu-v50/Machines_hu_6afb7710e738d341.jpeg 1024w"
+	loading="lazy"
+	
+		alt="V50 (larger), V30 (smaller)"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="95"
+		data-flex-basis="229px"
+	
+></p>
+<p>This is the V50, relatively sophisticated MiniLab unit for C-41 Color Development. Short Leader style, which means you tape the film to a sheet of plastic with sprocket holes on it, and that&rsquo;s what drags the film itself out of the can and into each step of the development process. The 50 in V50 stands for 50 rolls an hour, so not too shabby accounting for the fact a 36 exposure roll of film tends to be somewhere around 5 feet.</p>
+<p>In order to put the rest of the machine in context, let&rsquo;s cover the development steps of Black and White and C-41 film:</p>
+<p>For both, the film is coated with silver halide crystals. Exactly how they are spread on the film and what they do during and after the development process varies between B/W, C-41, and every other development process available, but the working principle remains the same. After being exposed to light, these crystals are raised to a higher energy level, leaving a latent image stored chemically on the film emulsion.</p>
+<p><img src="/p/noritsu-v50/Photographic_processing.jpg"
+	width="2560"
+	height="784"
+	srcset="/p/noritsu-v50/Photographic_processing_hu_c1aa083cf5197cde.jpg 480w, /p/noritsu-v50/Photographic_processing_hu_f284969c6be4a63e.jpg 1024w"
+	loading="lazy"
+	
+		alt="Essential Steps of Development (Source:Wikipedia)"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="326"
+		data-flex-basis="783px"
+	
+></p>
+<p>B/W:
+-Developer: This step converts the latent image contained in the activated silver halide into metallic silver. This metallic silver only appears in the locations where light struck the emulsion. The stronger the light, the more concentrated the silver, the darker or &ldquo;denser&rdquo; the image is at this location, and the reverse applies as well. All of this to say that we now have a negative image of what was captured in the camera at that moment.</p>
+<p>-Fixer: After the developer, the image that matters to us is created. However, it&rsquo;s still surrounded by the inactive silver halides still in the emulsion. No light, no developer action, no metallic silver. The fixer can dissolve the halides but not metallic silver, which allows us to selectively remove the unused stuff and keep our image negative.</p>
+<p>Easy stuff, we&rsquo;ve been doing monochrome stuff essentially as long as we have been able to reliably understand organic chemistry. B/W film made a year ago and 80 years ago work the exact same, and excluding the effects of age, can be developed the exact same way. Color, however, is where modernity truly shines through. Kudos to all the chemists and engineers that allowed us to record the world around us in more than shadows and highlights.</p>
+<p><img src="/p/noritsu-v50/SuperiaStructure.png"
+	width="960"
+	height="520"
+	srcset="/p/noritsu-v50/SuperiaStructure_hu_ffca95b32759b63b.png 480w, /p/noritsu-v50/SuperiaStructure_hu_fe242140875926.png 1024w"
+	loading="lazy"
+	
+		alt="Superia Emulsion Cross-Section (Source:Wikipedia)"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="184"
+		data-flex-basis="443px"
+	
+></p>
+<p>C-41:
+-Developer: Still does the same as B/W, with the caveat that now the dye couplers (part that creates the colors) are activated and create the dyes of each layer. Fun fact, you can cross-process any C-41 roll as B/W, you just ignore the color couplers for a monochrome image. I&rsquo;ve managed to salvage pictures from obsolete C-22 rolls from 60+ years ago. Hard drives fail, files go corrupt, but in a decently wide range of conditions, chemistry prevails. Cool stuff.</p>
+<p>-Bleach: Due to the layout of a typical C-41 film emulsion, after development, you now have both a dye-based image, and the metallic silver image. Keeping both of these leads to super dense images with low saturation, and often it was used intentionally as a color grading effect in movies and TV in a method called &ldquo;bleach bypass&rdquo;. The bleach attacks this metallic image and converts it back to silver halides, which can now be removed by the fixer. It also helps reducing the density of the dyes in the film base.</p>
+<p>-Fixer: Same as B/W. Fixer actually holds quite a decent amount of silver, so it&rsquo;s very important to dispose of properly and feed it to silver reclaiming facilities. Not that any other chemical is great for carelessly dumping into the environment, but the fixer carries metals with it that are specially bad to introduce into an ecosystem.</p>
+<p>-Stabilizer: The dyes contained on each layer are technically not fixed in space, and age, environmental factors, and improper handling of the film can lead to them migrating between layers. The end effect is a reduction in the color reproduction quality, so stabilizers are used to &ldquo;lock&rdquo; the dyes out of escaping their layer. You can very well skip this step if you are just looking for a glorified Instagram filter, but in order to produce negatives that can withstand the test of time, stabilization is crucial.</p>
+<p>I&rsquo;d love to get into detail about the careful design of color emulsions, but so have another 500 trillion people on the internet, so I will unfortunately not elaborate here. Google it, watch Tech Connections about it, don&rsquo;t use this case of brevity as an excuse to avoid learning about film.</p>
+<p>Our machine feeds the leader card and the film it&rsquo;s attached to into a very deep 18 Liter Color Developer (CD) tank at a speed that allows for each length of film to be in contact with the CD solution, while automatically adding a replenishment amount of fresh chemical to account for exhaustion per roll. All the chemicals involved in these reactions are disposable and need to be replenished accounting for the surface area that passes through. The film is continued to be carried in and out of the solutions automagically by careful mechanical design of roller transports like conveyors through a factory. The machine doesn&rsquo;t actually know where this film is, but it vaguely knows when it started being fed and when the canister was cut off at the end, and it knows how fast everything is spinning and moving the film along. So it starts counting and can make an educated guess as to where it&rsquo;d be and what chemicals would be exhausted at which times.</p>
+<p>At the end, it passes through essentially a gentler air fryer before being released fully dry for it to be scanned and/or sleeved for preservation. Almost magical coming from my background of hanging up film from my shower curtain loops.</p>
+<p><img src="/p/noritsu-v50/v50.jpg"
+	width="1600"
+	height="1466"
+	srcset="/p/noritsu-v50/v50_hu_8b0122298ca19550.jpg 480w, /p/noritsu-v50/v50_hu_aecb27f69d67701.jpg 1024w"
+	loading="lazy"
+	
+		alt="Noritsu QSF-V30"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="109"
+		data-flex-basis="261px"
+	
+></p>
+<p>I&rsquo;ve neglected to mention much about the modified V30 that develops B/W, but it&rsquo;s the same principles and same tech, just behaving differently to accomodate for the different chemistry. Both operate the same. Now, let&rsquo;s get into it.</p>
+<h2 id="most-recent-color-developer-working-tank-overheating">Most Recent: Color Developer Working Tank Overheating
+</h2><h3 id="symptoms">Symptoms:
+</h3><ul>
+<li>
+<p>Intermitent S-Sol Thermo Activated Error</p>
+</li>
+<li>
+<p>Solution reaches 43C before other safeguards kick in</p>
+</li>
+<li>
+<p>Initially only happened during overnight sleep cycle</p>
+</li>
+</ul>
+<h3 id="initial-troubleshooting">Initial Troubleshooting:
+</h3><ul>
+<li>
+<p>Compared thermocouple readings to thermometer in working tank and in side tank (will elaborate on tank layout in a second)
+&ndash; Temp Matches</p>
+</li>
+<li>
+<p>Drained tank, cleaned agitation and recirculation pumps
+&ndash; Minor to Negligible Improvement</p>
+</li>
+</ul>
+<p>For context, we had just recovered from the below problem of the cutter jamming</p>
+<p>When I came back to the machine, I noticed that although the troubleshooting LEDs on the machine showed the control unit was not powering the heater relay, temperature continued to climb. Coming from the car background, tapping around with the rubber back of a screwdriver didn&rsquo;t help. Turns out SSR stands for Solid State Relay, something I realized pretty late, embarassingly late. The awesome engineers at Noritsu had the foresight of including redundant relays on the board, or rather, populating relay footprints for heater circuits not used in this machine model. I&rsquo;m sure the V100 or the V5Billion use these relays, but I&rsquo;m lucky mine doesn&rsquo;t because these exact P/Ns are looooooong discontinued. In my panic before realizing there were spares I did find a suitable drop-in replacement. Here&rsquo;s the link in case you&rsquo;re not so lucky to have a relay cache on your board.  I would like the record to show that I called it early on.</p>
+<p>World&rsquo;s oldest solder</p>
+<p><img src="/p/noritsu-v50/PowerBoard1.jpeg"
+	width="3840"
+	height="2160"
+	srcset="/p/noritsu-v50/PowerBoard1_hu_93685407cdf85bae.jpeg 480w, /p/noritsu-v50/PowerBoard1_hu_fbf845d356c5dfa3.jpeg 1024w"
+	loading="lazy"
+	
+		alt="The Board in Question"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+> <img src="/p/noritsu-v50/PowerBoard2.jpeg"
+	width="2160"
+	height="2874"
+	srcset="/p/noritsu-v50/PowerBoard2_hu_aabeb9fefb297485.jpeg 480w, /p/noritsu-v50/PowerBoard2_hu_91867f1fcb2743c8.jpeg 1024w"
+	loading="lazy"
+	
+		alt="Mounted on the V50"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="75"
+		data-flex-basis="180px"
+	
+></p>
+<p><img src="/p/noritsu-v50/TheCulprit.jpeg"
+	width="2160"
+	height="2518"
+	srcset="/p/noritsu-v50/TheCulprit_hu_c669376e8c07f439.jpeg 480w, /p/noritsu-v50/TheCulprit_hu_1e1e222c1419b654.jpeg 1024w"
+	loading="lazy"
+	
+		alt="The Culprit"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="85"
+		data-flex-basis="205px"
+	
+> <img src="/p/noritsu-v50/BurntPad2.jpeg"
+	width="4032"
+	height="3024"
+	srcset="/p/noritsu-v50/BurntPad2_hu_df908385250d6428.jpeg 480w, /p/noritsu-v50/BurntPad2_hu_6b638e8e042fbeb5.jpeg 1024w"
+	loading="lazy"
+	
+		alt="Where I found It"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+></p>
+<p>Yeah. Looking at the board closer would&rsquo;ve saved quite a bit of time. If you noticed the missing pad, you try to babysit a board like this into releasing a component and tell me how it goes. It&rsquo;s like they glued it on like a postage stamp.</p>
+<h2 id="cutter-jams">Cutter Jams
+</h2><h3 id="symptoms-1">Symptoms:
+</h3><ul>
+<li>Right Lane Struggled to Cut Canister at the End of the roll</li>
+<li>Canisters stuck after cutting</li>
+<li>Cutter Return Error</li>
+</ul>
+<h3 id="initial-troubleshooting-1">Initial Troubleshooting
+</h3><p>Initially,</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/electronics/">Electronics</a>
+        
+            <a href="/tags/repair/">Repair</a>
+        
+            <a href="/tags/maintenance/">Maintenance</a>
+        
+            <a href="/tags/troubleshooting/">Troubleshooting</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on Oct 13, 2025 14:50 UTC
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Arturo Negrette
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.31.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.0f34c514fccccf058ed60ed2682a29e8c9b4f417590d547adf421bc4fde2a9b5.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
