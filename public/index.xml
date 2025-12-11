@@ -6,53 +6,7 @@
         <description>Recent content on Arturo Negrette</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 13 Oct 2025 14:50:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>CT Inverse Radon Implementation</title>
-        <link>http://localhost:1313/p/computed-tomography/</link>
-        <pubDate>Sat, 03 May 2025 14:50:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/computed-tomography/</guid>
-        <description>&lt;img src="http://localhost:1313/rde.png" alt="Featured image of post CT Inverse Radon Implementation" /&gt;&lt;h2 id=&#34;background&#34;&gt;Background
-&lt;/h2&gt;&lt;p&gt;Rotating Detonation Engines (RDEs) are a relatively novel form of rocket propulsion that takes advantage of pressure-gain combustion. Conventional rocket engines use constant-pressure combustion cycles. RDEs theoretically produce better performance by taking better advantage of the energy stored chemically in the propellants. There is a fine line between detonating in the way that yields the performance advantage, and detonating in the way that destroys the engine. Due to the speeds involved in the process, these engines have only recently began gaining traction now that computers and sensors allow for the extremely fast sampling rates necessary for reliable data output. Their compact size allows for storable propellants to be used more effectively in missile and defense applications.&lt;/p&gt;
-&lt;p&gt;The goals of this project at the beginning were beyond creating a working air breathing lab scale engine, to lay the foundation for further research to be done at UCF. This involved creating a test stand equipped with a capable and robust data acquisition system and control system. With the tight budget for a project of this ambition we had to get creative.&lt;/p&gt;
-&lt;h2 id=&#34;design&#34;&gt;Design
-&lt;/h2&gt;&lt;h2 id=&#34;ignition&#34;&gt;Ignition
-&lt;/h2&gt;&lt;p&gt;Lighting an RDE involves precise timing and a strong enough relese of energy to induce a detonation mode within the engine. A fast burst (in tens of micro seconds) with not a lot of energy is more likely to induce a detonation compared to a longer burst with a ton more energy. Typically predets are used where an explosive mixture of gases are lit on one end of a long tube and over that length of tube the energy release is structured in such a way a shock is developed by the time the combusting gases exit. Due to the mechanism of operation, these have careful geometry that is hard to package into a system with compact and flight in mind. This is where my approach comes in, conventional torch. If the annulus can act as the constriction that focuses the energy towards a shock, the igniter can be more compact and allow for smaller designs for flight vehicles.&lt;/p&gt;
-&lt;h2 id=&#34;humbled-by-testing&#34;&gt;Humbled by Testing
-&lt;/h2&gt;&lt;h2 id=&#34;senior-design-showcase&#34;&gt;Senior Design Showcase
-&lt;/h2&gt;&lt;h2 id=&#34;future-plans&#34;&gt;Future Plans
-&lt;/h2&gt;&lt;h3 id=&#34;scitech&#34;&gt;SciTech
-&lt;/h3&gt;&lt;h2 id=&#34;final-thoughts-and-acknowledgements&#34;&gt;Final Thoughts and Acknowledgements
-&lt;/h2&gt;&lt;p&gt;Taha Dr. Burke, Teammates and UCF&amp;rsquo;s Senior Design Support System&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Project SABR</title>
-        <link>http://localhost:1313/p/project-sabr/</link>
-        <pubDate>Sat, 03 May 2025 14:50:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/project-sabr/</guid>
-        <description>&lt;img src="http://localhost:1313/rde.png" alt="Featured image of post Project SABR" /&gt;&lt;h2 id=&#34;major-achievements&#34;&gt;Major Achievements:
-&lt;/h2&gt;&lt;ul&gt;
-    &lt;li&gt;Developed a fully-fledged testing platform for air-breathing RDEs at UCF&lt;/li&gt;
-    &lt;li&gt;Laid the foundation for a future senior design teams&lt;/li&gt;
-    &lt;li&gt;Produced data for several AIAA SciTech 2025 papers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;background&#34;&gt;Background
-&lt;/h2&gt;&lt;p&gt;Rotating Detonation Engines (RDEs) are a relatively novel form of rocket propulsion that takes advantage of pressure-gain combustion. Conventional rocket engines use constant-pressure combustion cycles. RDEs theoretically produce better performance by taking better advantage of the energy stored chemically in the propellants. There is a fine line between detonating in the way that yields the performance advantage, and detonating in the way that destroys the engine. Due to the speeds involved in the process, these engines have only recently began gaining traction now that computers and sensors allow for the extremely fast sampling rates necessary for reliable data output. Their compact size allows for storable propellants to be used more effectively in missile and defense applications.&lt;/p&gt;
-&lt;p&gt;The goals of this project at the beginning were beyond creating a working air breathing lab scale engine, to lay the foundation for further research to be done at UCF. This involved creating a test stand equipped with a capable and robust data acquisition system and control system. With the tight budget for a project of this ambition we had to get creative.&lt;/p&gt;
-&lt;h2 id=&#34;design&#34;&gt;Design
-&lt;/h2&gt;&lt;h2 id=&#34;ignition&#34;&gt;Ignition
-&lt;/h2&gt;&lt;p&gt;Lighting an RDE involves precise timing and a strong enough relese of energy to induce a detonation mode within the engine. A fast burst (in tens of micro seconds) with not a lot of energy is more likely to induce a detonation compared to a longer burst with a ton more energy. Typically predets are used where an explosive mixture of gases are lit on one end of a long tube and over that length of tube the energy release is structured in such a way a shock is developed by the time the combusting gases exit. Due to the mechanism of operation, these have careful geometry that is hard to package into a system with compact and flight in mind. This is where my approach comes in, conventional torch. If the annulus can act as the constriction that focuses the energy towards a shock, the igniter can be more compact and allow for smaller designs for flight vehicles.&lt;/p&gt;
-&lt;h2 id=&#34;humbled-by-testing&#34;&gt;Humbled by Testing
-&lt;/h2&gt;&lt;h2 id=&#34;senior-design-showcase&#34;&gt;Senior Design Showcase
-&lt;/h2&gt;&lt;h2 id=&#34;future-plans&#34;&gt;Future Plans
-&lt;/h2&gt;&lt;h3 id=&#34;scitech&#34;&gt;SciTech
-&lt;/h3&gt;&lt;h2 id=&#34;final-thoughts-and-acknowledgements&#34;&gt;Final Thoughts and Acknowledgements
-&lt;/h2&gt;&lt;p&gt;Taha Dr. Burke, Teammates and UCF&amp;rsquo;s Senior Design Support System&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Thu, 11 Dec 2025 14:50:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Project SABR</title>
         <link>http://localhost:1313/p/project-sabr/</link>
         <pubDate>Sat, 03 May 2025 14:50:00 +0000</pubDate>
@@ -132,97 +86,12 @@ Second Test&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>About Me</title>
-        <link>http://localhost:1313/about-me/</link>
-        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/about-me/</guid>
-        <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword
-&lt;/h2&gt;&lt;p&gt;This website is meant to be a living document, with the intention of acting as a personal wiki for my previous, ongoing, and future projects. A digital garden of sorts. One of my 2025 New Year&amp;rsquo;s resolutions was to put together an updated portfolio showcasing my background for new acquaintances, as well as potential employers. Documentation is a skill every engineer should have, and I deeply believe in the open source mission, so I will be doing my best to explain what&amp;rsquo;s going on inside my head. &lt;b&gt;Beware: thoughts and ideas may be half finished. &lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;I love to talk about the stuff I&amp;rsquo;ve worked on, so feel free to reach out! I&amp;rsquo;m more than willing to expand upon anything on this site, particulaly my work with IREC hybrids. My socials are on that sidebar on the left, pick your poison.&lt;/p&gt;
-&lt;p&gt;Now, if you&amp;rsquo;re looking for a potential employee, please reach out via e-mail at &lt;a class=&#34;link&#34; href=&#34;mailto:anegrette@protonmail.com&#34; &gt;anegrette@protonmail.com&lt;/a&gt; or on LinkedIn.&lt;/p&gt;
-&lt;h2 id=&#34;my-background&#34;&gt;My Background
-&lt;/h2&gt;&lt;p&gt;I am an Aerospace Engineer with a background in gas dynamics and propulsion, primarily through collegiate sounding rocketry. I&amp;rsquo;ve explored much of everything that bringing an idea from a napkin drawing to a polished design, including short-run production. I participated in the &lt;strong&gt;International Rocket Engineering Competition&lt;/strong&gt; for a couple of years, primarily overseeing the development of the hybrid rocket motor for each participating rocket. Pictured is my favorite project, Pegasus.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/about-me/pegasuslaunch.png&#34;
-	width=&#34;367&#34;
-	height=&#34;1400&#34;
-	srcset=&#34;http://localhost:1313/about-me/pegasuslaunch_hu_fb9e6aab8f8258a6.png 480w, http://localhost:1313/about-me/pegasuslaunch_hu_9fa3d74126be148d.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Pegasus during Flight&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;26&#34;
-		data-flex-basis=&#34;62px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;My senior design project involved a &lt;strong&gt;Rotating Detonation Engine&lt;/strong&gt;, designed with the intention of contributing to the global understanding of RDEs, as well as creating an air breathing small-scale platform ready to be integrated with a flight vehicle.&lt;/p&gt;
-&lt;p&gt;My machining work experience encompasses 2, 3, and 4 axis CNC machining, as well as resin (DLP) additive manufacturing. Due to my time as a machinist I have developed an intuition for competent design with manufacturing and production in mind. In terms of Additive Manufacturing, I spearheaded the implementation of a Stratasys Origin One Photopolymerization Machine, including the creation of brand new procedures to maximize part repeatability, a critical part of the prototyping work I did for the UCF Machine Shop. I received training directly from Stratasys to maintain and repair the machine and its local print server.&lt;/p&gt;
-&lt;p&gt;Beyond the academic and professional lens, I like to spend my free time browsing for obsolete tech on eBay, playing guitar and reading. I&amp;rsquo;ve been teaching myself computer and electrical engineering, in part because I feel a Mech/Aero Engineer in the 21st century should be somewhat competent in the computers that support everything we build, and in part because I&amp;rsquo;d like to know how to repair the stuff I buy on eBay. One of my ongoing projects involves a Tang Nano 9k FPGA dev board as a platform for learning digital logic design and Verilog HDL.&lt;/p&gt;
-&lt;h2 id=&#34;the-site&#34;&gt;The Site
-&lt;/h2&gt;&lt;p&gt;I do NOT have a web dev background, but I had enough brain to cobble together enough readme&amp;rsquo;s and stack overflow google searches to put this together. Built on &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo&lt;/a&gt;, using the &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo Stack Theme&lt;/a&gt;. Immense thanks to people who put their code on the internet for our combined benefit. FOSS rocks.&lt;/p&gt;
-&lt;p&gt;All in all, whether this attracts employers or not, I just wanted to compile all the work I&amp;rsquo;ve done into one cohesive document. I love this field, and much like a conventional garden is a product of love and care, this is my love note to engineering. Thank you for the visit.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Photography</title>
-        <link>http://localhost:1313/photography/</link>
-        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/photography/</guid>
-        <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword
-&lt;/h2&gt;&lt;p&gt;This website is meant to be a living document, with the intention of acting as a personal wiki for my previous, ongoing, and future projects. A digital garden of sorts. One of my 2025 New Year&amp;rsquo;s resolutions was to put together an updated portfolio showcasing my background for new acquaintances, as well as potential employers. Documentation is a skill every engineer should have, and I deeply believe in the open source mission, so I will be doing my best to explain what&amp;rsquo;s going on inside my head. &lt;b&gt;Beware: thoughts and ideas may be half finished. &lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;I love to talk about the stuff I&amp;rsquo;ve worked on, so feel free to reach out! I&amp;rsquo;m more than willing to expand upon anything on this site, particulaly my work with IREC hybrids. My socials are on that sidebar on the left, pick your poison.&lt;/p&gt;
-&lt;p&gt;Now, if you&amp;rsquo;re looking for a potential employee, please reach out via e-mail at &lt;a class=&#34;link&#34; href=&#34;mailto:anegrette@protonmail.com&#34; &gt;anegrette@protonmail.com&lt;/a&gt; or on LinkedIn.&lt;/p&gt;
-&lt;h2 id=&#34;my-background&#34;&gt;My Background
-&lt;/h2&gt;&lt;p&gt;I am an Aerospace Engineer &lt;strong&gt;(I graduated!)&lt;/strong&gt; with a background in gas dynamics and propulsion, primarily through collegiate sounding rocketry. I&amp;rsquo;ve explored much of everything that bringing an idea from a napkin drawing to a polished design, including short-run production. I have participated in the &lt;strong&gt;International Rocket Engineering Competition&lt;/strong&gt; for a couple of years, primarily overseeing the development of the hybrid rocket motor for each participating rocket. Pictured is my favorite project, Pegasus. &lt;img src=&#34;http://localhost:1313/pegasuslaunch.png#floatright&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Pegasus Launch!&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;My senior design project involved a &lt;strong&gt;Rotating Detonation Engine&lt;/strong&gt;, designed with the intention of contributing to the global understanding of RDEs, as well as creating an air breathing small-scale platform ready to be integrated with a flight vehicle.&lt;/p&gt;
-&lt;p&gt;My machining work experience encompasses 2, 3, and 4 axis CNC machining, as well as resin (DLP) additive manufacturing. Due to my time as a machinist I have developed an intuition for competent design with manufacturing and production in mind. In terms of Additive Manufacturing, I spearheaded the implementation of a Stratasys Origin One Photopolymerization Machine, including the creation of brand new procedures to maximize part repeatability, a critical part of the prototyping work I did for the UCF Machine Shop. I received training directly from Stratasys to maintain and repair the machine and its local print server.&lt;/p&gt;
-&lt;p&gt;Beyond the academic and professional lens, I like to spend my free time browsing for obsolete tech on eBay, playing guitar and reading. I&amp;rsquo;ve been teaching myself computer and electrical engineering, in part because I feel a Mech/Aero Engineer in the 21st century should be somewhat competent in the computers that support everything we build, and in part because I&amp;rsquo;d like to know how to repair the stuff I buy on eBay. One of my ongoing projects involves a Tang Nano 9k FPGA dev board as a platform for learning digital logic design and Verilog HDL.&lt;/p&gt;
-&lt;h2 id=&#34;the-site&#34;&gt;The Site
-&lt;/h2&gt;&lt;p&gt;I do NOT have a web dev background, but I had enough brain to cobble together enough readme&amp;rsquo;s and stack overflow google searches to put this together. Built on &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo&lt;/a&gt;, using the &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo Stack Theme&lt;/a&gt;. Immense thanks to people who put their code on the internet for our combined benefit. FOSS rocks.&lt;/p&gt;
-&lt;p&gt;All in all, whether this attracts employers or not, I just wanted to compile all the work I&amp;rsquo;ve done into one cohesive document. I love this field, and much like a conventional garden is a product of love and care, this is my love note to engineering. Thank you for the visit.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Under Construction</title>
-        <link>http://localhost:1313/p/hello-world/</link>
-        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/hello-world/</guid>
-        <description>&lt;img src="http://localhost:1313/p/hello-world/cover.jpg" alt="Featured image of post Under Construction" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
-&lt;p&gt;For more information about this theme, check the documentation: &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Want a site like this? Check out &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;hugo-theme-stack-stater&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@pawel_czerwinski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pawel Czerwinski&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        </item>
-        <item>
         <title>How to Cope with Being a Film Lab Tech</title>
         <link>http://localhost:1313/p/noritsu-v50/</link>
-        <pubDate>Sat, 03 May 2025 14:50:00 +0000</pubDate>
+        <pubDate>Thu, 11 Dec 2025 14:50:00 +0000</pubDate>
         
         <guid>http://localhost:1313/p/noritsu-v50/</guid>
-        <description>&lt;img src="http://localhost:1313/rde.png" alt="Featured image of post How to Cope with Being a Film Lab Tech" /&gt;&lt;h2 id=&#34;background&#34;&gt;Background
+        <description>&lt;img src="http://localhost:1313/p/noritsu-v50/cover.png" alt="Featured image of post How to Cope with Being a Film Lab Tech" /&gt;&lt;h2 id=&#34;background&#34;&gt;Background
 &lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ve been working at a film lab for the last couple of months, and the engineering degree immediately made itself useful by giving me the tools to keep some of these machines alive. Problems ranging from just corrosion within a sensor&amp;rsquo;s connector to open heart surgery on a board no longer made. For a glorified sous-vide tank, the Noritsu engineers put a lot of safeguards and smart engineering in place to keep these working as well as they have for as long as they have. I&amp;rsquo;m writing this article with the intention of logging whatever I find for whoever takes over for me, or whoever finds this website in similar despair as I have googled whenever something broke. There&amp;rsquo;s also the nice side effect of showing off the stuff between my ears to employers. Anyway.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/Machines.jpeg&#34;
 	width=&#34;1581&#34;
@@ -390,392 +259,159 @@ Second Test&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>Markdown Syntax Guide</title>
-        <link>http://localhost:1313/p/markdown-syntax-guide/</link>
-        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        <title>About Me</title>
+        <link>http://localhost:1313/about-me/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/markdown-syntax-guide/</guid>
-        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
-&lt;h2 id=&#34;headings&#34;&gt;Headings
-&lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
-&lt;h1 id=&#34;h1&#34;&gt;H1
-&lt;/h1&gt;&lt;h2 id=&#34;h2&#34;&gt;H2
-&lt;/h2&gt;&lt;h3 id=&#34;h3&#34;&gt;H3
-&lt;/h3&gt;&lt;h4 id=&#34;h4&#34;&gt;H4
-&lt;/h4&gt;&lt;h5 id=&#34;h5&#34;&gt;H5
-&lt;/h5&gt;&lt;h6 id=&#34;h6&#34;&gt;H6
-&lt;/h6&gt;&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph
-&lt;/h2&gt;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
-&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
-&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes
-&lt;/h2&gt;&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
-&lt;h3 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
-— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;tables&#34;&gt;Tables
-&lt;/h2&gt;&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Name&lt;/th&gt;
-          &lt;th&gt;Age&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Bob&lt;/td&gt;
-          &lt;td&gt;27&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Alice&lt;/td&gt;
-          &lt;td&gt;23&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables
-&lt;/h3&gt;&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Italics&lt;/th&gt;
-          &lt;th&gt;Bold&lt;/th&gt;
-          &lt;th&gt;Code&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;A&lt;/th&gt;
-          &lt;th&gt;B&lt;/th&gt;
-          &lt;th&gt;C&lt;/th&gt;
-          &lt;th&gt;D&lt;/th&gt;
-          &lt;th&gt;E&lt;/th&gt;
-          &lt;th&gt;F&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/td&gt;
-          &lt;td&gt;Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex.&lt;/td&gt;
-          &lt;td&gt;Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus&lt;/td&gt;
-          &lt;td&gt;Proin sit amet velit nec enim imperdiet vehicula.&lt;/td&gt;
-          &lt;td&gt;Ut bibendum vestibulum quam, eu egestas turpis gravida nec&lt;/td&gt;
-          &lt;td&gt;Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks
-&lt;/h2&gt;&lt;h3 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces
-&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;diff-code-block&#34;&gt;Diff code block
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[dependencies.bevy]
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;- features = [&amp;#34;dynamic&amp;#34;]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gi&#34;&gt;+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;one-line-code-block&#34;&gt;One line code block
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;A paragraph&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;list-types&#34;&gt;List Types
-&lt;/h2&gt;&lt;h3 id=&#34;ordered-list&#34;&gt;Ordered List
-&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;First item&lt;/li&gt;
-&lt;li&gt;Second item&lt;/li&gt;
-&lt;li&gt;Third item&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;unordered-list&#34;&gt;Unordered List
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;List item&lt;/li&gt;
-&lt;li&gt;Another item&lt;/li&gt;
-&lt;li&gt;And another item&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;nested-list&#34;&gt;Nested list
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Fruit
-&lt;ul&gt;
-&lt;li&gt;Apple&lt;/li&gt;
-&lt;li&gt;Orange&lt;/li&gt;
-&lt;li&gt;Banana&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Dairy
-&lt;ul&gt;
-&lt;li&gt;Milk&lt;/li&gt;
-&lt;li&gt;Cheese&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark
-&lt;/h2&gt;&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
-&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
-&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Press &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;ALT&lt;/kbd&gt; + &lt;kbd&gt;Delete&lt;/kbd&gt; to end the session.&lt;/p&gt;
-&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Image gallery</title>
-        <link>http://localhost:1313/p/image-gallery/</link>
-        <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/image-gallery/</guid>
-        <description>&lt;img src="http://localhost:1313/p/image-gallery/2.jpg" alt="Featured image of post Image gallery" /&gt;&lt;p&gt;Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class=&#34;link&#34; href=&#34;https://photoswipe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;PhotoSwipe&lt;/a&gt; and its syntax was inspired by &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Typlog&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To use this feature, the image must be in the same directory as the Markdown file, as it uses Hugo&amp;rsquo;s page bundle feature to read the dimensions of the image. &lt;strong&gt;External images are not supported.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;syntax&#34;&gt;Syntax
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Image 1&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;1.jpg&lt;/span&gt;) ![&lt;span class=&#34;nt&#34;&gt;Image 2&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;2.jpg&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;result&#34;&gt;Result
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/image-gallery/1.jpg&#34;
-	width=&#34;2000&#34;
+        <guid>http://localhost:1313/about-me/</guid>
+        <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword
+&lt;/h2&gt;&lt;p&gt;This website is meant to be a living document, with the intention of acting as a personal wiki for my previous, ongoing, and future projects. A digital garden of sorts. One of my 2025 New Year&amp;rsquo;s resolutions was to put together an updated portfolio showcasing my background for new acquaintances, as well as potential employers. Documentation is a skill every engineer should have, and I deeply believe in the open source mission, so I will be doing my best to explain what&amp;rsquo;s going on inside my head. &lt;b&gt;Beware: thoughts and ideas may be half finished. &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;I love to talk about the stuff I&amp;rsquo;ve worked on, so feel free to reach out! I&amp;rsquo;m more than willing to expand upon anything on this site, particulaly my work with IREC hybrids. My socials are on that sidebar on the left, pick your poison.&lt;/p&gt;
+&lt;p&gt;Now, if you&amp;rsquo;re looking for a potential employee, please reach out via e-mail at &lt;a class=&#34;link&#34; href=&#34;mailto:anegrette@protonmail.com&#34; &gt;anegrette@protonmail.com&lt;/a&gt; or on LinkedIn.&lt;/p&gt;
+&lt;h2 id=&#34;my-background&#34;&gt;My Background
+&lt;/h2&gt;&lt;p&gt;I am an Aerospace Engineer with a background in gas dynamics and propulsion, primarily through collegiate sounding rocketry. I&amp;rsquo;ve explored much of everything that bringing an idea from a napkin drawing to a polished design, including short-run production. I participated in the &lt;strong&gt;International Rocket Engineering Competition&lt;/strong&gt; for a couple of years, primarily overseeing the development of the hybrid rocket motor for each participating rocket. Pictured is my favorite project, Pegasus.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/about-me/pegasuslaunch.png&#34;
+	width=&#34;367&#34;
 	height=&#34;1400&#34;
-	srcset=&#34;http://localhost:1313/p/image-gallery/1_hu_811b671457ffff1f.jpg 480w, http://localhost:1313/p/image-gallery/1_hu_c74af69dd7c1dcda.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/about-me/pegasuslaunch_hu_fb9e6aab8f8258a6.png 480w, http://localhost:1313/about-me/pegasuslaunch_hu_9fa3d74126be148d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Image 1&#34;
+		alt=&#34;Pegasus during Flight&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;142&#34;
-		data-flex-basis=&#34;342px&#34;
+		data-flex-grow=&#34;26&#34;
+		data-flex-basis=&#34;62px&#34;
 	
-&gt; &lt;img src=&#34;http://localhost:1313/p/image-gallery/2.jpg&#34;
-	width=&#34;1500&#34;
-	height=&#34;2250&#34;
-	srcset=&#34;http://localhost:1313/p/image-gallery/2_hu_42f6436cb1637265.jpg 480w, http://localhost:1313/p/image-gallery/2_hu_27862a49608da0d9.jpg 1024w&#34;
+&gt;&lt;/p&gt;
+&lt;p&gt;My senior design project involved a &lt;strong&gt;Rotating Detonation Engine&lt;/strong&gt;, designed with the intention of contributing to the global understanding of RDEs, as well as creating an air breathing small-scale platform ready to be integrated with a flight vehicle.&lt;/p&gt;
+&lt;p&gt;My machining work experience encompasses 2, 3, and 4 axis CNC machining, as well as resin (DLP) additive manufacturing. Due to my time as a machinist I have developed an intuition for competent design with manufacturing and production in mind. In terms of Additive Manufacturing, I spearheaded the implementation of a Stratasys Origin One Photopolymerization Machine, including the creation of brand new procedures to maximize part repeatability, a critical part of the prototyping work I did for the UCF Machine Shop. I received training directly from Stratasys to maintain and repair the machine and its local print server.&lt;/p&gt;
+&lt;p&gt;Beyond the academic and professional lens, I like to spend my free time browsing for obsolete tech on eBay, playing guitar and reading. I&amp;rsquo;ve been teaching myself computer and electrical engineering, in part because I feel a Mech/Aero Engineer in the 21st century should be somewhat competent in the computers that support everything we build, and in part because I&amp;rsquo;d like to know how to repair the stuff I buy on eBay. One of my ongoing projects involves a Tang Nano 9k FPGA dev board as a platform for learning digital logic design and Verilog HDL.&lt;/p&gt;
+&lt;h2 id=&#34;the-site&#34;&gt;The Site
+&lt;/h2&gt;&lt;p&gt;I do NOT have a web dev background, but I had enough brain to cobble together enough readme&amp;rsquo;s and stack overflow google searches to put this together. Built on &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt;, using the &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Stack Theme&lt;/a&gt;. Immense thanks to people who put their code on the internet for our combined benefit. FOSS rocks.&lt;/p&gt;
+&lt;p&gt;All in all, whether this attracts employers or not, I just wanted to compile all the work I&amp;rsquo;ve done into one cohesive document. I love this field, and much like a conventional garden is a product of love and care, this is my love note to engineering. Thank you for the visit.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Photography</title>
+        <link>http://localhost:1313/photography/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/photography/</guid>
+        <description>&lt;img src="http://localhost:1313/photography/scope.jpg" alt="Featured image of post Photography" /&gt;&lt;h2 id=&#34;equipment-background-and-other-thoughts&#34;&gt;Equipment, Background, and Other Thoughts
+&lt;/h2&gt;&lt;p&gt;I started out with photography with a passed down Rebel T3. Not the latest or newest, but a perfectly capable sensor, well featured body, and it used the widely supported EF-S Canon mount. It allowed me to get my feet wet with the field, and besides, I&amp;rsquo;ve never been one to believe that having the newest, most expensive tool instantly makes you better at anything (to an extent). This applies to photography as well. Beyond quality of life features, a camera is a dark box with light input on one end and a light sensitive element on the other. In terms of image quality, improvements to digital sensors quickly became asymptotic for a casual photographer like me, so I&amp;rsquo;ve focused on learning about composition, color correction.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/canondslr.jpg&#34;
+	width=&#34;500&#34;
+	height=&#34;500&#34;
+	srcset=&#34;http://localhost:1313/photography/canondslr_hu_c02b7fc6b0af4a92.jpg 480w, http://localhost:1313/photography/canondslr_hu_c631f2c39f8ef3ed.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Image 2&#34;
+		alt=&#34;Rebel T3 (Source: Canon USA)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Some time after, I came across a Rebel X SLR for extremely cheap. Most of the used film camera market orbits around a handful of critically acclaimed camera makes and models, and many well featured and advanced cameras tend to lurk in their shade. This specific camera appealed to the exact same market as the other Rebel, sporting an equally well balanced featureset catering to beginners. My favorite part about film is that the technology was essentially perfected by the end of the film era, so a majority of film cameras in the late 90s and early 00s share the exact same technology as DSLRs even to this day. Look at the very first DSLRs to hit the market; they are almost carbon copies of the final SLR models. My Rebel X is compatible with the exact same autofocus and metering system as my much newer DSLR, so it was as smooth of a transition into film as I could&amp;rsquo;ve wished for.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/canonslr.jpg&#34;
+	width=&#34;520&#34;
+	height=&#34;414&#34;
+	srcset=&#34;http://localhost:1313/photography/canonslr_hu_b9a2f803acf96968.jpg 480w, http://localhost:1313/photography/canonslr_hu_9005d7a4d89a51be.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Rebel X (Source: Canon USA)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;301px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Now that I&amp;rsquo;ve gone through my fair share of rolls, I invested into a Pentax KX to learn photography down to a subconscious understanding of creative metering, composing, and to break the habit of treating the camera as a point and shoot. I began working at the film lab, which exposed me to what my peers felt and thought about the analog medium. Being forced to focus, think about what my aperture and shutter speed settings are doing in terms of the frame I am about to campture makes the images much more meaningful and connected to me as a photographer. Ansel Adams did not have the technology that we have within the latest Canon or Nikon flagships, yet he managed to create images so powerful as to encourage the appreciation of the beauty that spans the American continent, and the creation of the National Parks throughout the US. We live in an era where cameras are perpetually within reach in our pockets, yet it&amp;rsquo;s the most disconnected from photography I&amp;rsquo;ve felt. Pictures I take on my phone quickly fade into the depths of my camera roll, while the pictures I have taken on film all remain fresh in my psyche as the day I composed the shot through the viewfinder. The cherry on top is that the actual photons my camera saw at that instant are captured chemically to endure the years. Hard drives fail, servers and services shut down, yet grandpa&amp;rsquo;s Kodachrome slides from the 70s have withstood the test of time and will continue to do so. As technology advances, these masters have allowed us to reproduce mind bending quality from movies and TV recordings purely because they were stored chemically on film as opposed to magnetic tape or whatever other alternative.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/pentax.webp&#34;
+	width=&#34;1600&#34;
+	height=&#34;1067&#34;
+	srcset=&#34;http://localhost:1313/photography/pentax_hu_9f00f3aaa2066fa1.webp 480w, http://localhost:1313/photography/pentax_hu_472fa4d104372817.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pentax KX (Source: 35MMC)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;359px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Working as a developer with my background in engineering has made me appreciate the work of the thousands of people throughout centuries working to capture their lives. This ramble is a thinly veiled open love letter to the chemists, engineers, and designers at Kodak, Fujifilm, and the thousands of other companies that brought the ability to create snapshots of special moments to the masses. It moves me deeply that more and more people share this sentiment and are powering a film resurgence. I understand the purpose and the niche for digital photography, but the same way that one can choose to write something on paper versus typing it into a Word document, I believe film photography has an equal right to exist in the Internet era.&lt;/p&gt;
+&lt;p&gt;On the topic of film photography, I get a little more in depth about the chemistry and construction of photographic film over in my &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/noritsu-v50/&#34; &gt;blog post&lt;/a&gt; about my time as a film tech and the troubleshooting/repairing of some of our machines. If you&amp;rsquo;ve ever sent out a roll to be developed and scanned, it&amp;rsquo;s a good behind-the-scenes view of why there&amp;rsquo;s delays and errors every once in a while. These are machines on life support with limited availability of replacement parts and plenty of lost knowledge from generations of engineers that retired at the beginning of the millenium.&lt;/p&gt;
+&lt;p&gt;With that out of the way, see some of my favorites below. Thank you for reading.&lt;/p&gt;
+&lt;h2 id=&#34;my-favorite-recent-shots&#34;&gt;My Favorite Recent Shots
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/scope.jpg&#34;
+	width=&#34;799&#34;
+	height=&#34;530&#34;
+	srcset=&#34;http://localhost:1313/photography/scope_hu_a7894beeb31c1625.jpg 480w, http://localhost:1313/photography/scope_hu_9696659eb8d648f0.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;My Workstation&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/roots.jpg&#34;
+	width=&#34;679&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/photography/roots_hu_2fb6918a913d8fcd.jpg 480w, http://localhost:1313/photography/roots_hu_b71b3707cbf503b7.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Roots&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;66&#34;
-		data-flex-basis=&#34;160px&#34;
+		data-flex-basis=&#34;159px&#34;
+	
+&gt; &lt;img src=&#34;http://localhost:1313/photography/pigeons.jpg&#34;
+	width=&#34;1024&#34;
+	height=&#34;679&#34;
+	srcset=&#34;http://localhost:1313/photography/pigeons_hu_6d2af6430398ceda.jpg 480w, http://localhost:1313/photography/pigeons_hu_3792bc2a7e864085.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pigeons (a film point and shoot took this!)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@mymind&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;mymind&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@lukechesser&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Luke Chesser&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
         </item>
         <item>
-        <title>Shortcodes</title>
-        <link>http://localhost:1313/p/shortcodes/</link>
-        <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+        <title>CT Inverse Radon Implementation</title>
+        <link>http://localhost:1313/p/computed-tomography/</link>
+        <pubDate>Sat, 14 Jun 2025 14:50:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/shortcodes/</guid>
-        <description>&lt;img src="http://localhost:1313/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" /&gt;&lt;p&gt;For more details, check out the &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/writing/shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;bilibili-video&#34;&gt;Bilibili video
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1d4411N7zD&#34;
-            scrolling=&#34;no&#34;
-            frameborder=&#34;no&#34;
-            framespacing=&#34;0&#34;
-            allowfullscreen=&#34;true&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;tencent-video&#34;&gt;Tencent video
-&lt;/h2&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe src=&#34;https://v.qq.com/txp/iframe/player.html?vid=g0014r3khdw&amp;auto=0&#34; 
-            scrolling=&#34;no&#34; 
-            frameborder=&#34;no&#34;
-            framespacing=&#34;0&#34; 
-            allowfullscreen=&#34;true&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;youtube-video&#34;&gt;YouTube video
-&lt;/h2&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/0qwALOOvUik&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;generic-video-file&#34;&gt;Generic video file
-&lt;/h2&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;video
-    controls
-    src=&#34;https://www.w3schools.com/tags/movie.mp4&#34;
-    
-    
-    &gt;
-        &lt;p&gt;
-            Your browser doesn&#39;t support HTML5 video. Here is a
-            &lt;a href=&#34;https://www.w3schools.com/tags/movie.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
-        &lt;/p&gt;
-    &lt;/video&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;gist&#34;&gt;Gist
-&lt;/h2&gt;&lt;script src=&#34;https://gist.github.com/CaiJimmy/e2751a943de10b2a5b3a8a6c2120cb86.js&#34;&gt;&lt;/script&gt;
-
-&lt;h2 id=&#34;gitlab&#34;&gt;GitLab
-&lt;/h2&gt;&lt;script
-    type=&#34;application/javascript&#34;
-    src=&#34;https://gitlab.com/-/snippets/2589724.js&#34;
-&gt;&lt;/script&gt;
-&lt;h2 id=&#34;quote&#34;&gt;Quote
-&lt;/h2&gt;&lt;blockquote&gt;
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;A famous person, &lt;/span&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Book&#34;&gt;&lt;cite&gt;The book they wrote&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@codioful&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Codioful&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/WDSN62Qdxuk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+        <guid>http://localhost:1313/p/computed-tomography/</guid>
+        <description>&lt;h2 id=&#34;background&#34;&gt;Background
+&lt;/h2&gt;&lt;p&gt;Rotating Detonation Engines (RDEs) are a relatively novel form of rocket propulsion that takes advantage of pressure-gain combustion. Conventional rocket engines use constant-pressure combustion cycles. RDEs theoretically produce better performance by taking better advantage of the energy stored chemically in the propellants. There is a fine line between detonating in the way that yields the performance advantage, and detonating in the way that destroys the engine. Due to the speeds involved in the process, these engines have only recently began gaining traction now that computers and sensors allow for the extremely fast sampling rates necessary for reliable data output. Their compact size allows for storable propellants to be used more effectively in missile and defense applications.&lt;/p&gt;
+&lt;p&gt;The goals of this project at the beginning were beyond creating a working air breathing lab scale engine, to lay the foundation for further research to be done at UCF. This involved creating a test stand equipped with a capable and robust data acquisition system and control system. With the tight budget for a project of this ambition we had to get creative.&lt;/p&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design
+&lt;/h2&gt;&lt;h2 id=&#34;ignition&#34;&gt;Ignition
+&lt;/h2&gt;&lt;p&gt;Lighting an RDE involves precise timing and a strong enough relese of energy to induce a detonation mode within the engine. A fast burst (in tens of micro seconds) with not a lot of energy is more likely to induce a detonation compared to a longer burst with a ton more energy. Typically predets are used where an explosive mixture of gases are lit on one end of a long tube and over that length of tube the energy release is structured in such a way a shock is developed by the time the combusting gases exit. Due to the mechanism of operation, these have careful geometry that is hard to package into a system with compact and flight in mind. This is where my approach comes in, conventional torch. If the annulus can act as the constriction that focuses the energy towards a shock, the igniter can be more compact and allow for smaller designs for flight vehicles.&lt;/p&gt;
+&lt;h2 id=&#34;humbled-by-testing&#34;&gt;Humbled by Testing
+&lt;/h2&gt;&lt;h2 id=&#34;senior-design-showcase&#34;&gt;Senior Design Showcase
+&lt;/h2&gt;&lt;h2 id=&#34;future-plans&#34;&gt;Future Plans
+&lt;/h2&gt;&lt;h3 id=&#34;scitech&#34;&gt;SciTech
+&lt;/h3&gt;&lt;h2 id=&#34;final-thoughts-and-acknowledgements&#34;&gt;Final Thoughts and Acknowledgements
+&lt;/h2&gt;&lt;p&gt;Taha Dr. Burke, Teammates and UCF&amp;rsquo;s Senior Design Support System&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Math Typesetting</title>
-        <link>http://localhost:1313/p/math-typesetting/</link>
-        <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/math-typesetting/</guid>
-        <description>&lt;p&gt;Stack has built-in support for math typesetting using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;KaTeX&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;It&amp;rsquo;s not enabled by default side-wide,&lt;/strong&gt; but you can enable it for individual posts by adding &lt;code&gt;math: true&lt;/code&gt; to the front matter. Or you can enable it side-wide by adding &lt;code&gt;math = true&lt;/code&gt; to the &lt;code&gt;params.article&lt;/code&gt; section in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;inline-math&#34;&gt;Inline math
-&lt;/h2&gt;&lt;p&gt;This is an inline mathematical expression: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;block-math&#34;&gt;Block math
-&lt;/h2&gt;$$
-    \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-    f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
         </item>
         <item>
         <title>Archives</title>

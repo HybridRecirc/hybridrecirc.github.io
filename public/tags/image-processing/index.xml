@@ -6,13 +6,13 @@
         <description>Recent content in Image Processing on Arturo Negrette</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 13 Oct 2025 14:50:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/image-processing/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Dec 2025 14:50:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/image-processing/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>CT Inverse Radon Implementation</title>
         <link>http://localhost:1313/p/computed-tomography/</link>
-        <pubDate>Sat, 03 May 2025 14:50:00 +0000</pubDate>
+        <pubDate>Sat, 14 Jun 2025 14:50:00 +0000</pubDate>
         
         <guid>http://localhost:1313/p/computed-tomography/</guid>
-        <description>&lt;img src="http://localhost:1313/rde.png" alt="Featured image of post CT Inverse Radon Implementation" /&gt;&lt;h2 id=&#34;background&#34;&gt;Background
+        <description>&lt;h2 id=&#34;background&#34;&gt;Background
 &lt;/h2&gt;&lt;p&gt;Rotating Detonation Engines (RDEs) are a relatively novel form of rocket propulsion that takes advantage of pressure-gain combustion. Conventional rocket engines use constant-pressure combustion cycles. RDEs theoretically produce better performance by taking better advantage of the energy stored chemically in the propellants. There is a fine line between detonating in the way that yields the performance advantage, and detonating in the way that destroys the engine. Due to the speeds involved in the process, these engines have only recently began gaining traction now that computers and sensors allow for the extremely fast sampling rates necessary for reliable data output. Their compact size allows for storable propellants to be used more effectively in missile and defense applications.&lt;/p&gt;
 &lt;p&gt;The goals of this project at the beginning were beyond creating a working air breathing lab scale engine, to lay the foundation for further research to be done at UCF. This involved creating a test stand equipped with a capable and robust data acquisition system and control system. With the tight budget for a project of this ambition we had to get creative.&lt;/p&gt;
 &lt;h2 id=&#34;design&#34;&gt;Design

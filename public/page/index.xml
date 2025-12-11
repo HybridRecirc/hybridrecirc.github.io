@@ -48,29 +48,97 @@
         <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/photography/</guid>
-        <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword
-&lt;/h2&gt;&lt;p&gt;This website is meant to be a living document, with the intention of acting as a personal wiki for my previous, ongoing, and future projects. A digital garden of sorts. One of my 2025 New Year&amp;rsquo;s resolutions was to put together an updated portfolio showcasing my background for new acquaintances, as well as potential employers. Documentation is a skill every engineer should have, and I deeply believe in the open source mission, so I will be doing my best to explain what&amp;rsquo;s going on inside my head. &lt;b&gt;Beware: thoughts and ideas may be half finished. &lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;I love to talk about the stuff I&amp;rsquo;ve worked on, so feel free to reach out! I&amp;rsquo;m more than willing to expand upon anything on this site, particulaly my work with IREC hybrids. My socials are on that sidebar on the left, pick your poison.&lt;/p&gt;
-&lt;p&gt;Now, if you&amp;rsquo;re looking for a potential employee, please reach out via e-mail at &lt;a class=&#34;link&#34; href=&#34;mailto:anegrette@protonmail.com&#34; &gt;anegrette@protonmail.com&lt;/a&gt; or on LinkedIn.&lt;/p&gt;
-&lt;h2 id=&#34;my-background&#34;&gt;My Background
-&lt;/h2&gt;&lt;p&gt;I am an Aerospace Engineer &lt;strong&gt;(I graduated!)&lt;/strong&gt; with a background in gas dynamics and propulsion, primarily through collegiate sounding rocketry. I&amp;rsquo;ve explored much of everything that bringing an idea from a napkin drawing to a polished design, including short-run production. I have participated in the &lt;strong&gt;International Rocket Engineering Competition&lt;/strong&gt; for a couple of years, primarily overseeing the development of the hybrid rocket motor for each participating rocket. Pictured is my favorite project, Pegasus. &lt;img src=&#34;http://localhost:1313/pegasuslaunch.png#floatright&#34;
-	
-	
-	
+        <description>&lt;img src="http://localhost:1313/photography/scope.jpg" alt="Featured image of post Photography" /&gt;&lt;h2 id=&#34;equipment-background-and-other-thoughts&#34;&gt;Equipment, Background, and Other Thoughts
+&lt;/h2&gt;&lt;p&gt;I started out with photography with a passed down Rebel T3. Not the latest or newest, but a perfectly capable sensor, well featured body, and it used the widely supported EF-S Canon mount. It allowed me to get my feet wet with the field, and besides, I&amp;rsquo;ve never been one to believe that having the newest, most expensive tool instantly makes you better at anything (to an extent). This applies to photography as well. Beyond quality of life features, a camera is a dark box with light input on one end and a light sensitive element on the other. In terms of image quality, improvements to digital sensors quickly became asymptotic for a casual photographer like me, so I&amp;rsquo;ve focused on learning about composition, color correction.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/canondslr.jpg&#34;
+	width=&#34;500&#34;
+	height=&#34;500&#34;
+	srcset=&#34;http://localhost:1313/photography/canondslr_hu_c02b7fc6b0af4a92.jpg 480w, http://localhost:1313/photography/canondslr_hu_c631f2c39f8ef3ed.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Pegasus Launch!&#34;
+		alt=&#34;Rebel T3 (Source: Canon USA)&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;My senior design project involved a &lt;strong&gt;Rotating Detonation Engine&lt;/strong&gt;, designed with the intention of contributing to the global understanding of RDEs, as well as creating an air breathing small-scale platform ready to be integrated with a flight vehicle.&lt;/p&gt;
-&lt;p&gt;My machining work experience encompasses 2, 3, and 4 axis CNC machining, as well as resin (DLP) additive manufacturing. Due to my time as a machinist I have developed an intuition for competent design with manufacturing and production in mind. In terms of Additive Manufacturing, I spearheaded the implementation of a Stratasys Origin One Photopolymerization Machine, including the creation of brand new procedures to maximize part repeatability, a critical part of the prototyping work I did for the UCF Machine Shop. I received training directly from Stratasys to maintain and repair the machine and its local print server.&lt;/p&gt;
-&lt;p&gt;Beyond the academic and professional lens, I like to spend my free time browsing for obsolete tech on eBay, playing guitar and reading. I&amp;rsquo;ve been teaching myself computer and electrical engineering, in part because I feel a Mech/Aero Engineer in the 21st century should be somewhat competent in the computers that support everything we build, and in part because I&amp;rsquo;d like to know how to repair the stuff I buy on eBay. One of my ongoing projects involves a Tang Nano 9k FPGA dev board as a platform for learning digital logic design and Verilog HDL.&lt;/p&gt;
-&lt;h2 id=&#34;the-site&#34;&gt;The Site
-&lt;/h2&gt;&lt;p&gt;I do NOT have a web dev background, but I had enough brain to cobble together enough readme&amp;rsquo;s and stack overflow google searches to put this together. Built on &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo&lt;/a&gt;, using the &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo Stack Theme&lt;/a&gt;. Immense thanks to people who put their code on the internet for our combined benefit. FOSS rocks.&lt;/p&gt;
-&lt;p&gt;All in all, whether this attracts employers or not, I just wanted to compile all the work I&amp;rsquo;ve done into one cohesive document. I love this field, and much like a conventional garden is a product of love and care, this is my love note to engineering. Thank you for the visit.&lt;/p&gt;
+&lt;p&gt;Some time after, I came across a Rebel X SLR for extremely cheap. Most of the used film camera market orbits around a handful of critically acclaimed camera makes and models, and many well featured and advanced cameras tend to lurk in their shade. This specific camera appealed to the exact same market as the other Rebel, sporting an equally well balanced featureset catering to beginners. My favorite part about film is that the technology was essentially perfected by the end of the film era, so a majority of film cameras in the late 90s and early 00s share the exact same technology as DSLRs even to this day. Look at the very first DSLRs to hit the market; they are almost carbon copies of the final SLR models. My Rebel X is compatible with the exact same autofocus and metering system as my much newer DSLR, so it was as smooth of a transition into film as I could&amp;rsquo;ve wished for.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/canonslr.jpg&#34;
+	width=&#34;520&#34;
+	height=&#34;414&#34;
+	srcset=&#34;http://localhost:1313/photography/canonslr_hu_b9a2f803acf96968.jpg 480w, http://localhost:1313/photography/canonslr_hu_9005d7a4d89a51be.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Rebel X (Source: Canon USA)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;301px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Now that I&amp;rsquo;ve gone through my fair share of rolls, I invested into a Pentax KX to learn photography down to a subconscious understanding of creative metering, composing, and to break the habit of treating the camera as a point and shoot. I began working at the film lab, which exposed me to what my peers felt and thought about the analog medium. Being forced to focus, think about what my aperture and shutter speed settings are doing in terms of the frame I am about to campture makes the images much more meaningful and connected to me as a photographer. Ansel Adams did not have the technology that we have within the latest Canon or Nikon flagships, yet he managed to create images so powerful as to encourage the appreciation of the beauty that spans the American continent, and the creation of the National Parks throughout the US. We live in an era where cameras are perpetually within reach in our pockets, yet it&amp;rsquo;s the most disconnected from photography I&amp;rsquo;ve felt. Pictures I take on my phone quickly fade into the depths of my camera roll, while the pictures I have taken on film all remain fresh in my psyche as the day I composed the shot through the viewfinder. The cherry on top is that the actual photons my camera saw at that instant are captured chemically to endure the years. Hard drives fail, servers and services shut down, yet grandpa&amp;rsquo;s Kodachrome slides from the 70s have withstood the test of time and will continue to do so. As technology advances, these masters have allowed us to reproduce mind bending quality from movies and TV recordings purely because they were stored chemically on film as opposed to magnetic tape or whatever other alternative.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/pentax.webp&#34;
+	width=&#34;1600&#34;
+	height=&#34;1067&#34;
+	srcset=&#34;http://localhost:1313/photography/pentax_hu_9f00f3aaa2066fa1.webp 480w, http://localhost:1313/photography/pentax_hu_472fa4d104372817.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pentax KX (Source: 35MMC)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;359px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Working as a developer with my background in engineering has made me appreciate the work of the thousands of people throughout centuries working to capture their lives. This ramble is a thinly veiled open love letter to the chemists, engineers, and designers at Kodak, Fujifilm, and the thousands of other companies that brought the ability to create snapshots of special moments to the masses. It moves me deeply that more and more people share this sentiment and are powering a film resurgence. I understand the purpose and the niche for digital photography, but the same way that one can choose to write something on paper versus typing it into a Word document, I believe film photography has an equal right to exist in the Internet era.&lt;/p&gt;
+&lt;p&gt;On the topic of film photography, I get a little more in depth about the chemistry and construction of photographic film over in my &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/noritsu-v50/&#34; &gt;blog post&lt;/a&gt; about my time as a film tech and the troubleshooting/repairing of some of our machines. If you&amp;rsquo;ve ever sent out a roll to be developed and scanned, it&amp;rsquo;s a good behind-the-scenes view of why there&amp;rsquo;s delays and errors every once in a while. These are machines on life support with limited availability of replacement parts and plenty of lost knowledge from generations of engineers that retired at the beginning of the millenium.&lt;/p&gt;
+&lt;p&gt;With that out of the way, see some of my favorites below. Thank you for reading.&lt;/p&gt;
+&lt;h2 id=&#34;my-favorite-recent-shots&#34;&gt;My Favorite Recent Shots
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/scope.jpg&#34;
+	width=&#34;799&#34;
+	height=&#34;530&#34;
+	srcset=&#34;http://localhost:1313/photography/scope_hu_a7894beeb31c1625.jpg 480w, http://localhost:1313/photography/scope_hu_9696659eb8d648f0.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;My Workstation&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/roots.jpg&#34;
+	width=&#34;679&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/photography/roots_hu_2fb6918a913d8fcd.jpg 480w, http://localhost:1313/photography/roots_hu_b71b3707cbf503b7.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Roots&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;66&#34;
+		data-flex-basis=&#34;159px&#34;
+	
+&gt; &lt;img src=&#34;http://localhost:1313/photography/pigeons.jpg&#34;
+	width=&#34;1024&#34;
+	height=&#34;679&#34;
+	srcset=&#34;http://localhost:1313/photography/pigeons_hu_6d2af6430398ceda.jpg 480w, http://localhost:1313/photography/pigeons_hu_3792bc2a7e864085.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pigeons (a film point and shoot took this!)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;&lt;/p&gt;
 </description>
         </item>
         <item>

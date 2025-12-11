@@ -26,7 +26,7 @@ icon = "brand-github"
 [[social]]
 identifier = "resume"
 name = "Resume"
-url = "/docs/latest-resume.pdf"
+url = "/latestresume.pdf"
 
 [social.params]
 icon = "file-cv"

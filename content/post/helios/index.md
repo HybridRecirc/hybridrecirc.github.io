@@ -1,21 +1,23 @@
 ---
-title: Project SABR
-description: Small-Scale Air-Breathing Rotating Detonation Engine - Senior Design 2025
-slug: project-sabr
-date: 2025-05-03 14:50:00+0000
-lastmod: 2025-10-13 14:50:00+0000
-image: rde.png
+title: Helios
+description: P-Class Hybrid - IREC 2024
+slug: helios
+date: 2024-08-13 14:50:00+0000
+lastmod: 2025-12-11 14:50:00+0000
+#image: rde.png
 categories:
     - Spotlight
-    - Senior Design
+    - Major Project
     - Undergrad
 tags:
+    - Rocketry
     - Propulsion
     - R&D
     - Data Acquisition
     - Test Engineering
     - Electronics
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+#weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+hidden: true
 ---
 
 ## Major Achievements:

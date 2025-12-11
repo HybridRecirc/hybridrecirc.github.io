@@ -2,9 +2,9 @@
 title: How to Cope with Being a Film Lab Tech
 description: Helping a Noritsu QSF-V50 MiniLab Stay Alive on Borrowed Time
 slug: noritsu-v50
-date: 2025-05-03 14:50:00+0000
-lastmod: 2025-10-13 14:50:00+0000
-image: rde.png
+date: 2025-12-11 14:50:00+0000
+lastmod: 2025-12-11 14:50:00+0000
+image: cover.png
 categories:
     - Miscellaneous
     - Vintage Equipment

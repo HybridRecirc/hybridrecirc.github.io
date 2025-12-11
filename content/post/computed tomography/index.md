@@ -2,16 +2,16 @@
 title: CT Inverse Radon Implementation
 description: Quick little Matlab side quest
 slug: computed-tomography
-date: 2025-05-03 14:50:00+0000
-lastmod: 2025-10-13 14:50:00+0000
-image: rde.png
+date: 2025-06-14 14:50:00+0000
+lastmod: 2025-12-11 14:50:00+0000
+#image: rde.png
 categories:
     - Sidequest
 tags:
     - Matlab
     - Programming
     - Image Processing
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+#weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 

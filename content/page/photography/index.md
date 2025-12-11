@@ -1,5 +1,11 @@
 ---
 title: "Photography"
+links:
+  - title: Flickr
+    description: For higher resolution versions and a more up to date gallery in general, make sure to look at my Flickr!
+    website: https://flic.kr/ps/3Yb7vm
+    image: https://www.flickrhelp.com/hc/article_attachments/4419907666708
+image: "scope.jpg"
 date: 2025-10-05
 layout: "photography"
 slug: "photography"
@@ -10,28 +16,29 @@ menu:
             icon: movie
 ---
 
-## Foreword
+## Equipment, Background, and Other Thoughts
 
-This website is meant to be a living document, with the intention of acting as a personal wiki for my previous, ongoing, and future projects. A digital garden of sorts. One of my 2025 New Year's resolutions was to put together an updated portfolio showcasing my background for new acquaintances, as well as potential employers. Documentation is a skill every engineer should have, and I deeply believe in the open source mission, so I will be doing my best to explain what's going on inside my head. <b>Beware: thoughts and ideas may be half finished. </b>
+I started out with photography with a passed down Rebel T3. Not the latest or newest, but a perfectly capable sensor, well featured body, and it used the widely supported EF-S Canon mount. It allowed me to get my feet wet with the field, and besides, I've never been one to believe that having the newest, most expensive tool instantly makes you better at anything (to an extent). This applies to photography as well. Beyond quality of life features, a camera is a dark box with light input on one end and a light sensitive element on the other. In terms of image quality, improvements to digital sensors quickly became asymptotic for a casual photographer like me, so I've focused on learning about composition, color correction.
 
-I love to talk about the stuff I've worked on, so feel free to reach out! I'm more than willing to expand upon anything on this site, particulaly my work with IREC hybrids. My socials are on that sidebar on the left, pick your poison.
+![Rebel T3 (Source: Canon USA)](canondslr.jpg)
 
-Now, if you're looking for a potential employee, please reach out via e-mail at anegrette@protonmail.com or on LinkedIn.
+Some time after, I came across a Rebel X SLR for extremely cheap. Most of the used film camera market orbits around a handful of critically acclaimed camera makes and models, and many well featured and advanced cameras tend to lurk in their shade. This specific camera appealed to the exact same market as the other Rebel, sporting an equally well balanced featureset catering to beginners. My favorite part about film is that the technology was essentially perfected by the end of the film era, so a majority of film cameras in the late 90s and early 00s share the exact same technology as DSLRs even to this day. Look at the very first DSLRs to hit the market; they are almost carbon copies of the final SLR models. My Rebel X is compatible with the exact same autofocus and metering system as my much newer DSLR, so it was as smooth of a transition into film as I could've wished for.  
 
-## My Background
+![Rebel X (Source: Canon USA)](canonslr.jpg)
 
-I am an Aerospace Engineer <strong>(I graduated!)</strong> with a background in gas dynamics and propulsion, primarily through collegiate sounding rocketry. I've explored much of everything that bringing an idea from a napkin drawing to a polished design, including short-run production. I have participated in the <strong>International Rocket Engineering Competition</strong> for a couple of years, primarily overseeing the development of the hybrid rocket motor for each participating rocket. Pictured is my favorite project, Pegasus. ![Pegasus Launch!](/pegasuslaunch.png#floatright)
-        
-My senior design project involved a <strong>Rotating Detonation Engine</strong>, designed with the intention of contributing to the global understanding of RDEs, as well as creating an air breathing small-scale platform ready to be integrated with a flight vehicle. 
+Now that I've gone through my fair share of rolls, I invested into a Pentax KX to learn photography down to a subconscious understanding of creative metering, composing, and to break the habit of treating the camera as a point and shoot. I began working at the film lab, which exposed me to what my peers felt and thought about the analog medium. Being forced to focus, think about what my aperture and shutter speed settings are doing in terms of the frame I am about to campture makes the images much more meaningful and connected to me as a photographer. Ansel Adams did not have the technology that we have within the latest Canon or Nikon flagships, yet he managed to create images so powerful as to encourage the appreciation of the beauty that spans the American continent, and the creation of the National Parks throughout the US. We live in an era where cameras are perpetually within reach in our pockets, yet it's the most disconnected from photography I've felt. Pictures I take on my phone quickly fade into the depths of my camera roll, while the pictures I have taken on film all remain fresh in my psyche as the day I composed the shot through the viewfinder. The cherry on top is that the actual photons my camera saw at that instant are captured chemically to endure the years. Hard drives fail, servers and services shut down, yet grandpa's Kodachrome slides from the 70s have withstood the test of time and will continue to do so. As technology advances, these masters have allowed us to reproduce mind bending quality from movies and TV recordings purely because they were stored chemically on film as opposed to magnetic tape or whatever other alternative. 
 
-My machining work experience encompasses 2, 3, and 4 axis CNC machining, as well as resin (DLP) additive manufacturing. Due to my time as a machinist I have developed an intuition for competent design with manufacturing and production in mind. In terms of Additive Manufacturing, I spearheaded the implementation of a Stratasys Origin One Photopolymerization Machine, including the creation of brand new procedures to maximize part repeatability, a critical part of the prototyping work I did for the UCF Machine Shop. I received training directly from Stratasys to maintain and repair the machine and its local print server.
-                
-Beyond the academic and professional lens, I like to spend my free time browsing for obsolete tech on eBay, playing guitar and reading. I've been teaching myself computer and electrical engineering, in part because I feel a Mech/Aero Engineer in the 21st century should be somewhat competent in the computers that support everything we build, and in part because I'd like to know how to repair the stuff I buy on eBay. One of my ongoing projects involves a Tang Nano 9k FPGA dev board as a platform for learning digital logic design and Verilog HDL.
+![Pentax KX (Source: 35MMC)](pentax.webp)
 
-## The Site
+Working as a developer with my background in engineering has made me appreciate the work of the thousands of people throughout centuries working to capture their lives. This ramble is a thinly veiled open love letter to the chemists, engineers, and designers at Kodak, Fujifilm, and the thousands of other companies that brought the ability to create snapshots of special moments to the masses. It moves me deeply that more and more people share this sentiment and are powering a film resurgence. I understand the purpose and the niche for digital photography, but the same way that one can choose to write something on paper versus typing it into a Word document, I believe film photography has an equal right to exist in the Internet era. 
 
-I do NOT have a web dev background, but I had enough brain to cobble together enough readme's and stack overflow google searches to put this together. Built on [Hugo](https://gohugo.io/getting-started/quick-start/), using the [Hugo Stack Theme](https://github.com/CaiJimmy/hugo-theme-stack-starter). Immense thanks to people who put their code on the internet for our combined benefit. FOSS rocks.
+On the topic of film photography, I get a little more in depth about the chemistry and construction of photographic film over in my [blog post]({{< ref "post/noritsu/index.md" >}}) about my time as a film tech and the troubleshooting/repairing of some of our machines. If you've ever sent out a roll to be developed and scanned, it's a good behind-the-scenes view of why there's delays and errors every once in a while. These are machines on life support with limited availability of replacement parts and plenty of lost knowledge from generations of engineers that retired at the beginning of the millenium.
+
+With that out of the way, see some of my favorites below. Thank you for reading.
 
 
-All in all, whether this attracts employers or not, I just wanted to compile all the work I've done into one cohesive document. I love this field, and much like a conventional garden is a product of love and care, this is my love note to engineering. Thank you for the visit.
+## My Favorite Recent Shots
 
+![My Workstation](scope.jpg) 
+
+![Roots](roots.jpg) ![Pigeons (a film point and shoot took this!)](pigeons.jpg)
