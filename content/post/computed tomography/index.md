@@ -1,11 +1,12 @@
 ---
 title: CT Inverse Radon Implementation
-description: Quick little Matlab side quest
+description: Looking inside of things without breaking them open
 slug: computed-tomography
 date: 2025-06-14 14:50:00+0000
 lastmod: 2025-12-11 14:50:00+0000
 #image: rde.png
 categories:
+    - In-Progress
     - Sidequest
 tags:
     - Matlab

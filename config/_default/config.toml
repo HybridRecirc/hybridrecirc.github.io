@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseURL = "https://hybridrecirc.github.io/"
+baseURL = "https://gofortli.net/"
 languageCode = "en-us"
 title = "Arturo Negrette"
 theme = "hugo-theme-stack"

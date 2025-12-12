@@ -14,7 +14,9 @@ menu:
 
 This website is meant to be a living document, with the intention of acting as a personal wiki for my previous, ongoing, and future projects. A digital garden of sorts. One of my 2025 New Year's resolutions was to put together an updated portfolio showcasing my background for new acquaintances, as well as potential employers. Documentation is a skill every engineer should have, and I deeply believe in the open source mission, so I will be doing my best to explain what's going on inside my head. <b>Beware: thoughts and ideas may be half finished. </b>
 
-I love to talk about the stuff I've worked on, so feel free to reach out! I'm more than willing to expand upon anything on this site, particulaly my work with IREC hybrids. My socials are on that sidebar on the left, pick your poison.
+Blogs like waxy.org, hackaday, and the countless personal sites I've come across from talented engineers and hobbyists inspired this website. I grew up doing my research and learning from many of these people, so I figured that I should document my projects and broadcast them into the hyperspace aether. The URL comes from the callouts performed during the Apollo missions. It means conditions are viable for the crew to perform a trans-lunar injection (TLI) burn, hence "Go for TLI". It's a pseudonym I began using for my photography projects that sounded unique enough for a domain name.
+
+I love to talk about the stuff I've worked on, so feel free to reach out! I'm more than willing to expand upon anything on this site, feedback is much appreciated. My socials are on that sidebar on the left, pick your poison.
 
 Now, if you're looking for a potential employee, please reach out via e-mail at anegrette@protonmail.com or on LinkedIn.
 

@@ -1,6 +1,6 @@
 baseURL = "https://www.gofortli.net/"
 languageCode = "en-us"
-title = "Arturo Negrette"
+title = "GoForTLI.net - Arturo's work lives here"
 theme = "hugo-theme-stack"
 
 [caches]
@@ -9,7 +9,7 @@ theme = "hugo-theme-stack"
 
 
 [Params]
-  description = "My Corner of the Internet"
+  description = "My Portfolio-slash-Blog-slash-Digital-Garden-of-sorts"
   ogImage = "pegasuslaunch.png"
   ogImagealt = "Sounding Rocket in Flight"
 

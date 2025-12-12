@@ -6,8 +6,8 @@ date: 2025-12-11 14:50:00+0000
 lastmod: 2025-12-11 14:50:00+0000
 image: cover.png
 categories:
-    - Miscellaneous
-    - Vintage Equipment
+    - In-Progress
+    - Sidequest
 tags:
     - Electronics
     - Repair

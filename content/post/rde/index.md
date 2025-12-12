@@ -33,12 +33,20 @@ The goals of this project at the beginning were beyond creating a working air br
 
 ## Design
 
-## Ignition
+### Ignition
 
 Lighting an RDE involves precise timing and a strong enough relese of energy to induce a detonation mode within the engine. A fast burst (in tens of micro seconds) with not a lot of energy is more likely to induce a detonation compared to a longer burst with a ton more energy. Typically predets are used where an explosive mixture of gases are lit on one end of a long tube and over that length of tube the energy release is structured in such a way a shock is developed by the time the combusting gases exit. Due to the mechanism of operation, these have careful geometry that is hard to package into a system with compact and flight in mind. This is where my approach comes in, conventional torch. If the annulus can act as the constriction that focuses the energy towards a shock, the igniter can be more compact and allow for smaller designs for flight vehicles. 
 
+### Structure
 
-## Humbled by Testing
+
+
+### Fluids
+
+
+### 
+
+## Testing
 
 ## Senior Design Showcase
 

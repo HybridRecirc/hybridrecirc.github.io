@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>In-Progress on Arturo Negrette</title>
+        <link>http://localhost:1313/categories/in-progress/</link>
+        <description>Recent content in In-Progress on Arturo Negrette</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 11 Dec 2025 14:50:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/in-progress/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CT Inverse Radon Implementation</title>
+        <link>http://localhost:1313/p/computed-tomography/</link>
+        <pubDate>Sat, 14 Jun 2025 14:50:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/computed-tomography/</guid>
+        <description>&lt;h2 id=&#34;background&#34;&gt;Background
+&lt;/h2&gt;&lt;p&gt;Rotating Detonation Engines (RDEs) are a relatively novel form of rocket propulsion that takes advantage of pressure-gain combustion. Conventional rocket engines use constant-pressure combustion cycles. RDEs theoretically produce better performance by taking better advantage of the energy stored chemically in the propellants. There is a fine line between detonating in the way that yields the performance advantage, and detonating in the way that destroys the engine. Due to the speeds involved in the process, these engines have only recently began gaining traction now that computers and sensors allow for the extremely fast sampling rates necessary for reliable data output. Their compact size allows for storable propellants to be used more effectively in missile and defense applications.&lt;/p&gt;
+&lt;p&gt;The goals of this project at the beginning were beyond creating a working air breathing lab scale engine, to lay the foundation for further research to be done at UCF. This involved creating a test stand equipped with a capable and robust data acquisition system and control system. With the tight budget for a project of this ambition we had to get creative.&lt;/p&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design
+&lt;/h2&gt;&lt;h2 id=&#34;ignition&#34;&gt;Ignition
+&lt;/h2&gt;&lt;p&gt;Lighting an RDE involves precise timing and a strong enough relese of energy to induce a detonation mode within the engine. A fast burst (in tens of micro seconds) with not a lot of energy is more likely to induce a detonation compared to a longer burst with a ton more energy. Typically predets are used where an explosive mixture of gases are lit on one end of a long tube and over that length of tube the energy release is structured in such a way a shock is developed by the time the combusting gases exit. Due to the mechanism of operation, these have careful geometry that is hard to package into a system with compact and flight in mind. This is where my approach comes in, conventional torch. If the annulus can act as the constriction that focuses the energy towards a shock, the igniter can be more compact and allow for smaller designs for flight vehicles.&lt;/p&gt;
+&lt;h2 id=&#34;humbled-by-testing&#34;&gt;Humbled by Testing
+&lt;/h2&gt;&lt;h2 id=&#34;senior-design-showcase&#34;&gt;Senior Design Showcase
+&lt;/h2&gt;&lt;h2 id=&#34;future-plans&#34;&gt;Future Plans
+&lt;/h2&gt;&lt;h3 id=&#34;scitech&#34;&gt;SciTech
+&lt;/h3&gt;&lt;h2 id=&#34;final-thoughts-and-acknowledgements&#34;&gt;Final Thoughts and Acknowledgements
+&lt;/h2&gt;&lt;p&gt;Taha Dr. Burke, Teammates and UCF&amp;rsquo;s Senior Design Support System&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
