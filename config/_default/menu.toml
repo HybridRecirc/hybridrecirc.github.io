@@ -31,4 +31,13 @@ url = "/latestresume.pdf"
 [social.params]
 icon = "file-cv"
 
+[[social]]
+identifier = "oldsite"
+name = "Old Site"
+url = "/oldsite/index.html"
+
+[social.params]
+icon = "sitemap"
+
+
 
