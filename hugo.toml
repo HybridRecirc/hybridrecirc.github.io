@@ -10,6 +10,8 @@ theme = "hugo-theme-stack"
 
 [Params]
   description = "My Corner of the Internet"
+  ogImage = "pegasuslaunch.png"
+  ogImagealt = "Sounding Rocket in Flight"
 
 
 # syntax highlight settings
