@@ -2,6 +2,7 @@
 title: "About Me"
 date: 2025-10-05
 layout: "about me"
+image: "lathe.jpg"
 slug: "about me"
 menu:
     main:

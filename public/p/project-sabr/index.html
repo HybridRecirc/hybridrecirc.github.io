@@ -73,9 +73,23 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">Arturo Negrette</a></h1>
-            <h2 class="site-description">Aerospace Engineer. You&#39;ll find here a compilation of my work and hobbies in the form of a living blog, a digital garden, and a personal sandbox of sorts.</h2>
+            <h2 class="site-description">I&#39;m an Aerospace Engineer. This is a compilation of my work and hobbies in the form of a living blog, a digital garden, and a personal sandbox of sorts.</h2>
         </div>
     </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='mailto:anegrette@protonmail.com'
+                        target="_blank"
+                        title="E-Mail"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-mailbox"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 21v-6.5a3.5 3.5 0 0 0 -7 0v6.5h18v-6a4 4 0 0 0 -4 -4h-10.5" /><path d="M12 11v-8h4l2 2l-2 2h-4" /><path d="M6 15h1" /></svg>
+                        
+                    </a>
+                </li>
             
                 <li>
                     <a 
@@ -127,7 +141,7 @@
             
                 <li>
                     <a 
-                        href='/latestresume.pdf'
+                        href='/docs/latestresume.pdf'
                         target="_blank"
                         title="Resume"
                         rel="me"
@@ -308,17 +322,11 @@
       <ol>
         <li><a href="#ignition">Ignition</a></li>
         <li><a href="#structure">Structure</a></li>
-        <li><a href="#fluids">Fluids</a></li>
-        <li></li>
+        <li><a href="#the-rest-of-it">The Rest Of It</a></li>
       </ol>
     </li>
     <li><a href="#testing">Testing</a></li>
     <li><a href="#senior-design-showcase">Senior Design Showcase</a></li>
-    <li><a href="#future-plans">Future Plans</a>
-      <ol>
-        <li><a href="#scitech">SciTech</a></li>
-      </ol>
-    </li>
     <li><a href="#final-thoughts-and-acknowledgements">Final Thoughts and Acknowledgements</a></li>
   </ol>
 </nav>
@@ -404,7 +412,7 @@
 
 
                 <time class="article-time--reading">
-                    2 minute read
+                    9 minute read
                 </time>
             </div>
         
@@ -431,15 +439,97 @@
 <h2 id="design">Design
 </h2><h3 id="ignition">Ignition
 </h3><p>Lighting an RDE involves precise timing and a strong enough relese of energy to induce a detonation mode within the engine. A fast burst (in tens of micro seconds) with not a lot of energy is more likely to induce a detonation compared to a longer burst with a ton more energy. Typically predets are used where an explosive mixture of gases are lit on one end of a long tube and over that length of tube the energy release is structured in such a way a shock is developed by the time the combusting gases exit. Due to the mechanism of operation, these have careful geometry that is hard to package into a system with compact and flight in mind. This is where my approach comes in, conventional torch. If the annulus can act as the constriction that focuses the energy towards a shock, the igniter can be more compact and allow for smaller designs for flight vehicles.</p>
+<p>I was in charge of both mechanical and electrical aspects of the ignition system. In terms of the mechanical side of things, I prioritized cost and ease of manufacturing over anything else, arriving at what is essentially a modified stainless steel 1/4 NPT cross fitting, as pictured below. The torch body is then connected to the rest of the RDE via a thick-walled stainless steel pipe nipple. I truly didn&rsquo;t want the torch to be plagued by scope creep, so it incorporates as much stuff off the shelf as I could find.</p>
+<p>With this in mind, the electrical system employs a standard car ignition coil, the cheapest I could find on Amazon. The circuit puts a 12V SPDT relay in purgatory by switching it rapidly between powering its own coil and pulsing the primary of the ignition coil. Additionally, a couple capacitors and resistors finetune exactly how long the charging and discharging takes in order to ensure the primary winding of the ignition coil has time to fully saturate before the power is switched off and the fields collapse to generate the high voltage out of the secondary. I could&rsquo;ve gone with something based on a 555 timer or even more fancy, but circling back to that thought about scope creep, I truly just wanted it to work and work without needing to think about it. The only drawback is that mechanical relays really don&rsquo;t like being switched that fast, and because the coil within the relay is also an inductor, there&rsquo;s plenty of arcing when it&rsquo;s disconnected during the cycling. Adding a flyback diode across reduced the switching frequency so I arrived at the conclusion that relays are cheap enough to be consumable. During testing, the poor little relay did not fail or weld itself shut once, but if I were to be pulled back to the drawing board for a proper vehicle-born ignition system, I&rsquo;d probably choose to go with something solid state or capacitor-based much like modern cars use for their sparking.</p>
+<p>A cheeky extra feature I added to the torch is the presence of a pressure transducer line. During startup,</p>
+<p>12 inch enough to protect it, reduces its response time</p>
+<p>In practice, the concept of lighting the RDE was a lot easier said than done. I go more into detail about the outcome under Testing.</p>
 <h3 id="structure">Structure
-</h3><h3 id="fluids">Fluids
-</h3><h3 id="">
-</h3><h2 id="testing">Testing
-</h2><h2 id="senior-design-showcase">Senior Design Showcase
-</h2><h2 id="future-plans">Future Plans
-</h2><h3 id="scitech">SciTech
-</h3><h2 id="final-thoughts-and-acknowledgements">Final Thoughts and Acknowledgements
-</h2><p>Taha Dr. Burke, Teammates and UCF&rsquo;s Senior Design Support System</p>
+</h3><p>Before pivoting towards my work in ignition, I helped with the first handful of iterations of the combustor. I focused on packaging and routing alongside my buddy Hunter, essentially figuring out how to efficiently route propellants from their respective ports coming from the fluids system and into the injectors.</p>
+<p>Initially, we weighed the our options for manufacturing methods. We could push for an additively manufactured design, which would allow for complex geometry and reduce the number of critical seals to worry about, but had the drawback of very money, timeline, and risk intensive. On the other hand, we could go for something doable with the resources available at the UCF Machine Shop: reliable and free access to 3 and 5 axis machining, turning, EDM hole drilling and wire cutting. All we&rsquo;d have to source is our required material. Regardless of whether we printed it or machined it conventionally, the RDE would be exposed to extreme conditions surrounding the detonation wave as it propagates, which means high pressures and temperatures sweeping around in a circle. Compared to a conventional engine, the cyclic failure modes began rearing their ugly head in all of our analysis.</p>
+<p><img src="/p/project-sabr/waveswipe.gif"
+	width="1920"
+	height="1080"
+	srcset="/p/project-sabr/waveswipe_hu_7e021c70bed04496.gif 480w, /p/project-sabr/waveswipe_hu_6b6678d8315ef4f4.gif 1024w"
+	loading="lazy"
+	
+		alt="Transient conditions within the combustor. Source: Wikipedia"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
+<p>The only saving grace was that the timescales for all this energy release were minuscule, although they compounded over time. Based on the fact we were targetting a very short runtime of only a couple seconds (and much more engineering analysis I will not go into here), we decided to go for 304 Stainless Steel. The reasoning came down to the fact we wanted the ability to fail and iterate without being dead in the water trying to source another brick of material to machine or a whole new printed part. Much of the research behind RDEs is uncharted territory, so even with all of our calculations and analysis double, triple, and quadruple checked, we wanted a large margin of safety on top of the ability to return to the drawing board and modify our design without crippling the project. So with all that being said, we settled on a conventionally manufactured combustor. From all the discussion, preliminary analysis, and talking to researchers both at UCF labs and across the US in places like Purdue and Johns Hopkins, we went for a modular design based on a stack of plates. Below are some of the first iterations of our combustor, initially by me and later modified by Hunter.</p>
+<p><img src="/p/project-sabr/EarlyIterationOfRDE.png"
+	width="723"
+	height="838"
+	srcset="/p/project-sabr/EarlyIterationOfRDE_hu_c31bd0cecbc05a2e.png 480w, /p/project-sabr/EarlyIterationOfRDE_hu_dd98a65c6c29eab3.png 1024w"
+	loading="lazy"
+	
+		alt="The First Assembly of the Project"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="86"
+		data-flex-basis="207px"
+	
+> <img src="/p/project-sabr/OtherViewEarlyu.png"
+	width="626"
+	height="643"
+	srcset="/p/project-sabr/OtherViewEarlyu_hu_2a400445cfc86f5c.png 480w, /p/project-sabr/OtherViewEarlyu_hu_1746674ed0027766.png 1024w"
+	loading="lazy"
+	
+		alt="A section view better showing our initial plenum design"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="97"
+		data-flex-basis="233px"
+	
+> <img src="/p/project-sabr/EarlyMount.png"
+	width="405"
+	height="297"
+	srcset="/p/project-sabr/EarlyMount_hu_f029b252b05fe1d3.png 480w, /p/project-sabr/EarlyMount_hu_f18d0d9e6e596db3.png 1024w"
+	loading="lazy"
+	
+		alt="Combustor in context of its thrust-bearing mounting plate"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="136"
+		data-flex-basis="327px"
+	
+></p>
+<p>A great start, but with any engineering project, we quickly started spotting flaws in terms of component integration, manufacturing, and especially in terms of final assembly in the stand. Looking back while writing this knowing how the project turned out as a whole makes the original design look extra alien.</p>
+<p>In the end, the combustor consisted of an inner and outer body, nozzle cowl and spike, and the injector plate and backing plate. The inner and outer body constrain the annulus dimensions and their negative space form the cavity where the combustion occurs. The inner body, however, also acts as part of the internal plenum for one of the propellants. The selected injector schema is &ldquo;Jet-in-Crossflow&rdquo;. As the name implies, one of the propellants is injected perpendicular to the other. In our case, the hydrogen flows radially out from the inner body as the air is injected longitudinally.</p>
+<p>As for the nozzle spike and cowl, we decided on constricting the opening at the end of the annulus to raise the static pressure after the propellants are injected, as it has the effect of increasing detonability and aiding in ignition. It ensures propellants remain within the chamber for longer, which also helps the process overall.</p>
+<h3 id="the-rest-of-it">The Rest Of It
+</h3><p>I would love to keep writing much more about all that this project entailed, but it ultimately was a deeply intertwined group contribution. I am highlighting my direct work on getting this RDE off the ground, so it wouldn&rsquo;t be fair to any of my teammates to mention it all without also highlighting their achievements. A major part of senior design at UCF are these &ldquo;Milestone Reports&rdquo; where we, as a team, got together and tracked our work in a format similar to a design review. Milestone 6, the final one, contains a snapshot of the past year of our work leading up to the results we got and how we&rsquo;d improve upon our work if we were to hypothetically continue testing after the semester ended. I feel it&rsquo;s the best way to provide a curious reader, perhaps someone looking to base their research on our work, with the necessary in-depth info about the combustor, test stand, and our results. Please reach out to me directly if you have any questions. Email is best, all available over on the sidebar.</p>
+<p><a class="link" href="/docs/rdereport.pdf" >Here it is, weighing in at 134 pages.</a></p>
+<p>To go along with the report, I&rsquo;d also like to provide a quick slidestack that we used to give an overview about the project. I can&rsquo;t embed it as a .pptx, so unfortunately, gifs will not work on this version. Enjoy!</p>
+<p><a class="link" href="/docs/showcaseslides.pdf" >Showcase Slides</a></p>
+<p>However, I&rsquo;d like to still cover what we experienced taking the design from a whiteboard/Solidworks to a real, working prototype. I&rsquo;ll also be covering my contribution to our combined in-the-field problem solving and troubleshooting. Just know it&rsquo;ll all be in a very simplified manner because, after all, we wrote that document precisely to act as a self-contained reference guide to our system.</p>
+<h2 id="testing">Testing
+</h2><p>Igniter shattering, startup transient for igniter difficult to predict</p>
+<h2 id="senior-design-showcase">Senior Design Showcase
+</h2><div class="video-wrapper">
+    <iframe loading="lazy" 
+            src="https://www.youtube.com/embed/srb3Dv_vAVQ" 
+            allowfullscreen 
+            title="YouTube Video"
+    >
+    </iframe>
+</div>
+
+<h2 id="final-thoughts-and-acknowledgements">Final Thoughts and Acknowledgements
+</h2><p>Thicker annulus, overestimated pressures, ignition may be easier with the torch, testing necessary</p>
+<p>things id fix</p>
+<p>better thrust calibration, possibly using a pneumatic/hydraulic cylinder to calibrate load cells</p>
+<p>less rigid plumbing, alternatively, put the whole thrust bearing frame on linear bearings, measure thrust there</p>
+<p>I&rsquo;d like to thank and congratulate Dr. Rezzag-Lebza, Dr. Burke, Dr. Stresau, and of course, my teammates. All our hard work paid off, and I hope we left a solid foundation for future detonation combustion research at UCF for both future senior design teams and researchers. Additionally, all the work before us that inspired the project as a whole: Fiorino, Dechert, among the many researchers across the US pioneering RDEs as a platform for future vehicles.</p>
+<p>As a machinist, I&rsquo;d also like to highlight the crucial role that UCF&rsquo;s Office of Research Machine Shop played in helping us not only bring the project to life, but also playing a role as a major contributor in optimizing the manufacturability of our system. The latter, along with their hard work, allowed us to achieve a quick turnaround between iterations. We were able to go from testing and reviewing data to firing a modified engine in the span of a week. Reader, remember to thank your manufacturing team as often as you can.</p>
 
 </section>
 
@@ -555,7 +645,9 @@
     <section class="copyright">
         &copy; 
         
-        2025 Arturo Negrette
+            2025 - 
+        
+        2026 Arturo Negrette
     </section>
     
     <section class="powerby">

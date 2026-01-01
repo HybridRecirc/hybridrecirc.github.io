@@ -7,19 +7,19 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Thu, 11 Dec 2025 14:50:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Miscellaneous</title>
-        <link>http://localhost:1313/categories/miscellaneous/</link>
+        <title>In-Progress</title>
+        <link>http://localhost:1313/categories/in-progress/</link>
         <pubDate>Thu, 11 Dec 2025 14:50:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/miscellaneous/</guid>
+        <guid>http://localhost:1313/categories/in-progress/</guid>
         <description></description>
         </item>
         <item>
-        <title>Vintage Equipment</title>
-        <link>http://localhost:1313/categories/vintage-equipment/</link>
+        <title>Sidequest</title>
+        <link>http://localhost:1313/categories/sidequest/</link>
         <pubDate>Thu, 11 Dec 2025 14:50:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/vintage-equipment/</guid>
+        <guid>http://localhost:1313/categories/sidequest/</guid>
         <description></description>
         </item>
         <item>
@@ -28,14 +28,6 @@
         <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/example-category/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Sidequest</title>
-        <link>http://localhost:1313/categories/sidequest/</link>
-        <pubDate>Sat, 14 Jun 2025 14:50:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/sidequest/</guid>
         <description></description>
         </item>
         <item>
