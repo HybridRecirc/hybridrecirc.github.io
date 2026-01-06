@@ -24,10 +24,15 @@
 &lt;h2 id=&#34;design&#34;&gt;Design
 &lt;/h2&gt;&lt;h3 id=&#34;ignition&#34;&gt;Ignition
 &lt;/h3&gt;&lt;p&gt;Lighting an RDE involves precise timing and a strong enough relese of energy to induce a detonation mode within the engine. A fast burst (in tens of micro seconds) with not a lot of energy is more likely to induce a detonation compared to a longer burst with a ton more energy. Typically predets are used where an explosive mixture of gases are lit on one end of a long tube and over that length of tube the energy release is structured in such a way a shock is developed by the time the combusting gases exit. Due to the mechanism of operation, these have careful geometry that is hard to package into a system with compact and flight in mind. This is where my approach comes in, conventional torch. If the annulus can act as the constriction that focuses the energy towards a shock, the igniter can be more compact and allow for smaller designs for flight vehicles.&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;I was in charge of both mechanical and electrical aspects of the ignition system. In terms of the mechanical side of things, I prioritized cost and ease of manufacturing over anything else, arriving at what is essentially a modified stainless steel 1/4 NPT cross fitting, as pictured below. The torch body is then connected to the rest of the RDE via a thick-walled stainless steel pipe nipple. I truly didn&amp;rsquo;t want the torch to be plagued by scope creep, so it incorporates as much stuff off the shelf as I could find.&lt;/p&gt;
 &lt;p&gt;With this in mind, the electrical system employs a standard car ignition coil, the cheapest I could find on Amazon. The circuit puts a 12V SPDT relay in purgatory by switching it rapidly between powering its own coil and pulsing the primary of the ignition coil. Additionally, a couple capacitors and resistors finetune exactly how long the charging and discharging takes in order to ensure the primary winding of the ignition coil has time to fully saturate before the power is switched off and the fields collapse to generate the high voltage out of the secondary. I could&amp;rsquo;ve gone with something based on a 555 timer or even more fancy, but circling back to that thought about scope creep, I truly just wanted it to work and work without needing to think about it. The only drawback is that mechanical relays really don&amp;rsquo;t like being switched that fast, and because the coil within the relay is also an inductor, there&amp;rsquo;s plenty of arcing when it&amp;rsquo;s disconnected during the cycling. Adding a flyback diode across reduced the switching frequency so I arrived at the conclusion that relays are cheap enough to be consumable. During testing, the poor little relay did not fail or weld itself shut once, but if I were to be pulled back to the drawing board for a proper vehicle-born ignition system, I&amp;rsquo;d probably choose to go with something solid state or capacitor-based much like modern cars use for their sparking.&lt;/p&gt;
 &lt;p&gt;A cheeky extra feature I added to the torch is the presence of a pressure transducer line. During startup,&lt;/p&gt;
 &lt;p&gt;12 inch enough to protect it, reduces its response time&lt;/p&gt;
+=======
+&lt;p&gt;I was in charge of both mechanical and electrical aspects of the ignition system. In terms of the mechanical side of things, I prioritized cost and ease of manufacturing over anything else, arriving at what is essentially a modified stainless steel 1/4 NPT cross fitting, as pictured below.&lt;/p&gt;
+&lt;p&gt;The torch body is then connected to the rest of the RDE via a thick-walled stainless steel pipe nipple.&lt;/p&gt;
+>>>>>>> ad30d4e13d88badee40cd9332bf4cc930bc1e7d5
 &lt;p&gt;In practice, the concept of lighting the RDE was a lot easier said than done. I go more into detail about the outcome under Testing.&lt;/p&gt;
 &lt;h3 id=&#34;structure&#34;&gt;Structure
 &lt;/h3&gt;&lt;p&gt;Before pivoting towards my work in ignition, I helped with the first handful of iterations of the combustor. I focused on packaging and routing alongside my buddy Hunter, essentially figuring out how to efficiently route propellants from their respective ports coming from the fluids system and into the injectors.&lt;/p&gt;
@@ -88,8 +93,13 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;A great start, but with any engineering project, we quickly started spotting flaws in terms of component integration, manufacturing, and especially in terms of final assembly in the stand. Looking back while writing this knowing how the project turned out as a whole makes the original design look extra alien.&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;In the end, the combustor consisted of an inner and outer body, nozzle cowl and spike, and the injector plate and backing plate. The inner and outer body constrain the annulus dimensions and their negative space form the cavity where the combustion occurs. The inner body, however, also acts as part of the internal plenum for one of the propellants. The selected injector schema is &amp;ldquo;Jet-in-Crossflow&amp;rdquo;. As the name implies, one of the propellants is injected perpendicular to the other. In our case, the hydrogen flows radially out from the inner body as the air is injected longitudinally.&lt;/p&gt;
 &lt;p&gt;As for the nozzle spike and cowl, we decided on constricting the opening at the end of the annulus to raise the static pressure after the propellants are injected, as it has the effect of increasing detonability and aiding in ignition. It ensures propellants remain within the chamber for longer, which also helps the process overall.&lt;/p&gt;
+=======
+&lt;p&gt;Plate design after ruling out 3d printing due to timeline and thankfully tariffs confirmed out option&lt;/p&gt;
+&lt;p&gt;Hard to route taps for pressure and igniter channel using conventional machining methods&lt;/p&gt;
+>>>>>>> ad30d4e13d88badee40cd9332bf4cc930bc1e7d5
 &lt;h3 id=&#34;the-rest-of-it&#34;&gt;The Rest Of It
 &lt;/h3&gt;&lt;p&gt;I would love to keep writing much more about all that this project entailed, but it ultimately was a deeply intertwined group contribution. I am highlighting my direct work on getting this RDE off the ground, so it wouldn&amp;rsquo;t be fair to any of my teammates to mention it all without also highlighting their achievements. A major part of senior design at UCF are these &amp;ldquo;Milestone Reports&amp;rdquo; where we, as a team, got together and tracked our work in a format similar to a design review. Milestone 6, the final one, contains a snapshot of the past year of our work leading up to the results we got and how we&amp;rsquo;d improve upon our work if we were to hypothetically continue testing after the semester ended. I feel it&amp;rsquo;s the best way to provide a curious reader, perhaps someone looking to base their research on our work, with the necessary in-depth info about the combustor, test stand, and our results. Please reach out to me directly if you have any questions. Email is best, all available over on the sidebar.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/docs/rdereport.pdf&#34; &gt;Here it is, weighing in at 134 pages.&lt;/a&gt;&lt;/p&gt;
@@ -97,8 +107,12 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/docs/showcaseslides.pdf&#34; &gt;Showcase Slides&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;However, I&amp;rsquo;d like to still cover what we experienced taking the design from a whiteboard/Solidworks to a real, working prototype. I&amp;rsquo;ll also be covering my contribution to our combined in-the-field problem solving and troubleshooting. Just know it&amp;rsquo;ll all be in a very simplified manner because, after all, we wrote that document precisely to act as a self-contained reference guide to our system.&lt;/p&gt;
 &lt;h2 id=&#34;testing&#34;&gt;Testing
+<<<<<<< HEAD
 &lt;/h2&gt;&lt;p&gt;Igniter shattering, startup transient for igniter difficult to predict&lt;/p&gt;
 &lt;h2 id=&#34;senior-design-showcase&#34;&gt;Senior Design Showcase
+=======
+&lt;/h2&gt;&lt;h2 id=&#34;senior-design-showcase&#34;&gt;Senior Design Showcase
+>>>>>>> ad30d4e13d88badee40cd9332bf4cc930bc1e7d5
 &lt;/h2&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
             src=&#34;https://www.youtube.com/embed/srb3Dv_vAVQ&#34; 

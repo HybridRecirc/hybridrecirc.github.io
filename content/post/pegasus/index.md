@@ -10,6 +10,7 @@ categories:
     - Major Project
     - Undergrad
 tags:
+    - Rocketry
     - Propulsion
     - R&D
     - Data Acquisition
