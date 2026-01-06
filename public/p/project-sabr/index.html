@@ -321,6 +321,13 @@
     <li><a href="#design">Design</a>
       <ol>
         <li><a href="#ignition">Ignition</a></li>
+      </ol>
+    </li>
+  </ol>
+
+  <ol>
+    <li>
+      <ol>
         <li><a href="#structure">Structure</a></li>
         <li><a href="#the-rest-of-it">The Rest Of It</a></li>
       </ol>
@@ -468,7 +475,24 @@
 		data-flex-basis="210px"
 	
 ></p>
-<p>Additionally, I added a couple capacitors and resistors finetune exactly how long the charging and discharging takes in order to ensure the primary winding of the ignition coil has time to fully saturate before the power is switched off and the fields collapse to generate the high voltage out of the secondary. I could&rsquo;ve gone with something based on a 555 timer or even more fancy, but circling back to that thought about scope creep, I truly just wanted it to work and work without needing to think about it. The only drawback is that mechanical relays really don&rsquo;t like being switched that fast, and because the coil within the relay is also an inductor, there&rsquo;s plenty of arcing when it&rsquo;s disconnected during the cycling. Adding a flyback diode across reduced the switching frequency so I arrived at the conclusion that relays are cheap enough to be consumable. During testing, the poor little relay did not fail or weld itself shut once, but if I were to be pulled back to the drawing board for a proper vehicle-born ignition system, I&rsquo;d probably choose to go with something solid state or capacitor-based much like modern cars use for their sparking.</p>
+<h1 id="additionally-i-added-a-couple-capacitors-and-resistors-finetune-exactly-how-long-the-charging-and-discharging-takes-in-order-to-ensure-the-primary-winding-of-the-ignition-coil-has-time-to-fully-saturate-before-the-power-is-switched-off-and-the-fields-collapse-to-generate-the-high-voltage-out-of-the-secondary-i-couldve-gone-with-something-based-on-a-555-timer-or-even-more-fancy-but-circling-back-to-that-thought-about-scope-creep-i-truly-just-wanted-it-to-work-and-work-without-needing-to-think-about-it-the-only-drawback-is-that-mechanical-relays-really-dont-like-being-switched-that-fast-and-because-the-coil-within-the-relay-is-also-an-inductor-theres-plenty-of-arcing-when-its-disconnected-during-the-cycling-adding-a-flyback-diode-across-reduced-the-switching-frequency-so-i-arrived-at-the-conclusion-that-relays-are-cheap-enough-to-be-consumable-during-testing-the-poor-little-relay-did-not-fail-or-weld-itself-shut-once-but-if-i-were-to-be-pulled-back-to-the-drawing-board-for-a-proper-vehicle-born-ignition-system-id-probably-choose-to-go-with-something-solid-state-or-capacitor-based-much-like-modern-cars-use-for-their-sparking">&laquo;&laquo;&laquo;&lt; HEAD
+Additionally, I added a couple capacitors and resistors finetune exactly how long the charging and discharging takes in order to ensure the primary winding of the ignition coil has time to fully saturate before the power is switched off and the fields collapse to generate the high voltage out of the secondary. I could&rsquo;ve gone with something based on a 555 timer or even more fancy, but circling back to that thought about scope creep, I truly just wanted it to work and work without needing to think about it. The only drawback is that mechanical relays really don&rsquo;t like being switched that fast, and because the coil within the relay is also an inductor, there&rsquo;s plenty of arcing when it&rsquo;s disconnected during the cycling. Adding a flyback diode across reduced the switching frequency so I arrived at the conclusion that relays are cheap enough to be consumable. During testing, the poor little relay did not fail or weld itself shut once, but if I were to be pulled back to the drawing board for a proper vehicle-born ignition system, I&rsquo;d probably choose to go with something solid state or capacitor-based much like modern cars use for their sparking.
+</h1><p>12 inch enough to protect it, reduces its response time</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>09a94efaf013c8b118d50ba449ea476cb53492f7</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
 <p>A cheeky extra feature I added to the torch is the presence of a pressure transducer line. During startup, the transducer would report the torch internal pressure, but once it&rsquo;s powered down, it&rsquo;d act as a CTAP (Capillary Tube Attenuated Pressure) readout for the annulus conditions. The transducer is coupled to the chamber via a 1/4&quot; stainless steel tube to thermally isolate it from the extreme conditions during both startup and steady state operation. The length of tubing necessary was determined via the following function:</p>
 \[
 \begin{aligned}
