@@ -35,8 +35,7 @@ Beyond the academic and professional lens, I like to spend my free time browsing
 
 ## The Site
 
-I do NOT have a web dev background, but I had enough brain to cobble together enough readme's and stack overflow google searches to put this together. Built on [Hugo](https://gohugo.io/getting-started/quick-start/), using the [Hugo Stack Theme](https://github.com/CaiJimmy/hugo-theme-stack-starter). Immense thanks to people who put their code on the internet for our combined benefit. FOSS rocks.
+This website is proudly written with zero AI involvement. Extremely powerful tools or not, having to comb through documentation and Stack Overflow is an irreplaceable part of learning. I do NOT have a web dev background, so bear with me and my messy git history. Built on [Hugo](https://gohugo.io/getting-started/quick-start/), using the [Hugo Stack Theme](https://github.com/CaiJimmy/hugo-theme-stack-starter). Immense thanks to people who put their code on the internet for our combined benefit. FOSS rocks.
 
-
-All in all, whether this attracts employers or not, I just wanted to compile all the work I've done into one cohesive document. I love this field, and much like a conventional garden is a product of love and care, this is my love note to engineering. Thank you for the visit.
+All in all, whether this attracts employers or not, I just wanted to compile all the work I've done into one cohesive document. Documentation is paramount, and as much as I preach that, I'm terrible at writing things down unless required to. Putting this site together truly showed me how hard it is to recall the subtle details of work I've done being months removed from when things happened. I love this field, and much like a conventional garden is a product of love and care, this is my love note to engineering. Thank you for the visit.
 
