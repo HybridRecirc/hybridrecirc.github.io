@@ -53,24 +53,21 @@
 		data-flex-basis=&#34;210px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h1 id=&#34;additionally-i-added-a-couple-capacitors-and-resistors-finetune-exactly-how-long-the-charging-and-discharging-takes-in-order-to-ensure-the-primary-winding-of-the-ignition-coil-has-time-to-fully-saturate-before-the-power-is-switched-off-and-the-fields-collapse-to-generate-the-high-voltage-out-of-the-secondary-i-couldve-gone-with-something-based-on-a-555-timer-or-even-more-fancy-but-circling-back-to-that-thought-about-scope-creep-i-truly-just-wanted-it-to-work-and-work-without-needing-to-think-about-it-the-only-drawback-is-that-mechanical-relays-really-dont-like-being-switched-that-fast-and-because-the-coil-within-the-relay-is-also-an-inductor-theres-plenty-of-arcing-when-its-disconnected-during-the-cycling-adding-a-flyback-diode-across-reduced-the-switching-frequency-so-i-arrived-at-the-conclusion-that-relays-are-cheap-enough-to-be-consumable-during-testing-the-poor-little-relay-did-not-fail-or-weld-itself-shut-once-but-if-i-were-to-be-pulled-back-to-the-drawing-board-for-a-proper-vehicle-born-ignition-system-id-probably-choose-to-go-with-something-solid-state-or-capacitor-based-much-like-modern-cars-use-for-their-sparking&#34;&gt;&amp;laquo;&amp;laquo;&amp;laquo;&amp;lt; HEAD
-Additionally, I added a couple capacitors and resistors finetune exactly how long the charging and discharging takes in order to ensure the primary winding of the ignition coil has time to fully saturate before the power is switched off and the fields collapse to generate the high voltage out of the secondary. I could&amp;rsquo;ve gone with something based on a 555 timer or even more fancy, but circling back to that thought about scope creep, I truly just wanted it to work and work without needing to think about it. The only drawback is that mechanical relays really don&amp;rsquo;t like being switched that fast, and because the coil within the relay is also an inductor, there&amp;rsquo;s plenty of arcing when it&amp;rsquo;s disconnected during the cycling. Adding a flyback diode across reduced the switching frequency so I arrived at the conclusion that relays are cheap enough to be consumable. During testing, the poor little relay did not fail or weld itself shut once, but if I were to be pulled back to the drawing board for a proper vehicle-born ignition system, I&amp;rsquo;d probably choose to go with something solid state or capacitor-based much like modern cars use for their sparking.
-&lt;/h1&gt;&lt;p&gt;12 inch enough to protect it, reduces its response time&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;09a94efaf013c8b118d50ba449ea476cb53492f7&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Additionally, I added a couple capacitors and resistors finetune exactly how long the charging and discharging takes in order to ensure the primary winding of the ignition coil has time to fully saturate before the power is switched off and the fields collapse to generate the high voltage out of the secondary. I could&amp;rsquo;ve gone with something based on a 555 timer or even more fancy, but circling back to that thought about scope creep, I truly just wanted it to work and work without needing to think about it. The only drawback is that mechanical relays really don&amp;rsquo;t like being switched that fast, and because the coil within the relay is also an inductor, there&amp;rsquo;s plenty of arcing when it&amp;rsquo;s disconnected during the cycling. Adding a flyback diode across reduced the switching frequency so I arrived at the conclusion that relays are cheap enough to be consumable. During testing, the poor little relay did not fail or weld itself shut once, but if I were to be pulled back to the drawing board for a proper vehicle-born ignition system, I&amp;rsquo;d probably choose to go with something solid state or capacitor-based much like modern cars use for their sparking.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;IMG_2053.mov&#34;
+    
+    
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;IMG_2053.mov&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
 &lt;p&gt;A cheeky extra feature I added to the torch is the presence of a pressure transducer line. During startup, the transducer would report the torch internal pressure, but once it&amp;rsquo;s powered down, it&amp;rsquo;d act as a CTAP (Capillary Tube Attenuated Pressure) readout for the annulus conditions. The transducer is coupled to the chamber via a 1/4&amp;quot; stainless steel tube to thermally isolate it from the extreme conditions during both startup and steady state operation. The length of tubing necessary was determined via the following function:&lt;/p&gt;
 \[
 \begin{aligned}
@@ -172,6 +169,7 @@ Additionally, I added a couple capacitors and resistors finetune exactly how lon
 &lt;p&gt;However, I&amp;rsquo;d like to still cover what we experienced taking the design from a whiteboard/Solidworks to a real, working prototype. I&amp;rsquo;ll also be covering my contribution to our combined in-the-field problem solving and troubleshooting. Just know it&amp;rsquo;ll all be in a very simplified manner because, after all, we wrote that document precisely to act as a self-contained reference guide to our system. I might revisit this section and put together a quick rundown of our test stand, fluid system and DAQ and control electronics.&lt;/p&gt;
 &lt;h2 id=&#34;testing&#34;&gt;Testing
 &lt;/h2&gt;&lt;p&gt;The testing campaign began with stress testing our control and data acquisition system by running the torch igniter over and over again. If we could pick out the bugs in our VIs, wiring, and sensors before moving onto the big leagues of trying to run the combustor with all the timings involved, we&amp;rsquo;d save a lot of pain and suffering down the road.&lt;/p&gt;
+&lt;p&gt;The torch seemed promising on its own, however, no matter what we did it struggled to resist being blown out against the main propellant flow, so at this point we decided to pivot onto the predet and continue testing the combustor itself. Look at the predet in action:&lt;/p&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;video
     controls
@@ -186,6 +184,7 @@ Additionally, I added a couple capacitors and resistors finetune exactly how lon
     &lt;/video&gt;
 &lt;/div&gt;
 
+&lt;p&gt;We still weren&amp;rsquo;t getting any ignition at this point, so we returned to the drawing board. After combing through the footage and data gathered so far, we were led to the conclusion that two factors were in the way. A: the hydrogen jets coming out of the inner body struggled to penetrate the column of air being injected, contributing to terrible mixing and a suboptimal local equivalence ratio. Although the design total equivalence ratio was correct and it was confirmed by sensor data, the gases weren&amp;rsquo;t being mixed due to their extreme difference in velocities. At this point we decided to increase our injector pair count from 20 to 32, as this would decrease the relative mass flow of air per injector element and possibly alleviate these issues. Look below for one of the tests from the 2nd injector iteration.&lt;/p&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;video
     controls
@@ -200,7 +199,23 @@ Additionally, I added a couple capacitors and resistors finetune exactly how lon
     &lt;/video&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Igniter shattering, startup transient for igniter difficult to predict&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;C0048.mov&#34;
+    
+    
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;C0048.mov&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The impact this relatively simple fix is what leads me to believe that there&amp;rsquo;s still a possibility for the torch to work. I go into detail towards the end, but if the injector and mixing issues can be mitigated to the point the chamber conditions closely approximate the theoretical perfectly mixed propellant assumption, the torch would have an easier time starting a chain reaction culminating in a stable detonation. Ultimately, timelines didn&amp;rsquo;t allow me to get further testing time before graduating, but I&amp;rsquo;ll be keeping it in the backburner as I consider it novel enough to deserve further investigation and possibly a publication.&lt;/p&gt;
+&lt;p&gt;We didn&amp;rsquo;t set up back-end imaging until we confirmed we had reliable ignition, which pushed us into a time crunch to try and get the high speed camera allocated to us and set up properly. Unfortunately, we were unable to get a consistent setup stemming from some hardware issues on both the camera side of things and the mirror that allows it to look dead-on towards the exhaust. This left us with a handful of other ways to confirm operation, particularly, an increase in thrust compared to a cold-flow, and a pressure gain after ignition. Favorable data was present for both fields, but neither of these on their own could confirm whether the detonation mode was stable, how many waves were present, as well as other details about the environment within the annulus. As much as I trust our sensor data, I&amp;rsquo;m refraining from claiming we achieved detonation until we can have irrefutable evidence from studying chemoluminiscence within the combustor.&lt;/p&gt;
+&lt;p&gt;Moving on under the assumption we had a detonation mode, we varied the input pressures and timings in order to construct an operational map of the engine, telling us exactly what affected the behavior during startup and during steady state. To our surprise, pushing towards an extremely rich equivalence ratio actually improved the performance of the engine. I assume this is tied to our issues with local equivalence ratio, since more fuel being put in brings the local phi closer to the ideal range for hydrogen and air, and since the propellants aren&amp;rsquo;t fully mixed, the overall equivalence ratio matters much less in reality.&lt;/p&gt;
 &lt;h2 id=&#34;senior-design-showcase&#34;&gt;Senior Design Showcase
 &lt;/h2&gt;&lt;p&gt;Beyond the milestone reports and other deliverables, senior design teams are expected to participate in the so-called Senior Design Showcase for the College of Engineering and Computer Science. Back in the day, it was a question of simply showing up to the event and talking to judges, but due to the growth of UCF&amp;rsquo;s Engineering program over the years, the showcase was split up into 2 phases. Phase 1 is the submission of a 10 minute video outlining your project goals, application, and approach to fulfill said goals. This video is then reviewed by the team&amp;rsquo;s assigned judges, and depending on the scores, it determines whether or not you progress to phase 2. If you&amp;rsquo;re selected to move on, you get to present your project at the showcase event where students, professors, and the judges get to see your display and directly hear you talk about your work of the past however many months.&lt;/p&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;

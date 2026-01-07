@@ -16,30 +16,36 @@ tags:
 ---
 
 
-## Background
+## Premise
 
-Rotating Detonation Engines (RDEs) are a relatively novel form of rocket propulsion that takes advantage of pressure-gain combustion. Conventional rocket engines use constant-pressure combustion cycles. RDEs theoretically produce better performance by taking better advantage of the energy stored chemically in the propellants. There is a fine line between detonating in the way that yields the performance advantage, and detonating in the way that destroys the engine. Due to the speeds involved in the process, these engines have only recently began gaining traction now that computers and sensors allow for the extremely fast sampling rates necessary for reliable data output. Their compact size allows for storable propellants to be used more effectively in missile and defense applications.
+Having spent a ton of time in manufacturing for aerospace applications, particularly my work regarding Gas Turbines, I'm no stranger to Non-Destructive Engineering (NDE). CT draws my attention because, fundamentally, it's just a conventional X-Ray machine (for the most part) with a ton of image processing slapped on top. I decided to challenge myself to learn more about it and implement the image processing pipeline necessary to reconstruct an object in 3D space as a slice stack using only side projections. 
 
-The goals of this project at the beginning were beyond creating a working air breathing lab scale engine, to lay the foundation for further research to be done at UCF. This involved creating a test stand equipped with a capable and robust data acquisition system and control system. With the tight budget for a project of this ambition we had to get creative.
+## Approach
 
-## Design
+Before I go on to explain the MATLAB script I cobbled together, I owe you a crash course in computed tomography.
 
-## Ignition
+Computed tomography is the denser a material is, the more light it absorbs. This effect is also achieved with a lower density material if there's more of it for light to travel through before coming out of the other side. If we are to take a singular projection of our test subject, the luminosity along the projection line varies depending on how much stuff it has to cross in order to make it to our detector. 
 
-Lighting an RDE involves precise timing and a strong enough relese of energy to induce a detonation mode within the engine. A fast burst (in tens of micro seconds) with not a lot of energy is more likely to induce a detonation compared to a longer burst with a ton more energy. Typically predets are used where an explosive mixture of gases are lit on one end of a long tube and over that length of tube the energy release is structured in such a way a shock is developed by the time the combusting gases exit. Due to the mechanism of operation, these have careful geometry that is hard to package into a system with compact and flight in mind. This is where my approach comes in, conventional torch. If the annulus can act as the constriction that focuses the energy towards a shock, the igniter can be more compact and allow for smaller designs for flight vehicles. 
+Intermediate space of the sinogram, 
 
 
-## Humbled by Testing
+### The Radon Transform and its Inverse
 
-## Senior Design Showcase
+### I can't believe it's not X-Ray!
 
-## Future Plans
+I'm sure that at some point in time, I'll cave in and buy a decommissioned dental imaging setup. But for the scope of this project and my current desire to not give myself cancer at 24, we'll have to figure out a way to generate close enough data to feed into MATLAB.
 
-### SciTech
+The best thing I could come up with is essentially recreating the setup in Blender, projecting a light source through a 3D model and capturing it on a camera at the other side. The 3D model has to scatter light, so a volumetric shader was used. Ray tracing and stuff Looked close enough to the naked eye
 
-## Final Thoughts and Acknowledgements
+I decided to be even more faithful to reality and continue on by redoing the blender setup. instead of using a volumetric shader, I'll have the model actually absorb light as it passes through it and it is projected onto a screen, much like conventional xray setups project the shade of an object onto a detector or illuminating screen. The camera then looks at this screen to generate our renders
 
-Taha Dr. Burke, Teammates and UCF's Senior Design Support System
+## Results
+
+## Coming Next
+
+
+
+
 
 
 

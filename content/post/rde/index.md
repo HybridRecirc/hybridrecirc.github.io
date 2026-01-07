@@ -46,6 +46,8 @@ With this in mind, the electrical system employs a standard car ignition coil, t
 
 Additionally, I added a couple capacitors and resistors finetune exactly how long the charging and discharging takes in order to ensure the primary winding of the ignition coil has time to fully saturate before the power is switched off and the fields collapse to generate the high voltage out of the secondary. I could've gone with something based on a 555 timer or even more fancy, but circling back to that thought about scope creep, I truly just wanted it to work and work without needing to think about it. The only drawback is that mechanical relays really don't like being switched that fast, and because the coil within the relay is also an inductor, there's plenty of arcing when it's disconnected during the cycling. Adding a flyback diode across reduced the switching frequency so I arrived at the conclusion that relays are cheap enough to be consumable. During testing, the poor little relay did not fail or weld itself shut once, but if I were to be pulled back to the drawing board for a proper vehicle-born ignition system, I'd probably choose to go with something solid state or capacitor-based much like modern cars use for their sparking. 
 
+{{< video src="IMG_2053.mov" width="600" >}}
+
 A cheeky extra feature I added to the torch is the presence of a pressure transducer line. During startup, the transducer would report the torch internal pressure, but once it's powered down, it'd act as a CTAP (Capillary Tube Attenuated Pressure) readout for the annulus conditions. The transducer is coupled to the chamber via a 1/4" stainless steel tube to thermally isolate it from the extreme conditions during both startup and steady state operation. The length of tubing necessary was determined via the following function:
 
 \[
@@ -108,13 +110,21 @@ However, I'd like to still cover what we experienced taking the design from a wh
 
 The testing campaign began with stress testing our control and data acquisition system by running the torch igniter over and over again. If we could pick out the bugs in our VIs, wiring, and sensors before moving onto the big leagues of trying to run the combustor with all the timings involved, we'd save a lot of pain and suffering down the road. 
 
+The torch seemed promising on its own, however, no matter what we did it struggled to resist being blown out against the main propellant flow, so at this point we decided to pivot onto the predet and continue testing the combustor itself. Look at the predet in action:
+
 {{< video src="IMG_3114.mov" width="600" >}}
+
+We still weren't getting any ignition at this point, so we returned to the drawing board. After combing through the footage and data gathered so far, we were led to the conclusion that two factors were in the way. A: the hydrogen jets coming out of the inner body struggled to penetrate the column of air being injected, contributing to terrible mixing and a suboptimal local equivalence ratio. Although the design total equivalence ratio was correct and it was confirmed by sensor data, the gases weren't being mixed due to their extreme difference in velocities. At this point we decided to increase our injector pair count from 20 to 32, as this would decrease the relative mass flow of air per injector element and possibly alleviate these issues. Look below for one of the tests from the 2nd injector iteration.
 
 {{< video src="C0052.mov" width="600" >}}
 
+{{< video src="C0048.mov" width="600" >}}
 
-Igniter shattering, startup transient for igniter difficult to predict
+The impact this relatively simple fix is what leads me to believe that there's still a possibility for the torch to work. I go into detail towards the end, but if the injector and mixing issues can be mitigated to the point the chamber conditions closely approximate the theoretical perfectly mixed propellant assumption, the torch would have an easier time starting a chain reaction culminating in a stable detonation. Ultimately, timelines didn't allow me to get further testing time before graduating, but I'll be keeping it in the backburner as I consider it novel enough to deserve further investigation and possibly a publication.
 
+We didn't set up back-end imaging until we confirmed we had reliable ignition, which pushed us into a time crunch to try and get the high speed camera allocated to us and set up properly. Unfortunately, we were unable to get a consistent setup stemming from some hardware issues on both the camera side of things and the mirror that allows it to look dead-on towards the exhaust. This left us with a handful of other ways to confirm operation, particularly, an increase in thrust compared to a cold-flow, and a pressure gain after ignition. Favorable data was present for both fields, but neither of these on their own could confirm whether the detonation mode was stable, how many waves were present, as well as other details about the environment within the annulus. As much as I trust our sensor data, I'm refraining from claiming we achieved detonation until we can have irrefutable evidence from studying chemoluminiscence within the combustor.
+
+Moving on under the assumption we had a detonation mode, we varied the input pressures and timings in order to construct an operational map of the engine, telling us exactly what affected the behavior during startup and during steady state. To our surprise, pushing towards an extremely rich equivalence ratio actually improved the performance of the engine. I assume this is tied to our issues with local equivalence ratio, since more fuel being put in brings the local phi closer to the ideal range for hydrogen and air, and since the propellants aren't fully mixed, the overall equivalence ratio matters much less in reality.
 
 ## Senior Design Showcase
 
