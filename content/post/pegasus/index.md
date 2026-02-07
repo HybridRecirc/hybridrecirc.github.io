@@ -16,6 +16,7 @@ tags:
     - Data Acquisition
     - Test Engineering
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+hidden: true
 ---
 
 ## Major Achievements:
@@ -94,6 +95,6 @@ This article highlights primarily the work I was directly spearheading, but ulti
 
 Enjoy some pictures from IREC 2023 and the later launch in Florida!
 
-Peggy pics
+
 
 

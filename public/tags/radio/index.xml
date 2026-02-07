@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Radio on Arturo Negrette</title>
+        <link>http://localhost:1313/tags/radio/</link>
+        <description>Recent content in Radio on Arturo Negrette</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 07 Feb 2026 14:50:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/radio/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Teletypewriter Retrofit</title>
+        <link>http://localhost:1313/p/teletype/</link>
+        <pubDate>Sat, 07 Feb 2026 14:50:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/teletype/</guid>
+        <description>&lt;img src="http://localhost:1313/p/teletype/cover.jpeg" alt="Featured image of post Teletypewriter Retrofit" /&gt;&lt;h2 id=&#34;background&#34;&gt;Background
+&lt;/h2&gt;&lt;p&gt;I got a Smith Corona SL600 off eBay for $3 + shipping, the seller said it had an unfixable error that prevented it from starting up and only showed a rapid blinking light on the CapsLock indicator. I love taking gambles at anything on eBay with a clueless seller so I bought it. When it came in, I cleaned it, plugged it in and saw the same error as the seller. However, I had bought an extra set of ribbon cartridges and the one that came with the machine looked off to me, so I swapped it. To my surprise the very well designed typewriter sprung to life with the correct ribbon installed. I&amp;rsquo;ve been using it to type letters and journaling but I&amp;rsquo;m retiring it in favor of a model with a better keyboard. As you&amp;rsquo;ll see below from my teardown, the 80s were a period of cost reduction and optimization, sometimes at the detriment of user experience.&lt;/p&gt;
+&lt;h2 id=&#34;goals&#34;&gt;Goals
+&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;- Intercepting keystrokes between the keyboard and the rest of the typewriter in order to control/hear what&#39;s being typed
+- Developing a serial interface for the typewriter to act as a Linux terminal, much like early terminals of the 50s and 60s.
+- Acting as a packet radio transceiver, putting the tele in teletypewriter
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;preliminary-exploration&#34;&gt;Preliminary Exploration
+&lt;/h2&gt;&lt;p&gt;I took the typewriter apart to clean it and gaze at its insides. To my surprise, it&amp;rsquo;s probably the best model to modify for this project. As far as I can tell, logic listens out for which circuits are being closed as the operator types, and signals to type the corresponding letters.&lt;/p&gt;
+&lt;p&gt;Taking it apart further revealed that the keyboard is composed of a film PCB similar to modern membrane keyboards, where the keys press down a tree of stamped sheet metal levers that close exposed pads on the film surface via carbon-coated plungers. Essentially an ancestor of modern membrane keyboards, except that the PCB is optimized to be a ribbon across the center of the keyboard. My educated guess for this is the early restrictions on film PCBs would drive costs much higher if they had a PCB matching the footprint of the keyboard itself. Much cheaper to have the levers do the heavy lifting of connecting the outer keys to the center.&lt;/p&gt;
+&lt;h2 id=&#34;current-work&#34;&gt;Current Work
+&lt;/h2&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

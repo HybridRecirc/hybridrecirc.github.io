@@ -13,6 +13,7 @@ tags:
     - Programming
     - Image Processing
 #weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+hidden: true
 ---
 
 
@@ -29,7 +30,14 @@ Computed tomography is the denser a material is, the more light it absorbs. This
 Intermediate space of the sinogram, 
 
 
+
 ### The Radon Transform and its Inverse
+
+### MATLAB
+
+
+### Python Translation
+
 
 ### I can't believe it's not X-Ray!
 
@@ -41,7 +49,7 @@ I decided to be even more faithful to reality and continue on by redoing the ble
 
 ## Results
 
-## Coming Next
+
 
 
 

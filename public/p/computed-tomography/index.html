@@ -16,6 +16,10 @@
     <meta name="twitter:image" content='http://localhost:1313/pegasuscover.jpg' />
     <link rel="shortcut icon" href="/favicon.png" />
 
+  
+
+
+
     </head>
     <body class="
     article-page
@@ -320,17 +324,12 @@
     <li><a href="#approach">Approach</a>
       <ol>
         <li><a href="#the-radon-transform-and-its-inverse">The Radon Transform and its Inverse</a></li>
+        <li><a href="#matlab">MATLAB</a></li>
+        <li><a href="#python-translation">Python Translation</a></li>
         <li><a href="#i-cant-believe-its-not-x-ray">I can&rsquo;t believe it&rsquo;s not X-Ray!</a></li>
       </ol>
     </li>
-    <li><a href="#humbled-by-testing">Humbled by Testing</a></li>
-    <li><a href="#senior-design-showcase">Senior Design Showcase</a></li>
-    <li><a href="#future-plans">Future Plans</a>
-      <ol>
-        <li><a href="#scitech">SciTech</a></li>
-      </ol>
-    </li>
-    <li><a href="#final-thoughts-and-acknowledgements">Final Thoughts and Acknowledgements</a></li>
+    <li><a href="#results">Results</a></li>
   </ol>
 </nav>
         </div>
@@ -403,7 +402,7 @@
 
 
                 <time class="article-time--reading">
-                    1 minute read
+                    2 minute read
                 </time>
             </div>
         
@@ -419,14 +418,19 @@
     
     
     <h2 id="premise">Premise
-</h2><h2 id="approach">Approach
-</h2><h3 id="the-radon-transform-and-its-inverse">The Radon Transform and its Inverse
+</h2><p>Having spent a ton of time in manufacturing for aerospace applications, particularly my work regarding Gas Turbines, I&rsquo;m no stranger to Non-Destructive Engineering (NDE). CT draws my attention because, fundamentally, it&rsquo;s just a conventional X-Ray machine (for the most part) with a ton of image processing slapped on top. I decided to challenge myself to learn more about it and implement the image processing pipeline necessary to reconstruct an object in 3D space as a slice stack using only side projections.</p>
+<h2 id="approach">Approach
+</h2><p>Before I go on to explain the MATLAB script I cobbled together, I owe you a crash course in computed tomography.</p>
+<p>Computed tomography is the denser a material is, the more light it absorbs. This effect is also achieved with a lower density material if there&rsquo;s more of it for light to travel through before coming out of the other side. If we are to take a singular projection of our test subject, the luminosity along the projection line varies depending on how much stuff it has to cross in order to make it to our detector.</p>
+<p>Intermediate space of the sinogram,</p>
+<h3 id="the-radon-transform-and-its-inverse">The Radon Transform and its Inverse
+</h3><h3 id="matlab">MATLAB
+</h3><h3 id="python-translation">Python Translation
 </h3><h3 id="i-cant-believe-its-not-x-ray">I can&rsquo;t believe it&rsquo;s not X-Ray!
-</h3><h2 id="humbled-by-testing">Humbled by Testing
-</h2><h2 id="senior-design-showcase">Senior Design Showcase
-</h2><h2 id="future-plans">Future Plans
-</h2><h3 id="scitech">SciTech
-</h3><h2 id="final-thoughts-and-acknowledgements">Final Thoughts and Acknowledgements
+</h3><p>I&rsquo;m sure that at some point in time, I&rsquo;ll cave in and buy a decommissioned dental imaging setup. But for the scope of this project and my current desire to not give myself cancer at 24, we&rsquo;ll have to figure out a way to generate close enough data to feed into MATLAB.</p>
+<p>The best thing I could come up with is essentially recreating the setup in Blender, projecting a light source through a 3D model and capturing it on a camera at the other side. The 3D model has to scatter light, so a volumetric shader was used. Ray tracing and stuff Looked close enough to the naked eye</p>
+<p>I decided to be even more faithful to reality and continue on by redoing the blender setup. instead of using a volumetric shader, I&rsquo;ll have the model actually absorb light as it passes through it and it is projected onto a screen, much like conventional xray setups project the shade of an object onto a detector or illuminating screen. The camera then looks at this screen to generate our renders</p>
+<h2 id="results">Results
 </h2>
 </section>
 
@@ -485,6 +489,30 @@
             
                 
 <article class="has-image">
+    <a href="/p/teletype/">
+        
+        
+            <div class="article-image">
+                <img src="/p/teletype/cover.0ed81a997402682f6827df59cf347c9e_hu_a69b4296722f3a7f.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Teletypewriter Retrofit"
+                        data-key="teletype" 
+                        data-hash="md5-DtgamXQCaC9oJ99ZzzR8ng==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Teletypewriter Retrofit</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/p/noritsu-v50/">
         
         
@@ -493,7 +521,7 @@
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post How to Cope with Being a Film Lab Tech"
+                        alt="Featured image of post Chronicles from a Film Lab Tech"
                         data-key="noritsu-v50" 
                         data-hash="md5-8pMwhdCZGKG7faJHWa7TdQ==">
                 
@@ -501,7 +529,7 @@
         
 
         <div class="article-details">
-            <h2 class="article-title">How to Cope with Being a Film Lab Tech</h2>
+            <h2 class="article-title">Chronicles from a Film Lab Tech</h2>
         </div>
     </a>
 </article>

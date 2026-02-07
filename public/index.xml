@@ -6,7 +6,462 @@
         <description>Recent content on Arturo Negrette</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 11 Dec 2025 14:50:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 07 Feb 2026 14:50:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Chronicles from a Film Lab Tech</title>
+        <link>http://localhost:1313/p/noritsu-v50/</link>
+        <pubDate>Thu, 11 Dec 2025 14:50:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/noritsu-v50/</guid>
+        <description>&lt;img src="http://localhost:1313/p/noritsu-v50/cover.png" alt="Featured image of post Chronicles from a Film Lab Tech" /&gt;&lt;h1 id=&#34;background&#34;&gt;Background
+&lt;/h1&gt;&lt;p&gt;I&amp;rsquo;ve been working at a film lab for the last couple of months, and the engineering degree immediately made itself useful by giving me the tools to keep some of these machines alive. Problems ranging from just corrosion within a sensor&amp;rsquo;s connector to open heart surgery on a board no longer made. For a glorified sous-vide tank, the Noritsu engineers put a lot of safeguards and smart engineering in place to keep these working as well as they have for as long as they have. I&amp;rsquo;m writing this article with the intention of logging whatever I find for whoever takes over for me, or whoever finds this website in similar despair as I have googled whenever something broke.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/Machines.jpeg&#34;
+	width=&#34;1581&#34;
+	height=&#34;1655&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/Machines_hu_40e4bf388d6e5b95.jpeg 480w, http://localhost:1313/p/noritsu-v50/Machines_hu_6afb7710e738d341.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;V50 (larger), V30 (smaller)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;95&#34;
+		data-flex-basis=&#34;229px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;This is the V50, relatively sophisticated MiniLab unit for C-41 Color Development. Short Leader style, which means you tape the film to a sheet of plastic with sprocket holes on it, and that&amp;rsquo;s what drags the film itself out of the can and into each step of the development process. The 50 in V50 stands for 50 rolls an hour, so not too shabby accounting for the fact a 36 exposure roll of film tends to be somewhere around 5 feet.&lt;/p&gt;
+&lt;p&gt;In order to put the rest of the machine in context, let&amp;rsquo;s cover the development steps of Black and White and C-41 film:&lt;/p&gt;
+&lt;p&gt;For both, the film is coated with silver halide crystals. Exactly how they are spread on the film and what they do during and after the development process varies between B/W, C-41, and every other development process available, but the working principle remains the same. After being exposed to light, these crystals are raised to a higher energy level, leaving a latent image stored chemically on the film emulsion.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/Photographic_processing.jpg&#34;
+	width=&#34;2560&#34;
+	height=&#34;784&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/Photographic_processing_hu_c1aa083cf5197cde.jpg 480w, http://localhost:1313/p/noritsu-v50/Photographic_processing_hu_f284969c6be4a63e.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Essential Steps of Development (Source:Wikipedia)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;326&#34;
+		data-flex-basis=&#34;783px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;B/W&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Developer&lt;/strong&gt;: This step converts the latent image contained in the activated silver halide into metallic silver. This metallic silver only appears in the locations where light struck the emulsion. The stronger the light, the more concentrated the silver, the darker or &#34;denser&#34; the image is at this location, and the reverse applies as well. All of this to say that we now have a negative image of what was captured in the camera at that moment. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixer&lt;/strong&gt;: After the developer, the image that matters to us is created. However, it&#39;s still surrounded by the inactive silver halides still in the emulsion. No light, no developer action, no metallic silver. The fixer can dissolve the halides but not metallic silver, which allows us to selectively remove the unused stuff and keep our image negative.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Easy stuff, we&amp;rsquo;ve been doing monochrome stuff essentially as long as we have been able to understand organic chemistry. B/W film made a year ago and 80 years ago work the exact same, and excluding the effects of age, can be developed the exact same way. Color, however, is where modernity truly shines through. Kudos to all the chemists and engineers that allowed us to record the world around us in more than shadows and highlights.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/SuperiaStructure.png&#34;
+	width=&#34;960&#34;
+	height=&#34;520&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/SuperiaStructure_hu_ffca95b32759b63b.png 480w, http://localhost:1313/p/noritsu-v50/SuperiaStructure_hu_fe242140875926.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Superia Emulsion Cross-Section (Source:Wikipedia)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;184&#34;
+		data-flex-basis=&#34;443px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C-41&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Developer&lt;/strong&gt;: Still does the same as B/W, with the caveat that now the dye couplers (part that creates the colors) are activated and create the dyes of each layer. Fun fact, you can cross-process any C-41 roll as B/W, you just ignore the color couplers for a monochrome image. I&#39;ve managed to salvage pictures from obsolete C-22 rolls from 60+ years ago. Hard drives fail, files go corrupt, but in a decently wide range of conditions, chemistry prevails. Cool stuff.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bleach&lt;/strong&gt;: Due to the layout of a typical C-41 film emulsion, after development, you now have both a dye-based image, and the metallic silver image. Keeping both of these leads to super dense images with low saturation, and often it was used intentionally as a color grading effect in movies and TV in a method called &#34;bleach bypass&#34;. The bleach attacks this metallic image and converts it back to silver halides, which can now be removed by the fixer. It also helps reducing the density of the dyes in the film base.
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixer&lt;/strong&gt;: Same as B/W. Fixer actually holds quite a decent amount of silver, so it&#39;s very important to dispose of properly and feed it to silver reclaiming facilities. Not that any other chemical is great for carelessly dumping into the environment, but the fixer carries metals with it that are specially bad to introduce into an ecosystem. 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stabilizer&lt;/strong&gt;: The dyes contained on each layer are technically not fixed in space, and age, environmental factors, and improper handling of the film can lead to them migrating between layers. The end effect is a reduction in the color reproduction quality, so stabilizers are used to &#34;lock&#34; the dyes out of escaping their layer. You can very well skip this step if you are just looking for a glorified Instagram filter, but in order to produce negatives that can withstand the test of time, stabilization is crucial.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I&amp;rsquo;d love to get into detail about the careful design of color emulsions, but so have another 500 trillion people on the internet, so I will unfortunately not elaborate here. Google it, watch Tech Connections about it, don&amp;rsquo;t use this case of brevity as an excuse to avoid learning about film.&lt;/p&gt;
+&lt;p&gt;Our machine feeds the leader card and the film it&amp;rsquo;s attached to into a very deep 18 Liter Color Developer (CD) tank at a speed that allows for each length of film to be in contact with the CD solution, while automatically adding a replenishment amount of fresh chemical to account for exhaustion per roll. All the chemicals involved in these reactions are disposable and need to be replenished accounting for the surface area that passes through. The film is continued to be carried in and out of the solutions automagically by careful mechanical design of roller transports like conveyors through a factory. The machine doesn&amp;rsquo;t actually know where this film is, but it vaguely knows when it started being fed and when the canister was cut off at the end, and it knows how fast everything is spinning and moving the film along. So it starts counting and can make an educated guess as to where it&amp;rsquo;d be and what chemicals would be exhausted at which times.&lt;/p&gt;
+&lt;p&gt;At the end, it passes through essentially a gentler air fryer before being released fully dry for it to be scanned and/or sleeved for preservation. Almost magical coming from my background of hanging up film from my shower curtain loops.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/v50.jpg&#34;
+	width=&#34;1600&#34;
+	height=&#34;1466&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/v50_hu_8b0122298ca19550.jpg 480w, http://localhost:1313/p/noritsu-v50/v50_hu_aecb27f69d67701.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Noritsu QSF-V30&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;109&#34;
+		data-flex-basis=&#34;261px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve neglected to mention much about the modified V30 that develops B/W, but it&amp;rsquo;s the same principles and same tech, just behaving differently to accomodate for the different chemistry. Both operate the same. Now, let&amp;rsquo;s get into it.&lt;/p&gt;
+&lt;h2 id=&#34;repair-log&#34;&gt;Repair Log
+&lt;/h2&gt;&lt;h3 id=&#34;most-recent-bw-intermittent-bootlooping&#34;&gt;Most Recent: B/W Intermittent &amp;ldquo;Bootlooping&amp;rdquo;
+&lt;/h3&gt;&lt;h4 id=&#34;symptoms&#34;&gt;Symptoms
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Machine goes into a cycle of booting and self-testing, encountering some error and powering down, then repeating the cycle.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Initially only happened at the end of a roll, right after cutting the canister off. One reboot cycle and it would continue as normal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Progressed to continously turning off and on again.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;troubleshooting--false-solution&#34;&gt;Troubleshooting + False Solution
+&lt;/h4&gt;&lt;p&gt;My initial assumption was an intermittent short in a system related to the springloaded blades that cut the end of the film from the canister. It&amp;rsquo;s a guillotine that&amp;rsquo;s tensioned until it hits a detente to hold the spring securely. When the can is pulled closer as the roll runs out, it hits a paddle that trips the spring catch and the blade flies into the film, cutting it off. The spring is loaded via a motor on a cam, so I started checking that the motor actuated freely, which it did.&lt;/p&gt;
+&lt;p&gt;At the beginning of each day, a start check is completed where a leader card is fed through the machine with no film attached to it in order to confirm that there&amp;rsquo;s nothing wrong with the extensive tree of gears and rollers that transports everything from beginning to end. I noticed that during this test the problem still occured, even though the motor was not involved and the cutter was not triggered. It ruled out anything wrong with that subsystem, giving me a dead end.&lt;/p&gt;
+&lt;p&gt;Visiting the service manual pointed me to a logic issue with the front panel control board, where I started poking around until I found out through a tech at one of the other labs that something similar happened when the front panel button connection was corroded. Upon cleaning and reseating the cable the problem was fixed. Straight forward enough.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/ribbonlocation.jpeg&#34;
+	width=&#34;3024&#34;
+	height=&#34;3158&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/ribbonlocation_hu_d0e60931674f75bf.jpeg 480w, http://localhost:1313/p/noritsu-v50/ribbonlocation_hu_6e43ca0d786523dd.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The Ribbon Cable in Question&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;95&#34;
+		data-flex-basis=&#34;229px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;A couple of months passed and the problem returned, where we&amp;rsquo;d clean the cable and reseat it, helping for a couple weeks until the issue appeared again. Every cleaning would return everything to normal but the time until the problem reappeared was slowly getting shorter until now.&lt;/p&gt;
+&lt;h4 id=&#34;solution&#34;&gt;Solution
+&lt;/h4&gt;&lt;p&gt;At this point, it had been several months of increasingly more regular cycling on the ribbon cable. The usual cleaning and reseating got to a point where it did not solve the issue at all, the machine could not be used at all. When I took it apart and inspected the ribbon cable under a loupe I found that the contact material had fully worn through, and I presume it wasn&amp;rsquo;t making contact at all. I unfortunately did not take a picture of the damage before the first fix, but looking at the picture below, the untouched side shows the gist of it. The contacts on the board wore a hole through the pads.&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Version 1&lt;/strong&gt; &lt;/li&gt;
+&lt;p&gt;We were pretty backed up in terms of black and white orders, so I needed to get the machine to stop cycling and begin processing film. I had the idea of using aluminum tape from one of the film stocks we sell. They make their DX codes by sticking some aluminum tape and putting a label over it in order to make the pattern of conductive/non-conductive squares. Pretty neat. Turned out pretty sloppy but it got the job done to catch up with orders. Let&amp;rsquo;s call this one Version 1.0&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/version1-0.jpeg&#34;
+	width=&#34;1385&#34;
+	height=&#34;1433&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/version1-0_hu_e9fb59854451dd7f.jpeg 480w, http://localhost:1313/p/noritsu-v50/version1-0_hu_8c3345c0d3d1f219.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Version 1.0 of the fix&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;96&#34;
+		data-flex-basis=&#34;231px&#34;
+	
+&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/version1-1.jpeg&#34;
+	width=&#34;2749&#34;
+	height=&#34;2530&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/version1-1_hu_2f2b8d2a77718b91.jpeg 480w, http://localhost:1313/p/noritsu-v50/version1-1_hu_30cb96148bbaee77.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Version 1.1 of the fix&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;108&#34;
+		data-flex-basis=&#34;260px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Unfortunately, some of the buttons were intermitently working, so I knew we couldn&amp;rsquo;t keep this for the long term. We had ordered some X-Acto knives so I figured I&amp;rsquo;d redo the patchwork with sharper blades whenever those came in. Version 1.1 turned out more aesthetically pleasing but actually gave its own set of issues. For example, the set of buttons that were acting up with 1.0 returned to life, but a different set did not work at all and in fact ended up sticking and led the machine to behave erratically. This told me that I was now shorting adjacent pads to one another or to ground around the connector body. At this point I realized the tape we use for taping the film to the leader cards was pretty perfect as a low-temp Kapton tape alternative and the idea for V2 was born.&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Version 2&lt;/strong&gt; &lt;/li&gt;
+&lt;p&gt;For V2 I had two major conclusions driving how I went about this next repair. First, I needed to shield everything besides the actual contact point in order to prevent any more shorting. I was very lucky I didn&amp;rsquo;t fry anything that last time. I also needed to have better contact between the original flex PCB traces and the aluminum tape, so I needed to flip the aluminum tape in order to keep the glue from acting as an insulator.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/version2-0.jpeg&#34;
+	width=&#34;2195&#34;
+	height=&#34;2219&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/version2-0_hu_aacccc39f744ffb6.jpeg 480w, http://localhost:1313/p/noritsu-v50/version2-0_hu_19372b6725866f4b.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Version 2.0 of the fix&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;98&#34;
+		data-flex-basis=&#34;237px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;By stenciling the actual location of the worn contacts onto some tape, I was able to shield everything else and it made the size, shape and location of my aluminum tape squares less critical. I was also able to stick them onto the bottom of the tape and rinse off the adhesive from it with some alcohol. It took me the longest out of all the solutions I came up with but at this point it&amp;rsquo;s the closest I&amp;rsquo;ve gotten to a permanent fix short of replacing the board altogether.&lt;/p&gt;
+&lt;h3 id=&#34;color-developer-working-tank-overheating&#34;&gt;Color Developer Working Tank Overheating
+&lt;/h3&gt;&lt;h4 id=&#34;symptoms-1&#34;&gt;Symptoms
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Intermitent S-Sol Thermo Activated Error&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solution reaches 43C before other safeguards kick in&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Initially only happened during overnight sleep cycle&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;initial-troubleshooting&#34;&gt;Initial Troubleshooting
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Compared thermocouple readings to thermometer in working tank and in side tank (will elaborate on tank layout in a second)
+&amp;ndash; Temp Matches&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Drained tank, cleaned agitation and recirculation pumps
+&amp;ndash; Minor to Negligible Improvement&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For context, we had just recovered from the below problem of the cutter jamming, so at this point we had been chasing problems around for around a month.&lt;/p&gt;
+&lt;p&gt;Preventative maintenance is crucial for keeping old hardware like this up and running. Much like one of my old bosses used to say: &amp;ldquo;Schedule the maintenance or the machine will schedule it for you&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Going back to the problem, at first the heater would behave but over time it started getting stuck powered on during normal operation and not just during the overnight sleep mode. When we confirmed that the machine was reading the correct temperature for the tank, it indicated to me that a relay was getting stuck closed intermittently. Still, it&amp;rsquo;s a team project and the rest of the team wanted to confirm nothing else was out of the ordinary before ruling in favor of swapping the relay. I didn&amp;rsquo;t work for a couple days so the rest of the team limped the machine through and only took 3 day turnaround orders.&lt;/p&gt;
+&lt;p&gt;I took a quick brush through the service manual and found that the stabilizer control system and the one for the tank giving us problems was the exact same, so I swapped its thermocouple and heater, making the machine believe that the stabilizer was the color dev tank and viceversa. The heater loops all were controlled via components labeled SSR1 through 7, all on the power board at the bottom of the machine. Unsurprisingly, the stabilizer was now overheating instead. Luckily, we could run the stabilizer at room temperature so disabling the color developer heater could let us run the machine and catch up with orders before a repair needs to be done. I reset the thermostat for the stabilizer to what it needed to be for color developer (remember that color dev is now stabilizer from the point of view of the machine and viceversa), and then set the color developer temperature to zero so it would not attempt to power anything on that circuit. The machine slowly got up to temperature and remained there as it was now able to turn off the color developer heater.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/PowerBoard1.jpeg&#34;
+	width=&#34;3840&#34;
+	height=&#34;2160&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/PowerBoard1_hu_93685407cdf85bae.jpeg 480w, http://localhost:1313/p/noritsu-v50/PowerBoard1_hu_fbf845d356c5dfa3.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Power Board&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;http://localhost:1313/p/noritsu-v50/PowerBoard2.jpeg&#34;
+	width=&#34;2160&#34;
+	height=&#34;2874&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/PowerBoard2_hu_aabeb9fefb297485.jpeg 480w, http://localhost:1313/p/noritsu-v50/PowerBoard2_hu_91867f1fcb2743c8.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Mounted on the V50&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;At this point we caught up with orders for the most part, so I carried on with trying to fix the root cause. When I came back to the machine, I noticed that although the troubleshooting LEDs on the power board showed the control unit was not powering the heater relay, temperature continued to climb. From my car background I had the intuition to begin tapping around every black relay-looking box with the rubber back of a screwdriver. It didn&amp;rsquo;t help.&lt;/p&gt;
+&lt;p&gt;Turns out SSR stands for Solid State Relay, something I realized pretty late, embarassingly late. SSRs tend to fail closed as they&amp;rsquo;re semiconductor devices, and it confirmed and explained my initial assumption of a stuck relay. The awesome engineers at Noritsu had the foresight of including redundant relays on the board, or rather, populating relay footprints for heater circuits not used in this machine model. I&amp;rsquo;m sure the V100 or the V5Billion use these relays, but I&amp;rsquo;m lucky mine doesn&amp;rsquo;t because these exact P/Ns are looooooong discontinued. In my panic before realizing there were spares I did find a suitable drop-in replacement. I crossreferenced the info on the part itself, the pin pitch from the board and the specs from the service manual. Part number is D2W203F-11 and below are some links to find a replacement in case you&amp;rsquo;re not so lucky to have extras:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.digikey.com/en/products/detail/sensata-crydom/D2W203F-11/139583&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Digikey&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.mouser.com/ProductDetail/Crydom/D2W203F-11?qs=mNyg5qXQ%2FscFP3eDV%2F5phw%3D%3D&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mouser&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Closely inspecting the board would&amp;rsquo;ve saved a bit of time, but it wasn&amp;rsquo;t easy to get out of the machine and I didn&amp;rsquo;t want to take it out unless absolutely necessary. These things are a couple grand each.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/TheCulprit.jpeg&#34;
+	width=&#34;2160&#34;
+	height=&#34;2518&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/TheCulprit_hu_c669376e8c07f439.jpeg 480w, http://localhost:1313/p/noritsu-v50/TheCulprit_hu_1e1e222c1419b654.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The Culprit&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;85&#34;
+		data-flex-basis=&#34;205px&#34;
+	
+&gt; &lt;img src=&#34;http://localhost:1313/p/noritsu-v50/RelayMounted.jpeg&#34;
+	width=&#34;3840&#34;
+	height=&#34;2160&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/RelayMounted_hu_ddab5f295bb322a8.jpeg 480w, http://localhost:1313/p/noritsu-v50/RelayMounted_hu_ff07ce67ef61c572.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Where I found It&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;A candidate for the world&amp;rsquo;s oldest solder was holding the relay in place, so a ton of flux, time and patience were needed to get it out and replaced with the extra. The pad was fried to begin with, and I presume that solder started cracking and creating a high resistance connection. The thermal cycling probably also weakened the joint and created a feedback loop culminating where we are now.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/BurntPad1.jpeg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/BurntPad1_hu_bb6f80e6c86bc88b.jpeg 480w, http://localhost:1313/p/noritsu-v50/BurntPad1_hu_fd0237a6248a45f2.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Bottom of PCB&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt; &lt;img src=&#34;http://localhost:1313/p/noritsu-v50/BurntPad2.jpeg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;http://localhost:1313/p/noritsu-v50/BurntPad2_hu_df908385250d6428.jpeg 480w, http://localhost:1313/p/noritsu-v50/BurntPad2_hu_6b638e8e042fbeb5.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Space left by relay&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;After it was all said and done, I gave the board a good dusting and a rinse with isopropyl alcohol to wash of the flux all over the board and give it some TLC. Once installed, the heater problem was solved and it&amp;rsquo;s still powering through orders to this day.&lt;/p&gt;
+&lt;h3 id=&#34;cutter-jams&#34;&gt;Cutter Jams
+&lt;/h3&gt;&lt;h4 id=&#34;symptoms-2&#34;&gt;Symptoms
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Right Lane Struggled to Cut Canister at the End of the roll&lt;/li&gt;
+&lt;li&gt;Canisters stuck after cutting&lt;/li&gt;
+&lt;li&gt;Cutter Return Error&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;initial-troubleshooting-1&#34;&gt;Initial Troubleshooting
+&lt;/h4&gt;&lt;p&gt;Initially,&lt;/p&gt;
+&lt;h2 id=&#34;film-chemistry-experiments&#34;&gt;Film Chemistry Experiments
+&lt;/h2&gt;&lt;h3 id=&#34;c-41-reversal&#34;&gt;C-41 Reversal
+&lt;/h3&gt;&lt;h3 id=&#34;black-and-white-reversal&#34;&gt;Black and White Reversal
+&lt;/h3&gt;</description>
+        </item>
+        <item>
+        <title>Teletypewriter Retrofit</title>
+        <link>http://localhost:1313/p/teletype/</link>
+        <pubDate>Sat, 07 Feb 2026 14:50:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/teletype/</guid>
+        <description>&lt;img src="http://localhost:1313/p/teletype/cover.jpeg" alt="Featured image of post Teletypewriter Retrofit" /&gt;&lt;h2 id=&#34;background&#34;&gt;Background
+&lt;/h2&gt;&lt;p&gt;I got a Smith Corona SL600 off eBay for $3 + shipping, the seller said it had an unfixable error that prevented it from starting up and only showed a rapid blinking light on the CapsLock indicator. I love taking gambles at anything on eBay with a clueless seller so I bought it. When it came in, I cleaned it, plugged it in and saw the same error as the seller. However, I had bought an extra set of ribbon cartridges and the one that came with the machine looked off to me, so I swapped it. To my surprise the very well designed typewriter sprung to life with the correct ribbon installed. I&amp;rsquo;ve been using it to type letters and journaling but I&amp;rsquo;m retiring it in favor of a model with a better keyboard. As you&amp;rsquo;ll see below from my teardown, the 80s were a period of cost reduction and optimization, sometimes at the detriment of user experience.&lt;/p&gt;
+&lt;h2 id=&#34;goals&#34;&gt;Goals
+&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;- Intercepting keystrokes between the keyboard and the rest of the typewriter in order to control/hear what&#39;s being typed
+- Developing a serial interface for the typewriter to act as a Linux terminal, much like early terminals of the 50s and 60s.
+- Acting as a packet radio transceiver, putting the tele in teletypewriter
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;preliminary-exploration&#34;&gt;Preliminary Exploration
+&lt;/h2&gt;&lt;p&gt;I took the typewriter apart to clean it and gaze at its insides. To my surprise, it&amp;rsquo;s probably the best model to modify for this project. As far as I can tell, logic listens out for which circuits are being closed as the operator types, and signals to type the corresponding letters.&lt;/p&gt;
+&lt;p&gt;Taking it apart further revealed that the keyboard is composed of a film PCB similar to modern membrane keyboards, where the keys press down a tree of stamped sheet metal levers that close exposed pads on the film surface via carbon-coated plungers. Essentially an ancestor of modern membrane keyboards, except that the PCB is optimized to be a ribbon across the center of the keyboard. My educated guess for this is the early restrictions on film PCBs would drive costs much higher if they had a PCB matching the footprint of the keyboard itself. Much cheaper to have the levers do the heavy lifting of connecting the outer keys to the center.&lt;/p&gt;
+&lt;h2 id=&#34;current-work&#34;&gt;Current Work
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>About Me</title>
+        <link>http://localhost:1313/about-me/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/about-me/</guid>
+        <description>&lt;img src="http://localhost:1313/about-me/lathe.jpg" alt="Featured image of post About Me" /&gt;&lt;h2 id=&#34;foreword&#34;&gt;Foreword
+&lt;/h2&gt;&lt;p&gt;This website is meant to be a living document, with the intention of acting as a personal wiki for my previous, ongoing, and future projects. A digital garden of sorts. One of my 2025 New Year&amp;rsquo;s resolutions was to put together an updated portfolio showcasing my background for new acquaintances, as well as potential employers. Documentation is a skill every engineer should have, and I deeply believe in the open source mission, so I will be doing my best to explain what&amp;rsquo;s going on inside my head. &lt;b&gt;Beware: thoughts and ideas may be half finished. &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Blogs like waxy.org, hackaday, and the countless personal sites I&amp;rsquo;ve come across from talented engineers and hobbyists inspired this website. I grew up doing my research and learning from many of these people, so I figured that I should document my projects and broadcast them into the hyperspace aether. The URL comes from the callouts performed during the Apollo missions. It means conditions are viable for the crew to perform a trans-lunar injection (TLI) burn, hence &amp;ldquo;Go for TLI&amp;rdquo;. It&amp;rsquo;s a pseudonym I began using for my photography projects that sounded unique enough for a domain name.&lt;/p&gt;
+&lt;p&gt;I love to talk about the stuff I&amp;rsquo;ve worked on, so feel free to reach out! I&amp;rsquo;m more than willing to expand upon anything on this site, feedback is much appreciated. My socials are on that sidebar on the left, pick your poison.&lt;/p&gt;
+&lt;p&gt;Now, if you&amp;rsquo;re looking for a potential employee, please reach out via e-mail at &lt;a class=&#34;link&#34; href=&#34;mailto:anegrette@protonmail.com&#34; &gt;anegrette@protonmail.com&lt;/a&gt; or on LinkedIn.&lt;/p&gt;
+&lt;h2 id=&#34;my-background&#34;&gt;My Background
+&lt;/h2&gt;&lt;p&gt;I am an Aerospace Engineer with a background in gas dynamics and propulsion, primarily through collegiate sounding rocketry. I&amp;rsquo;ve explored much of everything that bringing an idea from a napkin drawing to a polished design, including short-run production. I participated in the &lt;strong&gt;International Rocket Engineering Competition&lt;/strong&gt; for a couple of years, primarily overseeing the development of the hybrid rocket motor for each participating rocket. Pictured is my favorite project, Pegasus.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/about-me/pegasuslaunch.png&#34;
+	width=&#34;367&#34;
+	height=&#34;1400&#34;
+	srcset=&#34;http://localhost:1313/about-me/pegasuslaunch_hu_fb9e6aab8f8258a6.png 480w, http://localhost:1313/about-me/pegasuslaunch_hu_9fa3d74126be148d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pegasus during Flight&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;26&#34;
+		data-flex-basis=&#34;62px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;My senior design project involved a &lt;strong&gt;Rotating Detonation Engine&lt;/strong&gt;, designed with the intention of contributing to the global understanding of RDEs, as well as creating an air breathing small-scale platform ready to be integrated with a flight vehicle.&lt;/p&gt;
+&lt;p&gt;My machining work experience encompasses 2, 3, and 4 axis CNC machining, as well as resin (DLP) additive manufacturing. Due to my time as a machinist I have developed an intuition for competent design with manufacturing and production in mind. In terms of Additive Manufacturing, I spearheaded the implementation of a Stratasys Origin One Photopolymerization Machine, including the creation of brand new procedures to maximize part repeatability, a critical part of the prototyping work I did for the UCF Machine Shop. I received training directly from Stratasys to maintain and repair the machine and its local print server.&lt;/p&gt;
+&lt;p&gt;Beyond the academic and professional lens, I like to spend my free time browsing for obsolete tech on eBay, playing guitar and reading. I&amp;rsquo;ve been teaching myself computer and electrical engineering, in part because I feel a Mech/Aero Engineer in the 21st century should be somewhat competent in the computers that support everything we build, and in part because I&amp;rsquo;d like to know how to repair the stuff I buy on eBay. One of my ongoing projects involves a Tang Nano 9k FPGA dev board as a platform for learning digital logic design and Verilog HDL.&lt;/p&gt;
+&lt;h2 id=&#34;the-site&#34;&gt;The Site
+&lt;/h2&gt;&lt;p&gt;This website is proudly written with zero AI involvement. Extremely powerful tools or not, having to comb through documentation and Stack Overflow is an irreplaceable part of learning. I do NOT have a web dev background, so bear with me and my messy git history. Built on &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt;, using the &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Stack Theme&lt;/a&gt;. Immense thanks to people who put their code on the internet for our combined benefit. FOSS rocks.&lt;/p&gt;
+&lt;p&gt;All in all, whether this attracts employers or not, I just wanted to compile all the work I&amp;rsquo;ve done into one cohesive document. Documentation is paramount, and as much as I preach that, I&amp;rsquo;m terrible at writing things down unless required to. Putting this site together truly showed me how hard it is to recall the subtle details of work I&amp;rsquo;ve done being months removed from when things happened. I love this field, and much like a conventional garden is a product of love and care, this is my love note to engineering. Thank you for the visit.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Photography</title>
+        <link>http://localhost:1313/photography/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/photography/</guid>
+        <description>&lt;img src="http://localhost:1313/photography/scope.jpg" alt="Featured image of post Photography" /&gt;&lt;h2 id=&#34;equipment-background-and-other-thoughts&#34;&gt;Equipment, Background, and Other Thoughts
+&lt;/h2&gt;&lt;p&gt;I started out with photography with a passed down Rebel T3. Not the latest or newest, but a perfectly capable sensor, well featured body, and it used the widely supported EF-S Canon mount. It allowed me to get my feet wet with the field, and besides, I&amp;rsquo;ve never been one to believe that having the newest, most expensive tool instantly makes you better at anything (to an extent). This applies to photography as well. Beyond quality of life features, a camera is a dark box with light input on one end and a light sensitive element on the other. In terms of image quality, improvements to digital sensors quickly became asymptotic for a casual photographer like me, so I&amp;rsquo;ve focused on learning about composition, color correction.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/canondslr.jpg&#34;
+	width=&#34;500&#34;
+	height=&#34;500&#34;
+	srcset=&#34;http://localhost:1313/photography/canondslr_hu_c02b7fc6b0af4a92.jpg 480w, http://localhost:1313/photography/canondslr_hu_c631f2c39f8ef3ed.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Rebel T3 (Source: Canon USA)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Some time after, I came across a Rebel X SLR for extremely cheap. Most of the used film camera market orbits around a handful of critically acclaimed camera makes and models, and many well featured and advanced cameras tend to lurk in their shade. This specific camera appealed to the exact same market as the other Rebel, sporting an equally well balanced featureset catering to beginners. My favorite part about film is that the technology was essentially perfected by the end of the film era, so a majority of film cameras in the late 90s and early 00s share the exact same technology as DSLRs even to this day. Look at the very first DSLRs to hit the market; they are almost carbon copies of the final SLR models. My Rebel X is compatible with the exact same autofocus and metering system as my much newer DSLR, so it was as smooth of a transition into film as I could&amp;rsquo;ve wished for.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/canonslr.jpg&#34;
+	width=&#34;520&#34;
+	height=&#34;414&#34;
+	srcset=&#34;http://localhost:1313/photography/canonslr_hu_b9a2f803acf96968.jpg 480w, http://localhost:1313/photography/canonslr_hu_9005d7a4d89a51be.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Rebel X (Source: Canon USA)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;301px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Now that I&amp;rsquo;ve gone through my fair share of rolls, I invested into a Pentax KX to learn photography down to a subconscious understanding of creative metering, composing, and to break the habit of treating the camera as a point and shoot. I began working at the film lab, which exposed me to what my peers felt and thought about the analog medium. Being forced to focus, think about what my aperture and shutter speed settings are doing in terms of the frame I am about to campture makes the images much more meaningful and connected to me as a photographer. Ansel Adams did not have the technology that we have within the latest Canon or Nikon flagships, yet he managed to create images so powerful as to encourage the appreciation of the beauty that spans the American continent, and the creation of the National Parks throughout the US. We live in an era where cameras are perpetually within reach in our pockets, yet it&amp;rsquo;s the most disconnected from photography I&amp;rsquo;ve felt. Pictures I take on my phone quickly fade into the depths of my camera roll, while the pictures I have taken on film all remain fresh in my psyche as the day I composed the shot through the viewfinder. The cherry on top is that the actual photons my camera saw at that instant are captured chemically to endure the years. Hard drives fail, servers and services shut down, yet grandpa&amp;rsquo;s Kodachrome slides from the 70s have withstood the test of time and will continue to do so. As technology advances, these masters have allowed us to reproduce mind bending quality from movies and TV recordings purely because they were stored chemically on film as opposed to magnetic tape or whatever other alternative.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/pentax.webp&#34;
+	width=&#34;1600&#34;
+	height=&#34;1067&#34;
+	srcset=&#34;http://localhost:1313/photography/pentax_hu_9f00f3aaa2066fa1.webp 480w, http://localhost:1313/photography/pentax_hu_472fa4d104372817.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pentax KX (Source: 35MMC)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;359px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Working as a developer with my background in engineering has made me appreciate the work of the thousands of people throughout centuries working to capture their lives. This ramble is a thinly veiled open love letter to the chemists, engineers, and designers at Kodak, Fujifilm, and the thousands of other companies that brought the ability to create snapshots of special moments to the masses. It moves me deeply that more and more people share this sentiment and are powering a film resurgence. I understand the purpose and the niche for digital photography, but the same way that one can choose to write something on paper versus typing it into a Word document, I believe film photography has an equal right to exist in the Internet era.&lt;/p&gt;
+&lt;p&gt;On the topic of film photography, I get a little more in depth about the chemistry and construction of photographic film over in my &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/noritsu-v50/&#34; &gt;blog post&lt;/a&gt; about my time as a film tech and the troubleshooting/repairing of some of our machines. If you&amp;rsquo;ve ever sent out a roll to be developed and scanned, it&amp;rsquo;s a good behind-the-scenes view of why there&amp;rsquo;s delays and errors every once in a while. These are machines on life support with limited availability of replacement parts and plenty of lost knowledge from generations of engineers that retired at the beginning of the millenium.&lt;/p&gt;
+&lt;p&gt;With that out of the way, see some of my favorites below. Thank you for reading.&lt;/p&gt;
+&lt;h2 id=&#34;my-favorite-recent-shots&#34;&gt;My Favorite Recent Shots
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/scope.jpg&#34;
+	width=&#34;799&#34;
+	height=&#34;530&#34;
+	srcset=&#34;http://localhost:1313/photography/scope_hu_a7894beeb31c1625.jpg 480w, http://localhost:1313/photography/scope_hu_9696659eb8d648f0.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;My Workstation&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/roots.jpg&#34;
+	width=&#34;679&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/photography/roots_hu_2fb6918a913d8fcd.jpg 480w, http://localhost:1313/photography/roots_hu_b71b3707cbf503b7.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Roots&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;66&#34;
+		data-flex-basis=&#34;159px&#34;
+	
+&gt; &lt;img src=&#34;http://localhost:1313/photography/pigeons.jpg&#34;
+	width=&#34;1024&#34;
+	height=&#34;679&#34;
+	srcset=&#34;http://localhost:1313/photography/pigeons_hu_6d2af6430398ceda.jpg 480w, http://localhost:1313/photography/pigeons_hu_3792bc2a7e864085.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pigeons (a film point and shoot took this!)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Project SABR</title>
         <link>http://localhost:1313/p/project-sabr/</link>
         <pubDate>Sat, 03 May 2025 14:50:00 +0000</pubDate>
@@ -239,385 +694,6 @@
 &lt;p&gt;I&amp;rsquo;d like to thank and congratulate Dr. Rezzag-Lebza, Dr. Burke, Dr. Stresau, and of course, my teammates. All our hard work paid off, and I hope we left a solid foundation for future detonation combustion research at UCF for both future senior design teams and researchers. Additionally, all the work before us that inspired the project as a whole: Fiorino, Dechert, among the many researchers across the US pioneering RDEs as a platform for future vehicles.&lt;/p&gt;
 &lt;p&gt;As a machinist, I&amp;rsquo;d also like to highlight the crucial role that UCF&amp;rsquo;s Office of Research Machine Shop played in helping us not only bring the project to life, but also playing a role as a major contributor in optimizing the manufacturability of our system. The latter, along with their hard work, allowed us to achieve a quick turnaround between iterations. We were able to go from testing and reviewing data to firing a modified engine in the span of a week. Reader, remember to thank your manufacturing team as often as you can.&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Project Pegasus</title>
-        <link>http://localhost:1313/p/project-pegasus/</link>
-        <pubDate>Wed, 22 Nov 2023 14:50:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/project-pegasus/</guid>
-        <description>&lt;img src="http://localhost:1313/pegasuscover.jpg" alt="Featured image of post Project Pegasus" /&gt;&lt;h2 id=&#34;major-achievements&#34;&gt;Major Achievements:
-&lt;/h2&gt;&lt;ul&gt;
-    &lt;li&gt;Pioneered a novel fuel grain composition.&lt;/li&gt;
-    &lt;li&gt;Solved emulsification problems between fuel grain ingredients.&lt;/li&gt;
-    &lt;li&gt;Developed an modular injector plate, allowing for quick refurbishment in case of damage.&lt;/li&gt;
-    &lt;li&gt;Generated manufacturing procedures to guarantee repeatability and uniformity between fuel grain batches.&lt;/li&gt;
-    &lt;li&gt;Successfully static fired twice, both times gaining N-class impulse classification, outperforming previous generations by 60% in peak thrust.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;background&#34;&gt;Background
-&lt;/h2&gt;&lt;p&gt;This was my first major project in college, and I was in the position to spearhead an approach to hybrids that hadn&amp;rsquo;t been tried before at UCF. At this point, I had messed around with Paraffin-based fuels on my own small backyard hybrid, but I encountered the typical issues with density, structural stability, and burn stability as every other amateur. I came into this project with the goal of finding a solution to these issues by dedicating a major part of the year to R&amp;amp;D and testing every single approach we could come up with, the Skunkworks Way.&lt;/p&gt;
-&lt;p&gt;Additionally, the previous hybrid projects at UCF all incorporated pyrotechnic valves, with zero control of oxidizer flow after ignition starts. I took it as a challenge to incorporate basic valve control to allow for finetuning of the burn, and most importantly, lay out the framework for in-flight burn control. The importance of being able to control how the motor performs during the flight comes from the ability to pinpoint the target apogee and maximize the points scored within the competition.&lt;/p&gt;
-&lt;h2 id=&#34;the-paraffin-problem&#34;&gt;The Paraffin Problem
-&lt;/h2&gt;&lt;p&gt;As mentioned before, paraffin has its issues, but what are its upsides?&lt;/p&gt;
-&lt;p&gt;In order for a fuel to burn, it needs to first become a gas in order to react with the oxidizer, much like gasoline vapors are the part that actually burns. In hybrids, depending on the fuel, this mechanism can occur in two different ways, which allows us to separate fuels into two major categories:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Plastic/Rubber (HTPB, ABS, any kind of epoxy, resins, etc.)&lt;/b&gt;&lt;/li&gt;
-For these, there&#39;s no intermediate phase.  Solid immediately turns into gas for combustion. These tend to be more energy dense, stable, and easier to handle. Downside comes down to mixing efficiency.
-&lt;li&gt;&lt;b&gt;Paraffins&lt;/b&gt;&lt;/li&gt;
-Paraffin has the unique trait of having an intermediate phase, where it turns into liquid before gasifying when burning. This allows it to develop an unstable liquid layer that flings droplets into the oxidizer stream, giving it an advantage when it comes to energy release and burn efficiency. However, it tends to be softer, prone to cracking, and carries a much lower energy density compared to the others. &lt;b&gt;Also, it won&#39;t withstand much time in the New Mexico Desert during the summer.&lt;/b&gt;
-&lt;/ul&gt;
-&lt;p&gt;If we could solve paraffin&amp;rsquo;s issues, we&amp;rsquo;d have a great middle ground with room for growth in future projects. My first instinct was to research candlemaking forums, books and every other piece of media I could get my hands on. As a society, we&amp;rsquo;ve been making candles for centuries and have grown pretty good at it. As it turns out, different waxes can increase paraffin&amp;rsquo;s structural stability, melting point, hardness, and alleviate shrinkage/cracking issues. All this research led me towards adding Microcrystalline Wax and Stearic Acid to provide these benefits.&lt;/p&gt;
-&lt;p&gt;Our final problem comes down to energy density, and this is where Sorbitol comes in. It&amp;rsquo;s a cheap, plentiful diet sugar replacement that&amp;rsquo;s extensively used in amateur solid rocket motors, as well as some hybrids. It&amp;rsquo;s easy to melt and very resilient towards caramelization, which reduces sugar fuels&amp;rsquo; performance. At this point, we came across the age old problem of trying to mix oil with water. See, paraffin is polar and sorbitol is non-polar, meaning we&amp;rsquo;re ending up with a block split into two layers when everything cools down. &lt;b&gt;Suboptimal.&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;This is where emulsifiers come in. Mayo, for example, is oil and water mixed together, but no one thinks of two layers when thinking of mayo. See, in order for something like that to remain homogeneous, you need a third ingredient in order to &amp;ldquo;interface&amp;rdquo; between the two substances and keep them happy next to each other. In the case of mayonnaise, it&amp;rsquo;s egg. In the case of our fuel mixture? We tried commercial grade emulsifiers and surfactants, Sodium Laureth Sulfate, namely. Pretty similar stuff to shampoo components. Ultimately we arrived at a super high-tech solution: &lt;b&gt;Dawn Dish Soap with Papaya Scent.&lt;/b&gt; Remember, if it&amp;rsquo;s stupid and it works then it&amp;rsquo;s not stupid. It&amp;rsquo;s incredible how effective a tiny bit of Dawn was at homogeinizing the ingredients and keeping them together when everything cooled back down.&lt;/p&gt;
-&lt;p&gt;One more issue I wanted to solve wasn&amp;rsquo;t really critical but instead a way to appease my lizard brain desire to push past 100%. In order to extract more performance out of this fuel, we need to make the best use out of the energy released by the chemical reaction. This fuel mix ended up being very white and semi-transluscent, traits which aren&amp;rsquo;t ideal for two reasons: white things reflect instead of absorbing, and non-opaque things tend to let light thru them. We need the grain to absorb as much heat from the combusting gases as possible, and we need that heat to remain at the outermost layer of the fuel. In order to achieve this, we want to make the grain opaque somehow, and we want the reacting gases to radiate as much heat as possible. Carbon Black, Lampblack, or Soot was what we chose. Adding just 1-5%wt of Carbon Black to the mix made the fuel completely opaque and it created a very incandescent exhaust as expected, but the kicker was that we got about 10% more thrust out of this simple change. Free performance glitch.&lt;/p&gt;
-&lt;h2 id=&#34;combustion-chamber&#34;&gt;Combustion Chamber
-&lt;/h2&gt;&lt;p&gt;Going from forward to aft, the major components of a typical hybrid combustion chamber are: Injector Carrier/Forward Closure, Casing, Thermal Liner, Nozzle, Nozzle Retainer. Designs may vary going from system to system but the basic components generally remain the same. While the concept of rocket propulsion remains relatively standard between solids, liquids, and hybrids, hybrids have a few particular quirks that drive the design of the combustion chamber in order to maximize performance.&lt;/p&gt;
-&lt;p&gt;Take a liquid engine, for example. Two propellants are injected into the chamber, mixed together and ignited. Straight forward enough. This involves careful timing and geometric design in order to guarantee that your propellants get to know each other as well as possible before they get the chance to burn. Inefficient mixing leads to loss of performance, so the art comes down to the injector design and chamber geometry (as well as other tricks involving preheating or preburning one or both of the propellants, not the focus of this discussion). On the other hand, you&amp;rsquo;ve got solids. Your propellants are mixed together homogeneously during manufacturing, meaning you have a mixture ratio and properties that are essentially set in stone. Major drawback is that potent fuels and oxidizers in close proximity to each other are a recipe for disaster. This is where hybrids come in and attempt to reach a goldilocks spot between these two. Conventionally, you&amp;rsquo;ve got a solid fuel and a liquid or gaseous oxidizer being injected. You still have the simplicity of solids and most of their form factor, but since your propellants are still separate from one another, you have the inherent safety of a liquid platform. The benefits truly end here, as they tend to inherit some of the worst performance issues of either counterpart. They&amp;rsquo;re hard to ignite, since as mentioned above you need to vaporize that fuel in order for it to ignite, which is rendered borderline impossible when your oxidizer is undergoing a phase transition right upstream wicking a lot of your igniter&amp;rsquo;s energy (we&amp;rsquo;ll get into this soon, I promise). It&amp;rsquo;s hard to ignite the whole grain face at once, mixing is a problem because fuel vapors are produced at the inner face of the grain white the oxidizer is injected flowing longitudinally,meaning a boundary layer forms where the two are supposed to be getting to know each other well. Diffusion is the primary mechanism driving mixing, and unfortunately without clever engineering it leads to horrible combustion performance and a ton of unburnt propellants being expelled without reacting. But this is where engineers thrive, with careful consideration, a lot of these issues can be mitigated to turn this into a somewhat tolerable platform for something like a sounding rocket.&lt;/p&gt;
-&lt;p&gt;Getting started at the forward end with the oxidizer. In Pegasus, the oxidizer of choice is Nitrous Oxide. You might know this as laughing gas, or whippets. It&amp;rsquo;s cheap, plentiful, and most importantly, it&amp;rsquo;s part of the family of refrigerant gases. This last feature is a double edged sword, where it can be stored at a relatively low pressure as a liquid, it&amp;rsquo;s self-pressurizing and it&amp;rsquo;s got an awesome density at its ideal storage temperature, also it flashes into a gas the second that pressure drops below a threshold, which serves very well when you&amp;rsquo;re trying to get it to atomize and mix with the fuel in the chamber. However, the refrigerant side of things comes in and it will devour all the heat around it in order to support the phase transition, think turning a can of keyboard duster upside down. Additionally, when the fluid speeds up, pressure drops, which leads to two phase flow and cavitation, both of which are headahces in trying to design something to run at steady state.&lt;/p&gt;
-&lt;p&gt;In order to take care of these issues, in&lt;/p&gt;
-&lt;p&gt;(Note: This did not happen in this narrative order in real life. Truth is, you need the rest of the system to be able to iterate on fuels and hone everything the way portrayed above)&lt;/p&gt;
-&lt;h2 id=&#34;valve-control&#34;&gt;Valve Control
-&lt;/h2&gt;&lt;p&gt;Oxidizer flow was controlled by a servo strapped to a ball valve. Simple enough for a team getting into valve control, robust enough not to introduce too much uncertainty into our design. Although we found out real quick what happens when you keep sending position information to an uncooled servo&lt;/p&gt;
-&lt;p&gt;Printed cage around valve&lt;/p&gt;
-&lt;h2 id=&#34;testing-campaign&#34;&gt;Testing Campaign
-&lt;/h2&gt;&lt;p&gt;Burn ban&lt;/p&gt;
-&lt;p&gt;Ground Support Issues&lt;/p&gt;
-&lt;p&gt;First Test
-Second Test&lt;/p&gt;
-&lt;h2 id=&#34;irec-2023&#34;&gt;IREC 2023
-&lt;/h2&gt;&lt;p&gt;Integration Nightmare&lt;/p&gt;
-&lt;p&gt;No Nitrous&lt;/p&gt;
-&lt;h2 id=&#34;acknowledgements-and-final-thoughts&#34;&gt;Acknowledgements and Final Thoughts
-&lt;/h2&gt;&lt;p&gt;This article highlights primarily the work I was directly spearheading, but ultimately this is all the culmination of a team of equally talented people working towards a common goal. I&amp;rsquo;d like to thank my peers in the propulsion team for their help getting this from whiteboard drawings up into the air, as well as the people involved in every other supporting subsystem ranging from avionics to aerostuctures.&lt;/p&gt;
-&lt;p&gt;Enjoy some pictures from IREC 2023 and the later launch in Florida!&lt;/p&gt;
-&lt;p&gt;Peggy pics&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>How to Cope with Being a Film Lab Tech</title>
-        <link>http://localhost:1313/p/noritsu-v50/</link>
-        <pubDate>Thu, 11 Dec 2025 14:50:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/noritsu-v50/</guid>
-        <description>&lt;img src="http://localhost:1313/p/noritsu-v50/cover.png" alt="Featured image of post How to Cope with Being a Film Lab Tech" /&gt;&lt;h2 id=&#34;background&#34;&gt;Background
-&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ve been working at a film lab for the last couple of months, and the engineering degree immediately made itself useful by giving me the tools to keep some of these machines alive. Problems ranging from just corrosion within a sensor&amp;rsquo;s connector to open heart surgery on a board no longer made. For a glorified sous-vide tank, the Noritsu engineers put a lot of safeguards and smart engineering in place to keep these working as well as they have for as long as they have. I&amp;rsquo;m writing this article with the intention of logging whatever I find for whoever takes over for me, or whoever finds this website in similar despair as I have googled whenever something broke. There&amp;rsquo;s also the nice side effect of showing off the stuff between my ears to employers. Anyway.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/Machines.jpeg&#34;
-	width=&#34;1581&#34;
-	height=&#34;1655&#34;
-	srcset=&#34;http://localhost:1313/p/noritsu-v50/Machines_hu_40e4bf388d6e5b95.jpeg 480w, http://localhost:1313/p/noritsu-v50/Machines_hu_6afb7710e738d341.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;V50 (larger), V30 (smaller)&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;95&#34;
-		data-flex-basis=&#34;229px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;This is the V50, relatively sophisticated MiniLab unit for C-41 Color Development. Short Leader style, which means you tape the film to a sheet of plastic with sprocket holes on it, and that&amp;rsquo;s what drags the film itself out of the can and into each step of the development process. The 50 in V50 stands for 50 rolls an hour, so not too shabby accounting for the fact a 36 exposure roll of film tends to be somewhere around 5 feet.&lt;/p&gt;
-&lt;p&gt;In order to put the rest of the machine in context, let&amp;rsquo;s cover the development steps of Black and White and C-41 film:&lt;/p&gt;
-&lt;p&gt;For both, the film is coated with silver halide crystals. Exactly how they are spread on the film and what they do during and after the development process varies between B/W, C-41, and every other development process available, but the working principle remains the same. After being exposed to light, these crystals are raised to a higher energy level, leaving a latent image stored chemically on the film emulsion.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/Photographic_processing.jpg&#34;
-	width=&#34;2560&#34;
-	height=&#34;784&#34;
-	srcset=&#34;http://localhost:1313/p/noritsu-v50/Photographic_processing_hu_c1aa083cf5197cde.jpg 480w, http://localhost:1313/p/noritsu-v50/Photographic_processing_hu_f284969c6be4a63e.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Essential Steps of Development (Source:Wikipedia)&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;326&#34;
-		data-flex-basis=&#34;783px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;B/W:
--Developer: This step converts the latent image contained in the activated silver halide into metallic silver. This metallic silver only appears in the locations where light struck the emulsion. The stronger the light, the more concentrated the silver, the darker or &amp;ldquo;denser&amp;rdquo; the image is at this location, and the reverse applies as well. All of this to say that we now have a negative image of what was captured in the camera at that moment.&lt;/p&gt;
-&lt;p&gt;-Fixer: After the developer, the image that matters to us is created. However, it&amp;rsquo;s still surrounded by the inactive silver halides still in the emulsion. No light, no developer action, no metallic silver. The fixer can dissolve the halides but not metallic silver, which allows us to selectively remove the unused stuff and keep our image negative.&lt;/p&gt;
-&lt;p&gt;Easy stuff, we&amp;rsquo;ve been doing monochrome stuff essentially as long as we have been able to reliably understand organic chemistry. B/W film made a year ago and 80 years ago work the exact same, and excluding the effects of age, can be developed the exact same way. Color, however, is where modernity truly shines through. Kudos to all the chemists and engineers that allowed us to record the world around us in more than shadows and highlights.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/SuperiaStructure.png&#34;
-	width=&#34;960&#34;
-	height=&#34;520&#34;
-	srcset=&#34;http://localhost:1313/p/noritsu-v50/SuperiaStructure_hu_ffca95b32759b63b.png 480w, http://localhost:1313/p/noritsu-v50/SuperiaStructure_hu_fe242140875926.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Superia Emulsion Cross-Section (Source:Wikipedia)&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;184&#34;
-		data-flex-basis=&#34;443px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;C-41:
--Developer: Still does the same as B/W, with the caveat that now the dye couplers (part that creates the colors) are activated and create the dyes of each layer. Fun fact, you can cross-process any C-41 roll as B/W, you just ignore the color couplers for a monochrome image. I&amp;rsquo;ve managed to salvage pictures from obsolete C-22 rolls from 60+ years ago. Hard drives fail, files go corrupt, but in a decently wide range of conditions, chemistry prevails. Cool stuff.&lt;/p&gt;
-&lt;p&gt;-Bleach: Due to the layout of a typical C-41 film emulsion, after development, you now have both a dye-based image, and the metallic silver image. Keeping both of these leads to super dense images with low saturation, and often it was used intentionally as a color grading effect in movies and TV in a method called &amp;ldquo;bleach bypass&amp;rdquo;. The bleach attacks this metallic image and converts it back to silver halides, which can now be removed by the fixer. It also helps reducing the density of the dyes in the film base.&lt;/p&gt;
-&lt;p&gt;-Fixer: Same as B/W. Fixer actually holds quite a decent amount of silver, so it&amp;rsquo;s very important to dispose of properly and feed it to silver reclaiming facilities. Not that any other chemical is great for carelessly dumping into the environment, but the fixer carries metals with it that are specially bad to introduce into an ecosystem.&lt;/p&gt;
-&lt;p&gt;-Stabilizer: The dyes contained on each layer are technically not fixed in space, and age, environmental factors, and improper handling of the film can lead to them migrating between layers. The end effect is a reduction in the color reproduction quality, so stabilizers are used to &amp;ldquo;lock&amp;rdquo; the dyes out of escaping their layer. You can very well skip this step if you are just looking for a glorified Instagram filter, but in order to produce negatives that can withstand the test of time, stabilization is crucial.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;d love to get into detail about the careful design of color emulsions, but so have another 500 trillion people on the internet, so I will unfortunately not elaborate here. Google it, watch Tech Connections about it, don&amp;rsquo;t use this case of brevity as an excuse to avoid learning about film.&lt;/p&gt;
-&lt;p&gt;Our machine feeds the leader card and the film it&amp;rsquo;s attached to into a very deep 18 Liter Color Developer (CD) tank at a speed that allows for each length of film to be in contact with the CD solution, while automatically adding a replenishment amount of fresh chemical to account for exhaustion per roll. All the chemicals involved in these reactions are disposable and need to be replenished accounting for the surface area that passes through. The film is continued to be carried in and out of the solutions automagically by careful mechanical design of roller transports like conveyors through a factory. The machine doesn&amp;rsquo;t actually know where this film is, but it vaguely knows when it started being fed and when the canister was cut off at the end, and it knows how fast everything is spinning and moving the film along. So it starts counting and can make an educated guess as to where it&amp;rsquo;d be and what chemicals would be exhausted at which times.&lt;/p&gt;
-&lt;p&gt;At the end, it passes through essentially a gentler air fryer before being released fully dry for it to be scanned and/or sleeved for preservation. Almost magical coming from my background of hanging up film from my shower curtain loops.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/v50.jpg&#34;
-	width=&#34;1600&#34;
-	height=&#34;1466&#34;
-	srcset=&#34;http://localhost:1313/p/noritsu-v50/v50_hu_8b0122298ca19550.jpg 480w, http://localhost:1313/p/noritsu-v50/v50_hu_aecb27f69d67701.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Noritsu QSF-V30&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;109&#34;
-		data-flex-basis=&#34;261px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve neglected to mention much about the modified V30 that develops B/W, but it&amp;rsquo;s the same principles and same tech, just behaving differently to accomodate for the different chemistry. Both operate the same. Now, let&amp;rsquo;s get into it.&lt;/p&gt;
-&lt;h2 id=&#34;most-recent-color-developer-working-tank-overheating&#34;&gt;Most Recent: Color Developer Working Tank Overheating
-&lt;/h2&gt;&lt;h3 id=&#34;symptoms&#34;&gt;Symptoms:
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Intermitent S-Sol Thermo Activated Error&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Solution reaches 43C before other safeguards kick in&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Initially only happened during overnight sleep cycle&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;initial-troubleshooting&#34;&gt;Initial Troubleshooting:
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Compared thermocouple readings to thermometer in working tank and in side tank (will elaborate on tank layout in a second)
-&amp;ndash; Temp Matches&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Drained tank, cleaned agitation and recirculation pumps
-&amp;ndash; Minor to Negligible Improvement&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For context, we had just recovered from the below problem of the cutter jamming&lt;/p&gt;
-&lt;p&gt;When I came back to the machine, I noticed that although the troubleshooting LEDs on the machine showed the control unit was not powering the heater relay, temperature continued to climb. Coming from the car background, tapping around with the rubber back of a screwdriver didn&amp;rsquo;t help. Turns out SSR stands for Solid State Relay, something I realized pretty late, embarassingly late. The awesome engineers at Noritsu had the foresight of including redundant relays on the board, or rather, populating relay footprints for heater circuits not used in this machine model. I&amp;rsquo;m sure the V100 or the V5Billion use these relays, but I&amp;rsquo;m lucky mine doesn&amp;rsquo;t because these exact P/Ns are looooooong discontinued. In my panic before realizing there were spares I did find a suitable drop-in replacement. Here&amp;rsquo;s the link in case you&amp;rsquo;re not so lucky to have a relay cache on your board.  I would like the record to show that I called it early on.&lt;/p&gt;
-&lt;p&gt;World&amp;rsquo;s oldest solder&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/PowerBoard1.jpeg&#34;
-	width=&#34;3840&#34;
-	height=&#34;2160&#34;
-	srcset=&#34;http://localhost:1313/p/noritsu-v50/PowerBoard1_hu_93685407cdf85bae.jpeg 480w, http://localhost:1313/p/noritsu-v50/PowerBoard1_hu_fbf845d356c5dfa3.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;The Board in Question&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt; &lt;img src=&#34;http://localhost:1313/p/noritsu-v50/PowerBoard2.jpeg&#34;
-	width=&#34;2160&#34;
-	height=&#34;2874&#34;
-	srcset=&#34;http://localhost:1313/p/noritsu-v50/PowerBoard2_hu_aabeb9fefb297485.jpeg 480w, http://localhost:1313/p/noritsu-v50/PowerBoard2_hu_91867f1fcb2743c8.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Mounted on the V50&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;75&#34;
-		data-flex-basis=&#34;180px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/noritsu-v50/TheCulprit.jpeg&#34;
-	width=&#34;2160&#34;
-	height=&#34;2518&#34;
-	srcset=&#34;http://localhost:1313/p/noritsu-v50/TheCulprit_hu_c669376e8c07f439.jpeg 480w, http://localhost:1313/p/noritsu-v50/TheCulprit_hu_1e1e222c1419b654.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;The Culprit&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;85&#34;
-		data-flex-basis=&#34;205px&#34;
-	
-&gt; &lt;img src=&#34;http://localhost:1313/p/noritsu-v50/BurntPad2.jpeg&#34;
-	width=&#34;4032&#34;
-	height=&#34;3024&#34;
-	srcset=&#34;http://localhost:1313/p/noritsu-v50/BurntPad2_hu_df908385250d6428.jpeg 480w, http://localhost:1313/p/noritsu-v50/BurntPad2_hu_6b638e8e042fbeb5.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Where I found It&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;133&#34;
-		data-flex-basis=&#34;320px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Yeah. Looking at the board closer would&amp;rsquo;ve saved quite a bit of time. If you noticed the missing pad, you try to babysit a board like this into releasing a component and tell me how it goes. It&amp;rsquo;s like they glued it on like a postage stamp.&lt;/p&gt;
-&lt;h2 id=&#34;cutter-jams&#34;&gt;Cutter Jams
-&lt;/h2&gt;&lt;h3 id=&#34;symptoms-1&#34;&gt;Symptoms:
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Right Lane Struggled to Cut Canister at the End of the roll&lt;/li&gt;
-&lt;li&gt;Canisters stuck after cutting&lt;/li&gt;
-&lt;li&gt;Cutter Return Error&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;initial-troubleshooting-1&#34;&gt;Initial Troubleshooting
-&lt;/h3&gt;&lt;p&gt;Initially,&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>About Me</title>
-        <link>http://localhost:1313/about-me/</link>
-        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/about-me/</guid>
-        <description>&lt;img src="http://localhost:1313/about-me/lathe.jpg" alt="Featured image of post About Me" /&gt;&lt;h2 id=&#34;foreword&#34;&gt;Foreword
-&lt;/h2&gt;&lt;p&gt;This website is meant to be a living document, with the intention of acting as a personal wiki for my previous, ongoing, and future projects. A digital garden of sorts. One of my 2025 New Year&amp;rsquo;s resolutions was to put together an updated portfolio showcasing my background for new acquaintances, as well as potential employers. Documentation is a skill every engineer should have, and I deeply believe in the open source mission, so I will be doing my best to explain what&amp;rsquo;s going on inside my head. &lt;b&gt;Beware: thoughts and ideas may be half finished. &lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;Blogs like waxy.org, hackaday, and the countless personal sites I&amp;rsquo;ve come across from talented engineers and hobbyists inspired this website. I grew up doing my research and learning from many of these people, so I figured that I should document my projects and broadcast them into the hyperspace aether. The URL comes from the callouts performed during the Apollo missions. It means conditions are viable for the crew to perform a trans-lunar injection (TLI) burn, hence &amp;ldquo;Go for TLI&amp;rdquo;. It&amp;rsquo;s a pseudonym I began using for my photography projects that sounded unique enough for a domain name.&lt;/p&gt;
-&lt;p&gt;I love to talk about the stuff I&amp;rsquo;ve worked on, so feel free to reach out! I&amp;rsquo;m more than willing to expand upon anything on this site, feedback is much appreciated. My socials are on that sidebar on the left, pick your poison.&lt;/p&gt;
-&lt;p&gt;Now, if you&amp;rsquo;re looking for a potential employee, please reach out via e-mail at &lt;a class=&#34;link&#34; href=&#34;mailto:anegrette@protonmail.com&#34; &gt;anegrette@protonmail.com&lt;/a&gt; or on LinkedIn.&lt;/p&gt;
-&lt;h2 id=&#34;my-background&#34;&gt;My Background
-&lt;/h2&gt;&lt;p&gt;I am an Aerospace Engineer with a background in gas dynamics and propulsion, primarily through collegiate sounding rocketry. I&amp;rsquo;ve explored much of everything that bringing an idea from a napkin drawing to a polished design, including short-run production. I participated in the &lt;strong&gt;International Rocket Engineering Competition&lt;/strong&gt; for a couple of years, primarily overseeing the development of the hybrid rocket motor for each participating rocket. Pictured is my favorite project, Pegasus.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/about-me/pegasuslaunch.png&#34;
-	width=&#34;367&#34;
-	height=&#34;1400&#34;
-	srcset=&#34;http://localhost:1313/about-me/pegasuslaunch_hu_fb9e6aab8f8258a6.png 480w, http://localhost:1313/about-me/pegasuslaunch_hu_9fa3d74126be148d.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Pegasus during Flight&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;26&#34;
-		data-flex-basis=&#34;62px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;My senior design project involved a &lt;strong&gt;Rotating Detonation Engine&lt;/strong&gt;, designed with the intention of contributing to the global understanding of RDEs, as well as creating an air breathing small-scale platform ready to be integrated with a flight vehicle.&lt;/p&gt;
-&lt;p&gt;My machining work experience encompasses 2, 3, and 4 axis CNC machining, as well as resin (DLP) additive manufacturing. Due to my time as a machinist I have developed an intuition for competent design with manufacturing and production in mind. In terms of Additive Manufacturing, I spearheaded the implementation of a Stratasys Origin One Photopolymerization Machine, including the creation of brand new procedures to maximize part repeatability, a critical part of the prototyping work I did for the UCF Machine Shop. I received training directly from Stratasys to maintain and repair the machine and its local print server.&lt;/p&gt;
-&lt;p&gt;Beyond the academic and professional lens, I like to spend my free time browsing for obsolete tech on eBay, playing guitar and reading. I&amp;rsquo;ve been teaching myself computer and electrical engineering, in part because I feel a Mech/Aero Engineer in the 21st century should be somewhat competent in the computers that support everything we build, and in part because I&amp;rsquo;d like to know how to repair the stuff I buy on eBay. One of my ongoing projects involves a Tang Nano 9k FPGA dev board as a platform for learning digital logic design and Verilog HDL.&lt;/p&gt;
-&lt;h2 id=&#34;the-site&#34;&gt;The Site
-&lt;/h2&gt;&lt;p&gt;This website is proudly written with zero AI involvement. Extremely powerful tools or not, having to comb through documentation and Stack Overflow is an irreplaceable part of learning. I do NOT have a web dev background, so bear with me and my messy git history. Built on &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo&lt;/a&gt;, using the &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo Stack Theme&lt;/a&gt;. Immense thanks to people who put their code on the internet for our combined benefit. FOSS rocks.&lt;/p&gt;
-&lt;p&gt;All in all, whether this attracts employers or not, I just wanted to compile all the work I&amp;rsquo;ve done into one cohesive document. Documentation is paramount, and as much as I preach that, I&amp;rsquo;m terrible at writing things down unless required to. Putting this site together truly showed me how hard it is to recall the subtle details of work I&amp;rsquo;ve done being months removed from when things happened. I love this field, and much like a conventional garden is a product of love and care, this is my love note to engineering. Thank you for the visit.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Photography</title>
-        <link>http://localhost:1313/photography/</link>
-        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/photography/</guid>
-        <description>&lt;img src="http://localhost:1313/photography/scope.jpg" alt="Featured image of post Photography" /&gt;&lt;h2 id=&#34;equipment-background-and-other-thoughts&#34;&gt;Equipment, Background, and Other Thoughts
-&lt;/h2&gt;&lt;p&gt;I started out with photography with a passed down Rebel T3. Not the latest or newest, but a perfectly capable sensor, well featured body, and it used the widely supported EF-S Canon mount. It allowed me to get my feet wet with the field, and besides, I&amp;rsquo;ve never been one to believe that having the newest, most expensive tool instantly makes you better at anything (to an extent). This applies to photography as well. Beyond quality of life features, a camera is a dark box with light input on one end and a light sensitive element on the other. In terms of image quality, improvements to digital sensors quickly became asymptotic for a casual photographer like me, so I&amp;rsquo;ve focused on learning about composition, color correction.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/canondslr.jpg&#34;
-	width=&#34;500&#34;
-	height=&#34;500&#34;
-	srcset=&#34;http://localhost:1313/photography/canondslr_hu_c02b7fc6b0af4a92.jpg 480w, http://localhost:1313/photography/canondslr_hu_c631f2c39f8ef3ed.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Rebel T3 (Source: Canon USA)&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;100&#34;
-		data-flex-basis=&#34;240px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Some time after, I came across a Rebel X SLR for extremely cheap. Most of the used film camera market orbits around a handful of critically acclaimed camera makes and models, and many well featured and advanced cameras tend to lurk in their shade. This specific camera appealed to the exact same market as the other Rebel, sporting an equally well balanced featureset catering to beginners. My favorite part about film is that the technology was essentially perfected by the end of the film era, so a majority of film cameras in the late 90s and early 00s share the exact same technology as DSLRs even to this day. Look at the very first DSLRs to hit the market; they are almost carbon copies of the final SLR models. My Rebel X is compatible with the exact same autofocus and metering system as my much newer DSLR, so it was as smooth of a transition into film as I could&amp;rsquo;ve wished for.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/canonslr.jpg&#34;
-	width=&#34;520&#34;
-	height=&#34;414&#34;
-	srcset=&#34;http://localhost:1313/photography/canonslr_hu_b9a2f803acf96968.jpg 480w, http://localhost:1313/photography/canonslr_hu_9005d7a4d89a51be.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Rebel X (Source: Canon USA)&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;125&#34;
-		data-flex-basis=&#34;301px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Now that I&amp;rsquo;ve gone through my fair share of rolls, I invested into a Pentax KX to learn photography down to a subconscious understanding of creative metering, composing, and to break the habit of treating the camera as a point and shoot. I began working at the film lab, which exposed me to what my peers felt and thought about the analog medium. Being forced to focus, think about what my aperture and shutter speed settings are doing in terms of the frame I am about to campture makes the images much more meaningful and connected to me as a photographer. Ansel Adams did not have the technology that we have within the latest Canon or Nikon flagships, yet he managed to create images so powerful as to encourage the appreciation of the beauty that spans the American continent, and the creation of the National Parks throughout the US. We live in an era where cameras are perpetually within reach in our pockets, yet it&amp;rsquo;s the most disconnected from photography I&amp;rsquo;ve felt. Pictures I take on my phone quickly fade into the depths of my camera roll, while the pictures I have taken on film all remain fresh in my psyche as the day I composed the shot through the viewfinder. The cherry on top is that the actual photons my camera saw at that instant are captured chemically to endure the years. Hard drives fail, servers and services shut down, yet grandpa&amp;rsquo;s Kodachrome slides from the 70s have withstood the test of time and will continue to do so. As technology advances, these masters have allowed us to reproduce mind bending quality from movies and TV recordings purely because they were stored chemically on film as opposed to magnetic tape or whatever other alternative.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/pentax.webp&#34;
-	width=&#34;1600&#34;
-	height=&#34;1067&#34;
-	srcset=&#34;http://localhost:1313/photography/pentax_hu_9f00f3aaa2066fa1.webp 480w, http://localhost:1313/photography/pentax_hu_472fa4d104372817.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Pentax KX (Source: 35MMC)&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;149&#34;
-		data-flex-basis=&#34;359px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Working as a developer with my background in engineering has made me appreciate the work of the thousands of people throughout centuries working to capture their lives. This ramble is a thinly veiled open love letter to the chemists, engineers, and designers at Kodak, Fujifilm, and the thousands of other companies that brought the ability to create snapshots of special moments to the masses. It moves me deeply that more and more people share this sentiment and are powering a film resurgence. I understand the purpose and the niche for digital photography, but the same way that one can choose to write something on paper versus typing it into a Word document, I believe film photography has an equal right to exist in the Internet era.&lt;/p&gt;
-&lt;p&gt;On the topic of film photography, I get a little more in depth about the chemistry and construction of photographic film over in my &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/noritsu-v50/&#34; &gt;blog post&lt;/a&gt; about my time as a film tech and the troubleshooting/repairing of some of our machines. If you&amp;rsquo;ve ever sent out a roll to be developed and scanned, it&amp;rsquo;s a good behind-the-scenes view of why there&amp;rsquo;s delays and errors every once in a while. These are machines on life support with limited availability of replacement parts and plenty of lost knowledge from generations of engineers that retired at the beginning of the millenium.&lt;/p&gt;
-&lt;p&gt;With that out of the way, see some of my favorites below. Thank you for reading.&lt;/p&gt;
-&lt;h2 id=&#34;my-favorite-recent-shots&#34;&gt;My Favorite Recent Shots
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/scope.jpg&#34;
-	width=&#34;799&#34;
-	height=&#34;530&#34;
-	srcset=&#34;http://localhost:1313/photography/scope_hu_a7894beeb31c1625.jpg 480w, http://localhost:1313/photography/scope_hu_9696659eb8d648f0.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;My Workstation&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;150&#34;
-		data-flex-basis=&#34;361px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/photography/roots.jpg&#34;
-	width=&#34;679&#34;
-	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/photography/roots_hu_2fb6918a913d8fcd.jpg 480w, http://localhost:1313/photography/roots_hu_b71b3707cbf503b7.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Roots&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;66&#34;
-		data-flex-basis=&#34;159px&#34;
-	
-&gt; &lt;img src=&#34;http://localhost:1313/photography/pigeons.jpg&#34;
-	width=&#34;1024&#34;
-	height=&#34;679&#34;
-	srcset=&#34;http://localhost:1313/photography/pigeons_hu_6d2af6430398ceda.jpg 480w, http://localhost:1313/photography/pigeons_hu_3792bc2a7e864085.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Pigeons (a film point and shoot took this!)&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;150&#34;
-		data-flex-basis=&#34;361px&#34;
-	
-&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>CT Inverse Radon Implementation</title>
-        <link>http://localhost:1313/p/computed-tomography/</link>
-        <pubDate>Sat, 14 Jun 2025 14:50:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/computed-tomography/</guid>
-        <description>&lt;h2 id=&#34;premise&#34;&gt;Premise
-&lt;/h2&gt;&lt;h2 id=&#34;approach&#34;&gt;Approach
-&lt;/h2&gt;&lt;h3 id=&#34;the-radon-transform-and-its-inverse&#34;&gt;The Radon Transform and its Inverse
-&lt;/h3&gt;&lt;h3 id=&#34;i-cant-believe-its-not-x-ray&#34;&gt;I can&amp;rsquo;t believe it&amp;rsquo;s not X-Ray!
-&lt;/h3&gt;&lt;h2 id=&#34;humbled-by-testing&#34;&gt;Humbled by Testing
-&lt;/h2&gt;&lt;h2 id=&#34;senior-design-showcase&#34;&gt;Senior Design Showcase
-&lt;/h2&gt;&lt;h2 id=&#34;future-plans&#34;&gt;Future Plans
-&lt;/h2&gt;&lt;h3 id=&#34;scitech&#34;&gt;SciTech
-&lt;/h3&gt;&lt;h2 id=&#34;final-thoughts-and-acknowledgements&#34;&gt;Final Thoughts and Acknowledgements
-&lt;/h2&gt;</description>
         </item>
         <item>
         <title>Archives</title>
