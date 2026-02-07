@@ -6,23 +6,6 @@
         <description>Recent content in Programming on Arturo Negrette</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 11 Dec 2025 14:50:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>CT Inverse Radon Implementation</title>
-        <link>http://localhost:1313/p/computed-tomography/</link>
-        <pubDate>Sat, 14 Jun 2025 14:50:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/computed-tomography/</guid>
-        <description>&lt;h2 id=&#34;premise&#34;&gt;Premise
-&lt;/h2&gt;&lt;h2 id=&#34;approach&#34;&gt;Approach
-&lt;/h2&gt;&lt;h3 id=&#34;the-radon-transform-and-its-inverse&#34;&gt;The Radon Transform and its Inverse
-&lt;/h3&gt;&lt;h3 id=&#34;i-cant-believe-its-not-x-ray&#34;&gt;I can&amp;rsquo;t believe it&amp;rsquo;s not X-Ray!
-&lt;/h3&gt;&lt;h2 id=&#34;humbled-by-testing&#34;&gt;Humbled by Testing
-&lt;/h2&gt;&lt;h2 id=&#34;senior-design-showcase&#34;&gt;Senior Design Showcase
-&lt;/h2&gt;&lt;h2 id=&#34;future-plans&#34;&gt;Future Plans
-&lt;/h2&gt;&lt;h3 id=&#34;scitech&#34;&gt;SciTech
-&lt;/h3&gt;&lt;h2 id=&#34;final-thoughts-and-acknowledgements&#34;&gt;Final Thoughts and Acknowledgements
-&lt;/h2&gt;</description>
-        </item>
-        
+        <lastBuildDate></lastBuildDate><atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

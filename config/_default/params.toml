@@ -30,6 +30,13 @@ readingTime = true
 enabled = true
 default = "Licensed under CC BY-NC-SA 4.0"
 
+
+[params.services.umami_analytics]
+    id = 'df6e0f10-f48e-439a-a7f8-ff6c5736303d'
+    script_url = 'https://cloud.umami.is/script.js'
+
+
+
 ## Widgets
 [[widgets.homepage]]
 type = "search"
