@@ -14,14 +14,11 @@ enableGitInfo = true
   [[module.imports]]
     path = 'github.com/hugomods/umami-analytics'
 
-<<<<<<< HEAD
 [params.services.umami_analytics]
     id = 'df6e0f10-f48e-439a-a7f8-ff6c5736303d'
     script_url = 'https://cloud.umami.is/script.js'
 
 
-=======
->>>>>>> 1c91b56053e88b58e63e14737f1179337a7717c3
 
 
 
